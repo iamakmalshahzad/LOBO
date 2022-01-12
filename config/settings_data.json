@@ -2,7 +2,7 @@
   "current": {
     "layout_body": "full",
     "bg_body_boxed": "#f8f8f8",
-    "header_layout": "parallax",
+    "header_layout": "02",
     "list_collections_layout": "collections_01_grid",
     "category_layout": "default",
     "product_layout": "default",
