@@ -2377,8 +2377,8 @@
           "search_color": "#000000",
           "search_border_color": "#000000",
           "search_btn_color": "#000000",
-          "bg_cart_color": "#ffffff",
-          "cart_color": "#000000",
+          "bg_cart_color": "#000000",
+          "cart_color": "#ffffff",
           "cart_font_size": "12px"
         }
       },
