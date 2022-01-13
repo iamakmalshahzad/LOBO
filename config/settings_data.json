@@ -1701,7 +1701,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/2.png",
-              "title": "Women",
+              "title": "",
               "color_title": "#ffffff",
               "link": "#"
             }
@@ -1710,7 +1710,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/5.png",
-              "title": "Hanbags",
+              "title": "",
               "color_title": "#ffffff",
               "link": "#"
             }
