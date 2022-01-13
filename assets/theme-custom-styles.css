@@ -22,9 +22,9 @@ ul.site-nav {
     padding: 15px 0;
 }
 
-/* a.logo-img {
+a.logo-img {
     margin: -50px 0px -50px 0px;
-} */
+}
 
 .wrapper_header_02 .header-bottom {
     padding: 0 !important;
@@ -32,4 +32,12 @@ ul.site-nav {
 
 .header-panel-top .row {
     align-items: center;
+}
+.right-groups.header-items {
+    margin-top: 4%;
+}
+
+.wrapper-header.wrapper_header_02.header-lang-style2 {
+    position: absolute;
+    width: 100%;
 }
