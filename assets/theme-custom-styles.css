@@ -19,7 +19,7 @@ ul.site-nav {
 }
 
 .main-menu.jas-mb-style {
-    padding: 15px 0;
+    padding: 14px 0;
 }
 
 a.logo-img {
@@ -40,4 +40,11 @@ a.logo-img {
 .wrapper-header.wrapper_header_02.header-lang-style2 {
     position: absolute;
     width: 100%;
+    z-index: 9;
+}
+.is-sticky .wrapper-navigation {
+    background-color: #fff;
+}
+.is-sticky a {
+    padding: 0 !important;
 }
