@@ -9,7 +9,16 @@
 @font-face {
     font-family: 'Antonio Bold';
     src: url("Antonio-Bold.woff") format("woff");
-}  
+}
+@font-face {
+    font-family: 'Antonio Bold';
+    src: url("Antonio-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: 'Epilogue Light';
+    src: url("Epilogue-Light.ttf") format("ttf");
+}
+
 .nav-search {
     width: 40%;
 }
