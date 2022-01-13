@@ -1691,25 +1691,28 @@
           "1540984915288-0": {
             "type": "image",
             "settings": {
-              "title": "Editor’s Pick",
+              "image": "shopify:\/\/shop_images\/men.png",
+              "title": "",
               "color_title": "#ffffff",
-              "link": ""
+              "link": "#"
             }
           },
           "1540984915288-1": {
             "type": "image",
             "settings": {
-              "title": "Shoes",
+              "image": "shopify:\/\/shop_images\/2.png",
+              "title": "Women",
               "color_title": "#ffffff",
-              "link": ""
+              "link": "#"
             }
           },
           "1540985049803": {
             "type": "image",
             "settings": {
-              "title": "Accessories",
+              "image": "shopify:\/\/shop_images\/5.png",
+              "title": "Hanbags",
               "color_title": "#ffffff",
-              "link": ""
+              "link": "#"
             }
           }
         },
@@ -1720,7 +1723,7 @@
         ],
         "settings": {
           "display_sub_banner": true,
-          "layout": "default",
+          "layout": "full",
           "margin_bottom_mb": 0,
           "margin_bottom_tab": 0,
           "margin_bottom": 0,
