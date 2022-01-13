@@ -48,3 +48,12 @@ a.logo-img {
 .is-sticky a {
     padding: 0 !important;
 }
+.header-top .top-message {
+    padding: 3px !important;
+}
+.wrapper_header_02 .header-pc .icon-search svg {
+    width: 18px;
+}
+.is-sticky .wrapper-navigation .fixed-right-menu .search-fixed, .is-sticky .wrapper-navigation .fixed-right-menu .cart-fixed {
+    border: none;
+}
