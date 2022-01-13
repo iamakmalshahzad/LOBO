@@ -96,6 +96,8 @@
   {% if template contains 'product' %}
   <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
   {% endif %}
+  <!-- theme custom styles file folder=asstes -->
+  {{ 'theme-custom-styles.css' | asset_url | stylesheet_tag }}
 
 </head>
 
