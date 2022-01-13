@@ -26,23 +26,11 @@
                     <div class="header-panel-top">
                         <div class="row">
                             <div class="col-12 col-xl-4 header-bottom-left">
-                                {% if settings.enable_multilang_shopify or settings.enable_multiple_currencies or settings.enable_shopify_payments_currencies %}
-                                    <div class="lang-currency-groups">
-                                        {% render 'new-language-picker' %}
-
-                                        {% render 'new-currency-picker' %}
+                                {% if settings.enable_search %}
+                                    <div class="nav-search">                    
+                                        {% render 'search-bar' %}
                                     </div>
-                                {% endif %}
-
-                                {% if section.settings.free_shipping_text != blank %}
-                                    <div class="shipping-text header-items">
-                                        {% if section.settings.free_shipping_text != blank %}
-                                        <div class="free-shipping-text">
-                                            {% render 'multilang' with section.settings.free_shipping_text %}
-                                        </div>
-                                        {% endif %}
-                                    </div>
-                                {% endif %} 
+                                  	{% endif %}
                             </div>
                                                       
                             <div class="col-12 col-xl-4 header-bottom-center text-center">
@@ -67,11 +55,6 @@
                             </div>
                             <div class="col-12 header-bottom-right col-xl-4">
                                 <div class="right-groups header-items">
-                                    {% if settings.enable_search %}
-                                    <div class="nav-search">                    
-                                        {% render 'search-bar' %}
-                                    </div>
-                                  	{% endif %}
                                     {% if shop.customer_accounts_enabled %}
                                     <div class="customer-links">
                                         {% if customer %}
