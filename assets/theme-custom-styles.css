@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Antonio Regular';
+    src: url("Antonio-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'Antonio Light';
+    src: url("Antonio-Light.woff") format("woff");
+}
+@font-face {
+    font-family: 'Antonio Bold';
+    src: url("Antonio-Bold.woff") format("woff");
+}  
 .nav-search {
     width: 40%;
 }
@@ -56,4 +68,7 @@ a.logo-img {
 }
 .is-sticky .wrapper-navigation .fixed-right-menu .search-fixed, .is-sticky .wrapper-navigation .fixed-right-menu .cart-fixed {
     border: none;
+}
+.cart-icon .cartCount {
+    background-color: #00000094 !important;
 }
