@@ -1861,10 +1861,11 @@
             "type": "image",
             "settings": {
               "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/2.png",
               "title": "Lorem De Dorus",
               "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
               "button": "Shop Now",
-              "link": "",
+              "link": "#",
               "color_button": ""
             }
           },
@@ -1872,10 +1873,11 @@
             "type": "image",
             "settings": {
               "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/men.png",
               "title": "Milancelos Lanos",
               "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
               "button": "Shop Now",
-              "link": "",
+              "link": "#",
               "color_button": ""
             }
           },
@@ -1883,10 +1885,11 @@
             "type": "image",
             "settings": {
               "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/5.png",
               "title": "Como A Milano",
               "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
               "button": "Shop Now",
-              "link": "",
+              "link": "#",
               "color_button": ""
             }
           }
