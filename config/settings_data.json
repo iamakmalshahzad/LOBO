@@ -965,53 +965,45 @@
       "navigation": {
         "type": "navigation",
         "blocks": {
-          "1542706946591": {
-            "type": "style_1",
-            "settings": {
-              "megamenu_items_1": "Trend",
-              "title_featured_product": "Featured Products",
-              "featured_product": "dinterdum-pretium-condimento-1",
-              "link_banner_first_style_1": "shopify:\/\/collections\/all"
-            }
-          },
-          "1542772636356": {
-            "type": "style_2",
-            "settings": {
-              "megamenu_items_2": "New In",
-              "link_banner_first_style_2": "shopify:\/\/collections\/cosmopolis",
-              "link_banner_second_style_2": "shopify:\/\/collections\/all",
-              "link_banner_third_style_2": "shopify:\/\/collections\/suito"
-            }
-          },
-          "1542783537505": {
+          "f1a22f03-ad1b-429d-bec9-b425c04d535f": {
             "type": "style_3",
             "settings": {
-              "megamenu_items_3": "Collections",
+              "megamenu_items_3": "women",
+              "banner_first_style_3": "shopify:\/\/shop_images\/lobo_LOGO.png",
               "link_banner_first_style_3": "",
+              "banner_second_style_3": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
               "link_banner_second_style_3": "",
               "link_banner_third_style_3": "",
               "link_banner_four_style_3": "",
               "link_banner_five_style_3": ""
             }
           },
-          "1542796773039": {
-            "type": "style_4",
+          "dafac55f-8170-4df9-8326-c7d8eba64995": {
+            "type": "style_5",
             "settings": {
-              "megamenu_items_4": "Demo",
-              "link_banner_first_style_4": ""
+              "menu_text_left": "<p>test 01<\/p>",
+              "megamenu_items_5": "men",
+              "skin_style_5": "skin_1",
+              "featured_product": "",
+              "featured_product_limit_all": "3",
+              "banner_first_style_5": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+              "link_banner_first_style_5": "",
+              "banner_second_style_5": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
+              "link_banner_second_style_5": "",
+              "title_brand": "Brands by alphabet",
+              "link_brand": "View all brands",
+              "select_page_5": ""
             }
           }
         },
         "block_order": [
-          "1542706946591",
-          "1542772636356",
-          "1542783537505",
-          "1542796773039"
+          "f1a22f03-ad1b-429d-bec9-b425c04d535f",
+          "dafac55f-8170-4df9-8326-c7d8eba64995"
         ],
         "settings": {
           "display_fixtop_menu": true,
           "logo_fix": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
-          "horizontal_linklist": "main-menu",
+          "horizontal_linklist": "lobo-menu-01",
           "alignment": "center",
           "bg_menu": "rgba(0,0,0,0)",
           "bg_dropdown_menu": "#ffffff",
@@ -1607,6 +1599,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
+              "image_slide": "shopify:\/\/shop_images\/image_processing20201120-5010-xtzyar.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
