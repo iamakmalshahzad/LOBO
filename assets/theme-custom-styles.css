@@ -81,3 +81,23 @@ a.logo-img {
 .cart-icon .cartCount {
     background-color: #00000094 !important;
 }
+.search-open input.input-group-field.header-search__input {
+    border-bottom-color: #fff;
+}
+
+.search-open input.input-group-field.header-search__input::placeholder{
+    color: #ffffffb3;
+}
+
+a.close.close-search,
+.search-open .wrapper-header .search-bar .icon-search svg,
+.search-open input.input-group-field.header-search__input {
+    color: #fff !important;
+}
+
+.search-open .wrapper-header .search-bar .icon-search {
+    margin-top: 5px
+}
+.quickSearchResultsWrap {
+    left: 0;
+}
