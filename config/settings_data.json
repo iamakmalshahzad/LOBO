@@ -1010,6 +1010,7 @@
         ],
         "settings": {
           "display_fixtop_menu": true,
+          "logo_fix": "shopify:\/\/shop_images\/lobo_LOGO_landscape.png",
           "horizontal_linklist": "main-menu",
           "alignment": "left",
           "bg_menu": "#232323",
