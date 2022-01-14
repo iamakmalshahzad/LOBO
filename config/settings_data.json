@@ -1599,7 +1599,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/image_processing20201120-5010-xtzyar.png",
+              "image_slide": "shopify:\/\/shop_images\/slider_bg_01.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
