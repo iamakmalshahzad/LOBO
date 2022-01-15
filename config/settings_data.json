@@ -1599,7 +1599,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/slider_bg_01.png",
+              "image_slide": "shopify:\/\/shop_images\/slider_bg_02.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
@@ -1646,10 +1646,63 @@
               "dots_bg_color_3": "#323232",
               "dots_shadow_color_3": "#ffffff"
             }
+          },
+          "25ced572-fc94-4a2a-b9d2-577412c293ac": {
+            "type": "image",
+            "settings": {
+              "dpl_slide_img": true,
+              "image_slide": "shopify:\/\/shop_images\/slider_bg_03.png",
+              "style_content": "style_1",
+              "alignment": "left",
+              "alignment_custom": "35%",
+              "text_alignment": "center",
+              "bg_color_box": "#ffffff",
+              "color_border_box": "#bcbcbc",
+              "heading": "",
+              "font_size_heading": "40px",
+              "color_heading": "#232323",
+              "color_heading_style_4": "#10ffda",
+              "color_heading_mb": "#fff",
+              "sub_heading": "",
+              "font_size_sub_heading": "30px",
+              "color_sub_heading": "#fff",
+              "color_sub_heading_mb": "#fff",
+              "slide-des": "",
+              "font_size_des": "12px",
+              "color_des": "#232323",
+              "color_des_mb": "#fff",
+              "button_slide": "",
+              "link": "",
+              "bg_button": "#232323",
+              "border_button": "#232323",
+              "color_button": "#fff",
+              "bg_button_mb": "#232323",
+              "border_button_mb": "#232323",
+              "color_button_mb": "#fff",
+              "lb_product_1": "",
+              "top_position_1": "10",
+              "left_position_1": "10",
+              "dots_color_1": "#fff",
+              "dots_bg_color_1": "#323232",
+              "dots_shadow_color_1": "#fff",
+              "lb_product_2": "",
+              "top_position_2": "10",
+              "left_position_2": "10",
+              "dots_color_2": "#fff",
+              "dots_bg_color_2": "#323232",
+              "dots_shadow_color_2": "#fff",
+              "lb_product_3": "",
+              "top_position_3": "10",
+              "left_position_3": "10",
+              "dots_color_3": "#fff",
+              "dots_bg_color_3": "#323232",
+              "dots_shadow_color_3": "#fff"
+            }
           }
         },
         "block_order": [
-          "1540952363851-0"
+          "1540952363851-0",
+          "25ced572-fc94-4a2a-b9d2-577412c293ac"
         ],
         "settings": {
           "layout": "full",
