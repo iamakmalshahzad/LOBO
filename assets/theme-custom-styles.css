@@ -127,10 +127,10 @@ a.close.close-search,
     background: transparent ;
 }
 #slideshow-1540952363851 .slick-arrow.slick-prev {
-    left: 1%;
+    left: 1% !important;
 }
 #slideshow-1540952363851 .slick-arrow.slick-next {
-    right: 1%;
+    right: 1% !important;
 }
 .site-nav .menu-lv-1 > a {
     transition: all .3s;
