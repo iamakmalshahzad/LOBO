@@ -1599,14 +1599,14 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/image_processing20201120-5010-xtzyar.png",
+              "image_slide": "shopify:\/\/shop_images\/slider_bg_02.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
               "text_alignment": "center",
               "bg_color_box": "#ffffff",
               "color_border_box": "#bcbcbc",
-              "heading": "Cosmopolis",
+              "heading": "",
               "font_size_heading": "40px",
               "color_heading": "#232323",
               "color_heading_style_4": "#10ffda",
@@ -1615,11 +1615,11 @@
               "font_size_sub_heading": "30px",
               "color_sub_heading": "#ffffff",
               "color_sub_heading_mb": "#ffffff",
-              "slide-des": "Quisquemos sodales suscipit tortor ditaemcos condimentum de cosmo lacus meleifend menean diverra loremous.",
+              "slide-des": "",
               "font_size_des": "12px",
               "color_des": "#232323",
               "color_des_mb": "#ffffff",
-              "button_slide": "Shop The Collection",
+              "button_slide": "",
               "link": "",
               "bg_button": "#232323",
               "border_button": "#232323",
@@ -1646,10 +1646,63 @@
               "dots_bg_color_3": "#323232",
               "dots_shadow_color_3": "#ffffff"
             }
+          },
+          "25ced572-fc94-4a2a-b9d2-577412c293ac": {
+            "type": "image",
+            "settings": {
+              "dpl_slide_img": true,
+              "image_slide": "shopify:\/\/shop_images\/slider_bg_03.png",
+              "style_content": "style_1",
+              "alignment": "left",
+              "alignment_custom": "35%",
+              "text_alignment": "center",
+              "bg_color_box": "#ffffff",
+              "color_border_box": "#bcbcbc",
+              "heading": "",
+              "font_size_heading": "40px",
+              "color_heading": "#232323",
+              "color_heading_style_4": "#10ffda",
+              "color_heading_mb": "#fff",
+              "sub_heading": "",
+              "font_size_sub_heading": "30px",
+              "color_sub_heading": "#fff",
+              "color_sub_heading_mb": "#fff",
+              "slide-des": "",
+              "font_size_des": "12px",
+              "color_des": "#232323",
+              "color_des_mb": "#fff",
+              "button_slide": "",
+              "link": "",
+              "bg_button": "#232323",
+              "border_button": "#232323",
+              "color_button": "#fff",
+              "bg_button_mb": "#232323",
+              "border_button_mb": "#232323",
+              "color_button_mb": "#fff",
+              "lb_product_1": "",
+              "top_position_1": "10",
+              "left_position_1": "10",
+              "dots_color_1": "#fff",
+              "dots_bg_color_1": "#323232",
+              "dots_shadow_color_1": "#fff",
+              "lb_product_2": "",
+              "top_position_2": "10",
+              "left_position_2": "10",
+              "dots_color_2": "#fff",
+              "dots_bg_color_2": "#323232",
+              "dots_shadow_color_2": "#fff",
+              "lb_product_3": "",
+              "top_position_3": "10",
+              "left_position_3": "10",
+              "dots_color_3": "#fff",
+              "dots_bg_color_3": "#323232",
+              "dots_shadow_color_3": "#fff"
+            }
           }
         },
         "block_order": [
-          "1540952363851-0"
+          "1540952363851-0",
+          "25ced572-fc94-4a2a-b9d2-577412c293ac"
         ],
         "settings": {
           "layout": "full",
@@ -1691,25 +1744,28 @@
           "1540984915288-0": {
             "type": "image",
             "settings": {
-              "title": "Editor’s Pick",
+              "image": "shopify:\/\/shop_images\/men.png",
+              "title": "",
               "color_title": "#ffffff",
-              "link": ""
+              "link": "#"
             }
           },
           "1540984915288-1": {
             "type": "image",
             "settings": {
-              "title": "Shoes",
+              "image": "shopify:\/\/shop_images\/men.png",
+              "title": "",
               "color_title": "#ffffff",
-              "link": ""
+              "link": "#"
             }
           },
           "1540985049803": {
             "type": "image",
             "settings": {
-              "title": "Accessories",
+              "image": "shopify:\/\/shop_images\/men.png",
+              "title": "",
               "color_title": "#ffffff",
-              "link": ""
+              "link": "#"
             }
           }
         },
@@ -1720,7 +1776,7 @@
         ],
         "settings": {
           "display_sub_banner": true,
-          "layout": "default",
+          "layout": "full",
           "margin_bottom_mb": 0,
           "margin_bottom_tab": 0,
           "margin_bottom": 0,
@@ -1858,10 +1914,11 @@
             "type": "image",
             "settings": {
               "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/2.png",
               "title": "Lorem De Dorus",
               "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
               "button": "Shop Now",
-              "link": "",
+              "link": "#",
               "color_button": ""
             }
           },
@@ -1869,10 +1926,11 @@
             "type": "image",
             "settings": {
               "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/men.png",
               "title": "Milancelos Lanos",
               "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
               "button": "Shop Now",
-              "link": "",
+              "link": "#",
               "color_button": ""
             }
           },
@@ -1880,10 +1938,11 @@
             "type": "image",
             "settings": {
               "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/5.png",
               "title": "Como A Milano",
               "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
               "button": "Shop Now",
-              "link": "",
+              "link": "#",
               "color_button": ""
             }
           }
