@@ -162,7 +162,7 @@ a.close.close-search,
         border: 2px solid #fff;
         border-radius: 50px;
         opacity: 0;
-        transition: background-color .5s;
+        transition: all .5s;
         transition-timing-function: ease-in-out;
         
     }
