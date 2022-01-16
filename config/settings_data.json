@@ -1745,7 +1745,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/men.png",
-              "title": "",
+              "title": "View All",
               "color_title": "#ffffff",
               "link": "#"
             }
