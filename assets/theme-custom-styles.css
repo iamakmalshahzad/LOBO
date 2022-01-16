@@ -163,6 +163,7 @@ a.close.close-search,
         border-radius: 50px;
         transition: background-color .5s;
         transition-timing-function: ease-in-out;
+        opacity: 0;
     }
     div#shopify-section-1540984915288 h3.banner-title:hover {
         border-color: #000 !important;
