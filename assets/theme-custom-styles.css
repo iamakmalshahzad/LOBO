@@ -145,3 +145,33 @@ a.close.close-search,
 .site-nav .menu-lv-1>a>span:not(.icon-dropdown):before {
     display: none !important; 
 }
+.site-nav li:nth-of-type(4) span {
+    color: #fff !important;
+    }
+.site-nav li:nth-of-type(4) {
+    background-color: #e20044;
+    border-radius: 50px;
+    }
+    div#shopify-section-1540984915288 .content-box {
+        top: 90%;
+        z-index: 9;
+    }
+    div#shopify-section-1540984915288 h3.banner-title {
+        min-width: 40% !important;
+        padding: 10px 0;
+        border: 2px solid #fff;
+        border-radius: 50px;
+        transition: background-color .5s;
+        transition-timing-function: ease-in-out;
+    }
+    div#shopify-section-1540984915288 h3.banner-title:hover {
+        border-color: #000 !important;
+        background-color: #000 !important;
+        cursor: pointer;
+    }
+    span.border-bt-hover {
+        background-color: transparent !important;
+    }
+    .sub-banner.banner-item:hover .content-box h3.banner-title  {
+        opacity: 1 !important;
+    }
