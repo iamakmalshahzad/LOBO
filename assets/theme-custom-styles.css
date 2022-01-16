@@ -175,5 +175,38 @@ a.close.close-search,
         background-color: transparent !important;
     }
     .sub-banner.banner-item:hover .content-box h3.banner-title  {
+        transition: all .5s;
+        transition-timing-function: ease-in-out;
         opacity: 1 !important;
     }
+
+    /* *************************** backgroung img for titles***************************** */
+    .widget-title {
+        padding: 70px;
+    }
+    .new-arrivals-product .widget-title:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 150px;
+      opacity: 0.15;
+      background: url(https://cdn.shopify.com/s/files/1/0621/5191/7819/files/lobo_wolf.png?v=1642320444);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 130px;
+    }
+    .widget-title .box-title .title {
+      background: transparent !important;
+    }
+    
+    .widget-title {
+      position: relative;
+    }
+    
+    .widget-title .box-title:before {
+      display: none !important;
+    }
+    /* ********************************************************************************** */
