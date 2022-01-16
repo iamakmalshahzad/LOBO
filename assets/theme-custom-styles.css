@@ -184,7 +184,10 @@ a.close.close-search,
     .widget-title {
         padding: 70px;
     }
-    .new-arrivals-product .widget-title:before {
+    .new-arrivals-product .widget-title:before,
+    .featured-products .widget-title:before,
+    .home-instagram .widget-title:before,
+    .home-spotlight-block .widget-title:before {
       content: ' ';
       display: block;
       position: absolute;
