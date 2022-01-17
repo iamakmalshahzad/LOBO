@@ -1010,7 +1010,6 @@
           },
           "dd10fd03-269f-4f71-ac8e-202852133c76": {
             "type": "style_2",
-            "disabled": true,
             "settings": {
               "megamenu_items_2": "bags",
               "banner_first_style_2": "shopify:\/\/shop_images\/2.png",
@@ -1067,6 +1066,7 @@
           },
           "5b2a2106-7b5c-4e24-8240-eaf5dba528e0": {
             "type": "style_6",
+            "disabled": true,
             "settings": {
               "megamenu_items_6": "bags",
               "banner_first_style_6": "shopify:\/\/shop_images\/2.png",
