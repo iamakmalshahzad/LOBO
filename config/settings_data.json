@@ -1692,7 +1692,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/slider_bg_02.png",
+              "image_slide": "shopify:\/\/shop_images\/hero_slider_02.jpg",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
@@ -1744,7 +1744,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/slider_bg_03.png",
+              "image_slide": "shopify:\/\/shop_images\/hero_slider_01.jpg",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
