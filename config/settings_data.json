@@ -1010,14 +1010,11 @@
           },
           "dd10fd03-269f-4f71-ac8e-202852133c76": {
             "type": "style_2",
-            "disabled": true,
             "settings": {
-              "megamenu_items_2": "men",
-              "banner_first_style_2": "shopify:\/\/shop_images\/2.png",
+              "megamenu_items_2": "bags",
               "link_banner_first_style_2": "",
               "banner_second_style_2": "shopify:\/\/shop_images\/5.png",
               "link_banner_second_style_2": "",
-              "banner_third_style_2": "shopify:\/\/shop_images\/men.png",
               "link_banner_third_style_2": ""
             }
           },
@@ -1025,7 +1022,7 @@
             "type": "style_3",
             "disabled": true,
             "settings": {
-              "megamenu_items_3": "men",
+              "megamenu_items_3": "bags",
               "banner_first_style_3": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_3": "",
               "banner_second_style_3": "shopify:\/\/shop_images\/5.png",
@@ -1042,7 +1039,7 @@
             "type": "style_4",
             "disabled": true,
             "settings": {
-              "megamenu_items_4": "men",
+              "megamenu_items_4": "bags",
               "banner_first_style_4": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_4": ""
             }
@@ -1052,11 +1049,13 @@
             "disabled": true,
             "settings": {
               "menu_text_left": "",
-              "megamenu_items_5": "Catalog",
-              "skin_style_5": "skin_1",
-              "featured_product": "",
-              "featured_product_limit_all": "3",
+              "megamenu_items_5": "bags",
+              "skin_style_5": "skin_3",
+              "featured_product": "men",
+              "featured_product_limit_all": "5",
+              "banner_first_style_5": "shopify:\/\/shop_images\/men.png",
               "link_banner_first_style_5": "",
+              "banner_second_style_5": "shopify:\/\/shop_images\/men.png",
               "link_banner_second_style_5": "",
               "title_brand": "Brands by alphabet",
               "link_brand": "View all brands",
@@ -1067,7 +1066,7 @@
             "type": "style_6",
             "disabled": true,
             "settings": {
-              "megamenu_items_6": "men",
+              "megamenu_items_6": "bags",
               "banner_first_style_6": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_6": "",
               "banner_second_style_6": "shopify:\/\/shop_images\/5.png",
