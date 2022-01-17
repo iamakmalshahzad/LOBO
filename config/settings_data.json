@@ -1010,9 +1010,12 @@
             "type": "style_2",
             "disabled": true,
             "settings": {
-              "megamenu_items_2": "Catalog",
+              "megamenu_items_2": "men",
+              "banner_first_style_2": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_2": "",
+              "banner_second_style_2": "shopify:\/\/shop_images\/5.png",
               "link_banner_second_style_2": "",
+              "banner_third_style_2": "shopify:\/\/shop_images\/men.png",
               "link_banner_third_style_2": ""
             }
           },
@@ -1020,11 +1023,16 @@
             "type": "style_3",
             "disabled": true,
             "settings": {
-              "megamenu_items_3": "Catalog",
+              "megamenu_items_3": "men",
+              "banner_first_style_3": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_3": "",
+              "banner_second_style_3": "shopify:\/\/shop_images\/5.png",
               "link_banner_second_style_3": "",
+              "banner_third_style_3": "shopify:\/\/shop_images\/men.png",
               "link_banner_third_style_3": "",
+              "banner_four_style_3": "shopify:\/\/shop_images\/lobo_LOGO.png",
               "link_banner_four_style_3": "",
+              "banner_five_style_3": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
               "link_banner_five_style_3": ""
             }
           },
@@ -1032,7 +1040,8 @@
             "type": "style_4",
             "disabled": true,
             "settings": {
-              "megamenu_items_4": "Catalog",
+              "megamenu_items_4": "men",
+              "banner_first_style_4": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_4": ""
             }
           },
@@ -1056,11 +1065,16 @@
             "type": "style_6",
             "disabled": true,
             "settings": {
-              "megamenu_items_6": "Catalog",
+              "megamenu_items_6": "men",
+              "banner_first_style_6": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_6": "",
+              "banner_second_style_6": "shopify:\/\/shop_images\/5.png",
               "link_banner_second_style_6": "",
+              "banner_third_style_6": "shopify:\/\/shop_images\/men.png",
               "link_banner_third_style_6": "",
+              "banner_four_style_6": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
               "link_banner_four_style_6": "",
+              "banner_five_style_6": "shopify:\/\/shop_images\/lobo_LOGO.png",
               "link_banner_five_style_6": ""
             }
           }
