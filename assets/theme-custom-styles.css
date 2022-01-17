@@ -276,6 +276,7 @@ a.close.close-search,
 .select-icon:before {
     width: 245px;
     height: 245px;
+    color: #eee;
 }
 
 .select-icon {
