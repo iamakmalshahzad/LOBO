@@ -1050,9 +1050,9 @@
           "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d": {
             "type": "style_5",
             "settings": {
-              "menu_text_left": "<p>test<\/p>",
+              "menu_text_left": "",
               "megamenu_items_5": "bags",
-              "skin_style_5": "skin_1",
+              "skin_style_5": "skin_2",
               "featured_product": "men",
               "featured_product_limit_all": "5",
               "banner_first_style_5": "shopify:\/\/shop_images\/men.png",
