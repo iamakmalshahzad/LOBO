@@ -1009,6 +1009,7 @@
           },
           "dd10fd03-269f-4f71-ac8e-202852133c76": {
             "type": "style_2",
+            "disabled": true,
             "settings": {
               "megamenu_items_2": "men",
               "banner_first_style_2": "shopify:\/\/shop_images\/2.png",
@@ -1021,7 +1022,6 @@
           },
           "89706e69-bf39-4d97-bad1-284e949d9363": {
             "type": "style_3",
-            "disabled": true,
             "settings": {
               "megamenu_items_3": "men",
               "banner_first_style_3": "shopify:\/\/shop_images\/2.png",
