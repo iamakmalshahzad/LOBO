@@ -142,6 +142,21 @@
         {% if banner_first_style != blank or banner_second_style != blank or banner_third_style != blank %}
         <div class="col-12 col-xl-5">
             <div class="mega-banner">
+                {% if featured_product != blank %}
+                <div class="mega-col{% if banner_first_style != blank %} col-left{% endif %}">
+                    {% if title_featured_product != blank %}
+                    <h3 class="title">
+                        {% render 'multilang' with title_featured_product %}
+                    </h3>
+                    {% endif %}
+
+                    {% if product.available %}
+                    <div class="grid-item">
+                        {% render 'mega-menu-product-grid' with product as product %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
                 {% if banner_first_style != blank or banner_second_style != blank %}
                 <div class="mega-col{% if banner_third_style != blank %} col-left{% endif %}">
                     {% if banner_first_style != blank %}
