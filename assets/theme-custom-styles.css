@@ -141,15 +141,18 @@ a.close.close-search,
 .site-nav .menu-lv-1>a>span:not(.icon-dropdown):before {
     display: none !important; 
 }
-/* .site-nav .menu-lv-1:last-of-type {
+.site-nav .menu-lv-1:last-of-type a {
     background-color: #e20044;
-    border-radius: 50px
-    
+    border-radius: 50px;
+    width: 55px !important;
 }
 
 .site-nav .menu-lv-1:last-of-type span {
     color: #fff !important;
-} */
+}
+.site-nav .menu-lv-1:last-of-type {
+    padding: 14px 5px;
+}
     div#shopify-section-1540984915288 .content-box {
         top: 90%;
         z-index: 9;
