@@ -998,7 +998,6 @@
           },
           "84e12ecc-c8b4-4e70-a63f-f16732d18abb": {
             "type": "style_1",
-            "disabled": true,
             "settings": {
               "megamenu_items_1": "men",
               "title_featured_product": "Featured Products",
@@ -1064,6 +1063,7 @@
           },
           "5b2a2106-7b5c-4e24-8240-eaf5dba528e0": {
             "type": "style_6",
+            "disabled": true,
             "settings": {
               "megamenu_items_6": "men",
               "banner_first_style_6": "shopify:\/\/shop_images\/2.png",
