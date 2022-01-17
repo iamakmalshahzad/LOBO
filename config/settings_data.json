@@ -980,6 +980,7 @@
           },
           "dafac55f-8170-4df9-8326-c7d8eba64995": {
             "type": "style_5",
+            "disabled": true,
             "settings": {
               "menu_text_left": "",
               "megamenu_items_5": "men",
@@ -994,11 +995,85 @@
               "link_brand": "View all brands",
               "select_page_5": ""
             }
+          },
+          "84e12ecc-c8b4-4e70-a63f-f16732d18abb": {
+            "type": "style_1",
+            "settings": {
+              "megamenu_items_1": "men",
+              "title_featured_product": "Featured Products",
+              "featured_product": "dzr-mamba",
+              "banner_first_style_1": "shopify:\/\/shop_images\/men.png",
+              "link_banner_first_style_1": ""
+            }
+          },
+          "dd10fd03-269f-4f71-ac8e-202852133c76": {
+            "type": "style_2",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_2": "Catalog",
+              "link_banner_first_style_2": "",
+              "link_banner_second_style_2": "",
+              "link_banner_third_style_2": ""
+            }
+          },
+          "89706e69-bf39-4d97-bad1-284e949d9363": {
+            "type": "style_3",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_3": "Catalog",
+              "link_banner_first_style_3": "",
+              "link_banner_second_style_3": "",
+              "link_banner_third_style_3": "",
+              "link_banner_four_style_3": "",
+              "link_banner_five_style_3": ""
+            }
+          },
+          "b2151d45-472d-47e4-b4ef-167fcfa6a169": {
+            "type": "style_4",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_4": "Catalog",
+              "link_banner_first_style_4": ""
+            }
+          },
+          "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d": {
+            "type": "style_5",
+            "disabled": true,
+            "settings": {
+              "menu_text_left": "",
+              "megamenu_items_5": "Catalog",
+              "skin_style_5": "skin_1",
+              "featured_product": "",
+              "featured_product_limit_all": "3",
+              "link_banner_first_style_5": "",
+              "link_banner_second_style_5": "",
+              "title_brand": "Brands by alphabet",
+              "link_brand": "View all brands",
+              "select_page_5": ""
+            }
+          },
+          "5b2a2106-7b5c-4e24-8240-eaf5dba528e0": {
+            "type": "style_6",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_6": "Catalog",
+              "link_banner_first_style_6": "",
+              "link_banner_second_style_6": "",
+              "link_banner_third_style_6": "",
+              "link_banner_four_style_6": "",
+              "link_banner_five_style_6": ""
+            }
           }
         },
         "block_order": [
           "f1a22f03-ad1b-429d-bec9-b425c04d535f",
-          "dafac55f-8170-4df9-8326-c7d8eba64995"
+          "dafac55f-8170-4df9-8326-c7d8eba64995",
+          "84e12ecc-c8b4-4e70-a63f-f16732d18abb",
+          "dd10fd03-269f-4f71-ac8e-202852133c76",
+          "89706e69-bf39-4d97-bad1-284e949d9363",
+          "b2151d45-472d-47e4-b4ef-167fcfa6a169",
+          "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d",
+          "5b2a2106-7b5c-4e24-8240-eaf5dba528e0"
         ],
         "settings": {
           "display_fixtop_menu": true,
