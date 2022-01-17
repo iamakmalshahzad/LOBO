@@ -101,8 +101,13 @@ a.close.close-search,
     margin-top: 1.5%;
 }
 
-.sub-menu-mobile.menu-mb-translate.style_3 {
-    margin-top: 2.5%;
+.sub-menu-mobile.menu-mb-translate.style_1,
+.sub-menu-mobile.menu-mb-translate.style_2,
+.sub-menu-mobile.menu-mb-translate.style_3,
+.sub-menu-mobile.menu-mb-translate.style_4,
+.sub-menu-mobile.menu-mb-translate.style_5,
+.sub-menu-mobile.menu-mb-translate.style_6 {
+    margin-top: 2.7%;
 }
 
 .site-nav-dropdown.style_5,
