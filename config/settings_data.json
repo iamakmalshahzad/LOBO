@@ -1050,7 +1050,7 @@
           "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d": {
             "type": "style_5",
             "settings": {
-              "menu_text_left": "",
+              "menu_text_left": "<p>test<\/p>",
               "megamenu_items_5": "bags",
               "skin_style_5": "skin_1",
               "featured_product": "men",
