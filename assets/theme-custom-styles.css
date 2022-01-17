@@ -276,7 +276,7 @@ a.close.close-search,
 .select-icon:before {
     width: 245px;
     height: 245px;
-    color: #eee;
+    color: #eee !important;
 }
 
 .select-icon {
@@ -288,7 +288,7 @@ a.close.close-search,
 .select-icon:hover + .ajax-modal-content .close-modal {
     display: block;
 }
-#slideshow-1540952363851 .lb-icon-1-1540952363851-0 .glyphicon,
+.glyphicon,
 .glyphicon:after,
 .glyphicon:before
  {
