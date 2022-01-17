@@ -144,9 +144,9 @@
             <div class="mega-banner">
                 {% if featured_product != blank %}
                 <div class="mega-col{% if banner_first_style != blank %} col-left{% endif %}">
-                    {% if title_featured_product_style_02 != blank %}
+                    {% if title_featured_product != blank %}
                     <h3 class="title">
-                        {% render 'multilang' with title_featured_product_style_02 %}
+                        {% render 'multilang' with title_featured_product %}
                     </h3>
                     {% endif %}
 
