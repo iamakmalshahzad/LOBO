@@ -1012,6 +1012,8 @@
             "type": "style_2",
             "settings": {
               "megamenu_items_2": "bags",
+              "title_featured_product_style_02": "Featured Products",
+              "featured_product": "artist-series-no-001",
               "link_banner_first_style_2": "",
               "banner_second_style_2": "shopify:\/\/shop_images\/5.png",
               "link_banner_second_style_2": "",
