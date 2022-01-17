@@ -9,7 +9,7 @@
     "blog_layout": "default",
     "footer_layout": "default",
     "password_layout": "default",
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon": "shopify:\/\/shop_images\/FAV_09.png",
     "body_font_size": "12",
     "enable_opengraph": true,
     "image_share": "",
@@ -969,36 +969,127 @@
             "type": "style_3",
             "settings": {
               "megamenu_items_3": "women",
-              "banner_first_style_3": "shopify:\/\/shop_images\/lobo_LOGO.png",
+              "banner_first_style_3": "shopify:\/\/shop_images\/FAV_09.png",
               "link_banner_first_style_3": "",
-              "banner_second_style_3": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
+              "banner_second_style_3": "shopify:\/\/shop_images\/FAV_09.png",
               "link_banner_second_style_3": "",
+              "banner_third_style_3": "shopify:\/\/shop_images\/FAV_09.png",
               "link_banner_third_style_3": "",
+              "banner_four_style_3": "shopify:\/\/shop_images\/FAV_09.png",
               "link_banner_four_style_3": "",
               "link_banner_five_style_3": ""
             }
           },
           "dafac55f-8170-4df9-8326-c7d8eba64995": {
             "type": "style_5",
+            "disabled": true,
             "settings": {
-              "menu_text_left": "<p>test 01<\/p>",
+              "menu_text_left": "",
               "megamenu_items_5": "men",
-              "skin_style_5": "skin_1",
-              "featured_product": "",
+              "skin_style_5": "skin_3",
+              "featured_product": "men",
               "featured_product_limit_all": "3",
-              "banner_first_style_5": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+              "banner_first_style_5": "shopify:\/\/shop_images\/men.png",
               "link_banner_first_style_5": "",
-              "banner_second_style_5": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
+              "banner_second_style_5": "shopify:\/\/shop_images\/2.png",
               "link_banner_second_style_5": "",
               "title_brand": "Brands by alphabet",
               "link_brand": "View all brands",
               "select_page_5": ""
             }
+          },
+          "84e12ecc-c8b4-4e70-a63f-f16732d18abb": {
+            "type": "style_1",
+            "settings": {
+              "megamenu_items_1": "men",
+              "title_featured_product": "Featured Products",
+              "featured_product": "dzr-mamba",
+              "banner_first_style_1": "shopify:\/\/shop_images\/men.png",
+              "link_banner_first_style_1": ""
+            }
+          },
+          "dd10fd03-269f-4f71-ac8e-202852133c76": {
+            "type": "style_2",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_2": "men",
+              "banner_first_style_2": "shopify:\/\/shop_images\/2.png",
+              "link_banner_first_style_2": "",
+              "banner_second_style_2": "shopify:\/\/shop_images\/5.png",
+              "link_banner_second_style_2": "",
+              "banner_third_style_2": "shopify:\/\/shop_images\/men.png",
+              "link_banner_third_style_2": ""
+            }
+          },
+          "89706e69-bf39-4d97-bad1-284e949d9363": {
+            "type": "style_3",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_3": "men",
+              "banner_first_style_3": "shopify:\/\/shop_images\/2.png",
+              "link_banner_first_style_3": "",
+              "banner_second_style_3": "shopify:\/\/shop_images\/5.png",
+              "link_banner_second_style_3": "",
+              "banner_third_style_3": "shopify:\/\/shop_images\/men.png",
+              "link_banner_third_style_3": "",
+              "banner_four_style_3": "shopify:\/\/shop_images\/lobo_LOGO.png",
+              "link_banner_four_style_3": "",
+              "banner_five_style_3": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
+              "link_banner_five_style_3": ""
+            }
+          },
+          "b2151d45-472d-47e4-b4ef-167fcfa6a169": {
+            "type": "style_4",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_4": "men",
+              "banner_first_style_4": "shopify:\/\/shop_images\/2.png",
+              "link_banner_first_style_4": ""
+            }
+          },
+          "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d": {
+            "type": "style_5",
+            "disabled": true,
+            "settings": {
+              "menu_text_left": "",
+              "megamenu_items_5": "Catalog",
+              "skin_style_5": "skin_1",
+              "featured_product": "",
+              "featured_product_limit_all": "3",
+              "link_banner_first_style_5": "",
+              "link_banner_second_style_5": "",
+              "title_brand": "Brands by alphabet",
+              "link_brand": "View all brands",
+              "select_page_5": ""
+            }
+          },
+          "5b2a2106-7b5c-4e24-8240-eaf5dba528e0": {
+            "type": "style_6",
+            "disabled": true,
+            "settings": {
+              "megamenu_items_6": "men",
+              "banner_first_style_6": "shopify:\/\/shop_images\/2.png",
+              "link_banner_first_style_6": "",
+              "banner_second_style_6": "shopify:\/\/shop_images\/5.png",
+              "link_banner_second_style_6": "",
+              "banner_third_style_6": "shopify:\/\/shop_images\/men.png",
+              "link_banner_third_style_6": "",
+              "banner_four_style_6": "shopify:\/\/shop_images\/lobo_LOGO_main.png",
+              "link_banner_four_style_6": "",
+              "banner_five_style_6": "shopify:\/\/shop_images\/lobo_LOGO.png",
+              "link_banner_five_style_6": ""
+            }
           }
         },
         "block_order": [
           "f1a22f03-ad1b-429d-bec9-b425c04d535f",
-          "dafac55f-8170-4df9-8326-c7d8eba64995"
+          "dafac55f-8170-4df9-8326-c7d8eba64995",
+          "84e12ecc-c8b4-4e70-a63f-f16732d18abb",
+          "dd10fd03-269f-4f71-ac8e-202852133c76",
+          "89706e69-bf39-4d97-bad1-284e949d9363",
+          "b2151d45-472d-47e4-b4ef-167fcfa6a169",
+          "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d",
+          "5b2a2106-7b5c-4e24-8240-eaf5dba528e0"
         ],
         "settings": {
           "display_fixtop_menu": true,
@@ -1865,25 +1956,25 @@
           "layout_style": "layout_style_1",
           "display_banner": false,
           "banner_is": "left",
-          "banner_heading": "#CAMPAIGNS",
+          "banner_heading": "",
           "font_size_banner_heading": "40px",
           "color_banner_heading": "#ffffff",
-          "banner_sub_heading": "Spring Summer’08",
+          "banner_sub_heading": "",
           "font_size_banner_sub_heading": "13px",
           "color_banner_sub_heading": "#ffffff",
-          "banner_des": "Phasellus lorem malesuada ligula pulvinar de cosmopolis",
+          "banner_des": "",
           "font_size_banner_des": "12px",
           "color_banner_des": "#ffffff",
-          "banner_button": "Shop Now",
+          "banner_button": "",
           "link": "",
-          "banner_button_2": "Shop Now",
+          "banner_button_2": "",
           "link_2": "",
           "bg_banner_button": "#ffffff",
           "border_banner_button": "#ffffff",
           "color_banner_button": "#232323",
           "bg_color_box_style_2": "#ffffff",
           "border_color_box_style_2": "#bcbcbc",
-          "featured_products_title": "Trending Now",
+          "featured_products_title": "new arrivals",
           "color_text_title": "",
           "font_size_title": "",
           "text_alignment": "left",
@@ -1895,7 +1986,7 @@
           "show_slider_featured_collection": "milancelos",
           "slider_featured_limit_all": 10,
           "collection_results_per_row1": "4",
-          "featured_products_title_2": "Trending Now",
+          "featured_products_title_2": "new arrivals",
           "featured_products_text_link_2": "",
           "featured_products_link_2": "",
           "show_slider_featured_collection_2": "",
@@ -1916,7 +2007,7 @@
               "bg_color_column": "",
               "image": "shopify:\/\/shop_images\/2.png",
               "title": "Lorem De Dorus",
-              "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
+              "des": "",
               "button": "Shop Now",
               "link": "#",
               "color_button": ""
@@ -1928,19 +2019,7 @@
               "bg_color_column": "",
               "image": "shopify:\/\/shop_images\/men.png",
               "title": "Milancelos Lanos",
-              "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
-              "button": "Shop Now",
-              "link": "#",
-              "color_button": ""
-            }
-          },
-          "1541414200176-2": {
-            "type": "image",
-            "settings": {
-              "bg_color_column": "",
-              "image": "shopify:\/\/shop_images\/5.png",
-              "title": "Como A Milano",
-              "des": "Nullam aliquet vestibulum augue non varius. Cras cosmo congue an melitos. Duis tristique del ante le maliquam. Praesent murna de tellus laoreet cosmopolis.",
+              "des": "",
               "button": "Shop Now",
               "link": "#",
               "color_button": ""
@@ -1949,16 +2028,15 @@
         },
         "block_order": [
           "1541414200176-0",
-          "1541414200176-1",
-          "1541414200176-2"
+          "1541414200176-1"
         ],
         "settings": {
-          "layout": "default",
+          "layout": "full",
           "layout_style": "layout_style_1",
-          "margin_bottom_mb": 25,
-          "margin_bottom_tab": 35,
-          "margin_bottom": 35,
-          "spotlight_block_title": "#Featured On Ella",
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0,
+          "spotlight_block_title": "#lobo sale alert",
           "spotlight_block_des": "",
           "title_style": "style_1"
         }
@@ -2918,8 +2996,8 @@
       "1540984915288",
       "1541065669115",
       "1541389364083",
-      "1541402822593",
       "1541414200176",
+      "1541402822593",
       "1541559977022",
       "1541566560488"
     ]
