@@ -1040,6 +1040,7 @@
           },
           "b2151d45-472d-47e4-b4ef-167fcfa6a169": {
             "type": "style_4",
+            "disabled": true,
             "settings": {
               "megamenu_items_4": "bags",
               "banner_first_style_4": "shopify:\/\/shop_images\/2.png",
@@ -1048,10 +1049,9 @@
           },
           "69bb7f6e-08e5-4ad2-9b7e-1940ee25b30d": {
             "type": "style_5",
-            "disabled": true,
             "settings": {
               "menu_text_left": "",
-              "megamenu_items_5": "Catalog",
+              "megamenu_items_5": "bags",
               "skin_style_5": "skin_1",
               "featured_product": "",
               "featured_product_limit_all": "3",
