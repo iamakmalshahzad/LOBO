@@ -180,7 +180,15 @@ a.close.close-search,
         opacity: 1 !important;
     }
 
-    /* *************************** backgroung img for titles***************************** */
+    .site-nav-dropdown.style_3 .container,
+    .site-nav-dropdown.style_3 .container ul.site-nav-dropdown {
+        text-align: center;
+    }
+    .site-nav-dropdown.style_3 .row {
+        justify-content: space-between;
+    }
+
+    /* *************************** background img for titles***************************** */
     .widget-title {
         padding: 70px;
     }
