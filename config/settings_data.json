@@ -1023,6 +1023,7 @@
           },
           "89706e69-bf39-4d97-bad1-284e949d9363": {
             "type": "style_3",
+            "disabled": true,
             "settings": {
               "megamenu_items_3": "bags",
               "banner_first_style_3": "shopify:\/\/shop_images\/2.png",
@@ -1039,9 +1040,8 @@
           },
           "b2151d45-472d-47e4-b4ef-167fcfa6a169": {
             "type": "style_4",
-            "disabled": true,
             "settings": {
-              "megamenu_items_4": "men",
+              "megamenu_items_4": "bags",
               "banner_first_style_4": "shopify:\/\/shop_images\/2.png",
               "link_banner_first_style_4": ""
             }
