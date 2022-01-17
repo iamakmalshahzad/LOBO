@@ -291,6 +291,21 @@ a.close.close-search,
 .glyphicon:after,
 .glyphicon:before
  {
-    background-color: #efefef !important;
+    background-color: #eee !important;
+}
+@keyframes box-shadow {
+
+    0%,
+    100% {
+        -webkit-box-shadow: 0 0 0 0;
+        -moz-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0
+    }
+
+    50% {
+        -webkit-box-shadow: 0 0 0 15px;
+        -moz-box-shadow: 0 0 0 15px;
+        box-shadow: 0 0 0 15px
+    }
 }
 /* ********************************************************************************************************** */
