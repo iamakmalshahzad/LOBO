@@ -200,7 +200,7 @@ a.close.close-search,
     /* *************************** background img for titles***************************** */
     .widget-title {
         padding: 70px;
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
     }
     .new-arrivals-product .widget-title:before,
     .featured-products .widget-title:before,
@@ -223,6 +223,9 @@ a.close.close-search,
     .widget-title .box-title .title {
       background: transparent !important;
     }
+    .widget-title .box-title {
+        margin-bottom: 0 !important;
+    }
     
     .widget-title {
       position: relative;
@@ -231,6 +234,26 @@ a.close.close-search,
     .widget-title .box-title:before {
       display: none !important;
     }
+    .home-product-tabs .widget-product {
+        margin-top: -4%;
+    }
+    .list-product-tabs .tab-links.active {
+        /*     background-color: #000;
+            color: #fff !important; */
+            border-color: #000;
+            border-radius: 50px;
+        /*     font-weight: 600; */
+            transform: scale(1.2);
+        }
+        .list-product-tabs .tab-links {
+            color: #000;
+            padding: 2px 15px !important;
+            transition: all .5s;
+            transition-timing-function: ease-in-out;
+        }
+        .list-product-tabs .tab-links:not(.active):hover {
+            transform: scale(1.2);
+        }
     /* ********************************************************************************** */
 
     /* **********************************************slider product css******************* */
