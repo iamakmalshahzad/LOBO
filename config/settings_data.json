@@ -1879,6 +1879,7 @@
       },
       "1541065669115": {
         "type": "home-new-arrivals",
+        "disabled": true,
         "settings": {
           "layout": "default",
           "new_arrivals_title": "New Arrivals",
@@ -1897,6 +1898,7 @@
       },
       "1541389364083": {
         "type": "home-custom-block-baner",
+        "disabled": true,
         "blocks": {
           "1541389364083-0": {
             "type": "largeImg",
@@ -1953,6 +1955,7 @@
       },
       "1541402822593": {
         "type": "home-featured-products",
+        "disabled": true,
         "settings": {
           "bg_color": "",
           "layout_style": "layout_style_1",
@@ -2045,6 +2048,7 @@
       },
       "1541559977022": {
         "type": "home-brands",
+        "disabled": true,
         "blocks": {
           "1541560311488": {
             "type": "image",
@@ -3084,8 +3088,8 @@
       "1541389364083",
       "1541402822593",
       "1541559977022",
-      "1541566560488",
-      "1642512848765f5db8"
+      "1642512848765f5db8",
+      "1541566560488"
     ]
   },
   "presets": {
