@@ -229,5 +229,50 @@ a.close.close-search,
     /* ********************************************************************************** */
 
     /* **********************************************slider product css******************* */
-    
+    .select-icon,
+    .select-icon .glyphicon {
+    width: 245px;
+    height: 245px;
+    z-index: 4;
+    transition: all .7s ease-in-out;
+
+    }
+    .select-icon:before {
+        width: 245px;
+        height: 245px;
+        color: #eee !important;
+    }
+
+    .select-icon {
+        top: 73% !important;
+        left: -2% !important;
+        opacity: .5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select-icon:hover{
+        opacity: 1;
+    }
+    .select-icon:hover .glyphicon{
+        width: 0px !important;
+        height: 0px !important;
+        }
+    @keyframes box-shadow {
+
+        0%,
+        100% {
+            -webkit-box-shadow: 0 0 0 0;    
+            -moz-box-shadow: 0 0 0 0;
+            box-shadow: 0 0 0 0
+        }
+
+        50% {
+            -webkit-box-shadow: 0 0 0 15px;
+            -moz-box-shadow: 0 0 0 15px;
+            box-shadow: 0 0 0 15px
+        }
+    }
+
 /* ********************************************************************************************************** */
