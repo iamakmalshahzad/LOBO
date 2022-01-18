@@ -200,11 +200,13 @@ a.close.close-search,
     /* *************************** background img for titles***************************** */
     .widget-title {
         padding: 70px;
+        margin-bottom: 0;
     }
     .new-arrivals-product .widget-title:before,
     .featured-products .widget-title:before,
     .home-instagram .widget-title:before,
-    .home-spotlight-block .widget-title:before {
+    .home-spotlight-block .widget-title:before,
+    .home-product-tabs .widget-title:before  {
       content: ' ';
       display: block;
       position: absolute;
