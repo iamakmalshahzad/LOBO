@@ -2991,6 +2991,55 @@
           "bg_color_arrow": "#8c8c8c",
           "color_arrow": "#ffffff"
         }
+      },
+      "1642509241b3f27bf5": {
+        "type": "home-product-tabs",
+        "blocks": {
+          "5cb51366-75da-49d7-838e-bafedc6f84da": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "new arrivals",
+              "collection": "men"
+            }
+          },
+          "3575c2e4-7cba-467e-b5e2-eacded4aa898": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "Womens",
+              "collection": "women"
+            }
+          },
+          "78817262-1206-43c1-b5ec-e29d615e7425": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "mens",
+              "collection": "men"
+            }
+          },
+          "80a9c8d7-1812-41c0-97a3-43d6b4a09708": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "bags",
+              "collection": "bags"
+            }
+          }
+        },
+        "block_order": [
+          "5cb51366-75da-49d7-838e-bafedc6f84da",
+          "3575c2e4-7cba-467e-b5e2-eacded4aa898",
+          "78817262-1206-43c1-b5ec-e29d615e7425",
+          "80a9c8d7-1812-41c0-97a3-43d6b4a09708"
+        ],
+        "settings": {
+          "product_tabs_title": "Trending now",
+          "product_tabs_des": "",
+          "title_style": "style_1",
+          "collection_results_per_row": "5",
+          "tabs_style": "style_1",
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0
+        }
       }
     },
     "content_for_index": [
@@ -3001,7 +3050,8 @@
       "1541414200176",
       "1541402822593",
       "1541559977022",
-      "1541566560488"
+      "1541566560488",
+      "1642509241b3f27bf5"
     ]
   },
   "presets": {
