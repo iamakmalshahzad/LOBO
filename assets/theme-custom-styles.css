@@ -238,7 +238,9 @@ a.close.close-search,
     height: 245px;
     z-index: 4;
     transition: all .7s ease-in-out;
-
+    }
+    .select-icon .glyphicon {
+        background-color: #eee !important;
     }
     .select-icon:before {
         width: 245px;
