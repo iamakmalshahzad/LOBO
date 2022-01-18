@@ -18,6 +18,9 @@
     font-family: 'Epilogue Light';
     src: url("Epilogue-Light.ttf") format("ttf");
 }
+body:not(#loboofficial) .wrapper-header.wrapper_header_02.header-lang-style2 {
+    position: relative;
+}
 
 .nav-search {
     width: 40%;
