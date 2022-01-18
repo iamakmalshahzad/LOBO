@@ -3077,6 +3077,41 @@
           "margin_bottom_tab": 0,
           "margin_bottom": 0
         }
+      },
+      "1642513542da3925ff": {
+        "type": "newsletter-block",
+        "blocks": {
+          "1642513542da3925ff-0": {
+            "type": "image",
+            "settings": {
+              "image_new": "shopify:\/\/shop_images\/lobo_wolf.png",
+              "banner_title": "Newsletter Sign Up",
+              "font_size_banner_title": "20px",
+              "color_banner_title": "#000000",
+              "banner_heading": "Receive our latest updates about our products and promotions.",
+              "font_size_banner_heading": "12px",
+              "color_banner_heading": "#000000",
+              "ft_input": "#000000",
+              "ft_input_br": "#000000",
+              "ft_input_text": "#ffffff",
+              "ft_submit": "#0f0f0f",
+              "ft_submit_br": "#0f0f0f",
+              "ft_submit_text": "#ffffff",
+              "ft_submit_hover": "#fff",
+              "ft_submit_br_hover": "#232323",
+              "ft_submit_text_hover": "#232323"
+            }
+          }
+        },
+        "block_order": [
+          "1642513542da3925ff-0"
+        ],
+        "settings": {
+          "display_block_newsletter": true,
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0
+        }
       }
     },
     "content_for_index": [
@@ -3089,7 +3124,8 @@
       "1541402822593",
       "1541559977022",
       "1642512848765f5db8",
-      "1541566560488"
+      "1541566560488",
+      "1642513542da3925ff"
     ]
   },
   "presets": {
