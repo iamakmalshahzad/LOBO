@@ -3087,13 +3087,13 @@
               "image_new": "shopify:\/\/shop_images\/lobo_wolf.png",
               "banner_title": "Newsletter Sign Up",
               "font_size_banner_title": "20px",
-              "color_banner_title": "#000000",
+              "color_banner_title": "#ffffff",
               "banner_heading": "Receive our latest updates about our products and promotions.",
               "font_size_banner_heading": "12px",
-              "color_banner_heading": "#000000",
-              "ft_input": "#000000",
-              "ft_input_br": "#000000",
-              "ft_input_text": "#ffffff",
+              "color_banner_heading": "#ffffff",
+              "ft_input": "#ffffff",
+              "ft_input_br": "#ffffff",
+              "ft_input_text": "#5f5f5f",
               "ft_submit": "#0f0f0f",
               "ft_submit_br": "#0f0f0f",
               "ft_submit_text": "#ffffff",
@@ -3124,8 +3124,8 @@
       "1541402822593",
       "1541559977022",
       "1642512848765f5db8",
-      "1642513542da3925ff",
-      "1541566560488"
+      "1541566560488",
+      "1642513542da3925ff"
     ]
   },
   "presets": {
