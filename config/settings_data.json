@@ -1879,6 +1879,7 @@
       },
       "1541065669115": {
         "type": "home-new-arrivals",
+        "disabled": true,
         "settings": {
           "layout": "default",
           "new_arrivals_title": "New Arrivals",
@@ -1897,6 +1898,7 @@
       },
       "1541389364083": {
         "type": "home-custom-block-baner",
+        "disabled": true,
         "blocks": {
           "1541389364083-0": {
             "type": "largeImg",
@@ -1953,6 +1955,7 @@
       },
       "1541402822593": {
         "type": "home-featured-products",
+        "disabled": true,
         "settings": {
           "bg_color": "",
           "layout_style": "layout_style_1",
@@ -2045,6 +2048,7 @@
       },
       "1541559977022": {
         "type": "home-brands",
+        "disabled": true,
         "blocks": {
           "1541560311488": {
             "type": "image",
@@ -3040,18 +3044,88 @@
           "margin_bottom_tab": 0,
           "margin_bottom": 0
         }
+      },
+      "1642512848765f5db8": {
+        "type": "home-product-tabs",
+        "blocks": {
+          "68049784-60bd-4f48-9416-a37ff5089bc7": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "featured products",
+              "collection": "bags"
+            }
+          },
+          "a92da10b-db93-46d9-8146-5555e40ae1e4": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "best seller products",
+              "collection": "men"
+            }
+          }
+        },
+        "block_order": [
+          "68049784-60bd-4f48-9416-a37ff5089bc7",
+          "a92da10b-db93-46d9-8146-5555e40ae1e4"
+        ],
+        "settings": {
+          "product_tabs_title": "exclusive for you",
+          "product_tabs_des": "",
+          "title_style": "style_1",
+          "collection_results_per_row": "5",
+          "tabs_style": "style_1",
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0
+        }
+      },
+      "1642513542da3925ff": {
+        "type": "newsletter-block",
+        "blocks": {
+          "1642513542da3925ff-0": {
+            "type": "image",
+            "settings": {
+              "image_new": "shopify:\/\/shop_images\/lobo_wolf.png",
+              "banner_title": "Newsletter Sign Up",
+              "font_size_banner_title": "20px",
+              "color_banner_title": "#ffffff",
+              "banner_heading": "Receive our latest updates about our products and promotions.",
+              "font_size_banner_heading": "12px",
+              "color_banner_heading": "#ffffff",
+              "ft_input": "#ffffff",
+              "ft_input_br": "#ffffff",
+              "ft_input_text": "#5f5f5f",
+              "ft_submit": "#0f0f0f",
+              "ft_submit_br": "#0f0f0f",
+              "ft_submit_text": "#ffffff",
+              "ft_submit_hover": "#fff",
+              "ft_submit_br_hover": "#232323",
+              "ft_submit_text_hover": "#232323"
+            }
+          }
+        },
+        "block_order": [
+          "1642513542da3925ff-0"
+        ],
+        "settings": {
+          "display_block_newsletter": true,
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0
+        }
       }
     },
     "content_for_index": [
       "1540952363851",
       "1540984915288",
       "1642509241b3f27bf5",
+      "1541414200176",
       "1541065669115",
       "1541389364083",
-      "1541414200176",
       "1541402822593",
       "1541559977022",
-      "1541566560488"
+      "1642512848765f5db8",
+      "1541566560488",
+      "1642513542da3925ff"
     ]
   },
   "presets": {
