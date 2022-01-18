@@ -237,6 +237,12 @@ a.close.close-search,
     .home-product-tabs .widget-product {
         margin-top: -4%;
     }
+    .home-product-tabs .widget-title {
+        pointer-events: none !important;
+    }
+    .text-center {
+        width: 100% !important;
+    }
     .list-product-tabs .tab-links.active {
         /*     background-color: #000;
             color: #fff !important; */
