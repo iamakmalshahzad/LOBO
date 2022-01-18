@@ -18,9 +18,9 @@
     font-family: 'Epilogue Light';
     src: url("Epilogue-Light.ttf") format("ttf");
 }
-body {
+/* body {
     background-color: #fbfbfb !important;
-}
+} */
 .nav-search {
     width: 40%;
 }
@@ -316,10 +316,6 @@ a.close.close-search,
 
 /* ********************************************************************************************************** */
 
-
-body {
-    background: #fbfbfb;
-}
 .inner.product-item:before {
     position: absolute;
     top: 50%;
