@@ -18,6 +18,9 @@
     font-family: 'Epilogue Light';
     src: url("Epilogue-Light.ttf") format("ttf");
 }
+body {
+    background-color: #fbfbfb !important;
+}
 .nav-search {
     width: 40%;
 }
@@ -312,3 +315,38 @@ a.close.close-search,
     }
 
 /* ********************************************************************************************************** */
+
+
+body {
+    background: #fbfbfb;
+}
+.inner.product-item:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    content: "";
+    box-shadow: 0 3px 35px 0 #0000000d;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+
+.inner.product-item:hover:before {
+    opacity: 1;
+    visibility: visible;
+    
+}
+.inner.product-item {
+    border: 1px solid #fbfbfb !important;
+    -webkit-transition: border .3s ease-in-out;
+    transition: border-color .3s ease-in-out;
+    }
+    .inner.product-item:hover {
+   border: transparent !important;
+    }
