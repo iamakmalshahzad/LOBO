@@ -3040,6 +3040,39 @@
           "margin_bottom_tab": 0,
           "margin_bottom": 0
         }
+      },
+      "1642512848765f5db8": {
+        "type": "home-product-tabs",
+        "blocks": {
+          "68049784-60bd-4f48-9416-a37ff5089bc7": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "featured products",
+              "collection": "bags"
+            }
+          },
+          "a92da10b-db93-46d9-8146-5555e40ae1e4": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "best sellers",
+              "collection": "men"
+            }
+          }
+        },
+        "block_order": [
+          "68049784-60bd-4f48-9416-a37ff5089bc7",
+          "a92da10b-db93-46d9-8146-5555e40ae1e4"
+        ],
+        "settings": {
+          "product_tabs_title": "exclusive for you",
+          "product_tabs_des": "",
+          "title_style": "style_1",
+          "collection_results_per_row": "5",
+          "tabs_style": "style_1",
+          "margin_bottom_mb": 0,
+          "margin_bottom_tab": 0,
+          "margin_bottom": 0
+        }
       }
     },
     "content_for_index": [
@@ -3051,7 +3084,8 @@
       "1541389364083",
       "1541402822593",
       "1541559977022",
-      "1541566560488"
+      "1541566560488",
+      "1642512848765f5db8"
     ]
   },
   "presets": {
