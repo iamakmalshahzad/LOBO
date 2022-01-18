@@ -18,10 +18,6 @@
     font-family: 'Epilogue Light';
     src: url("Epilogue-Light.ttf") format("ttf");
 }
-body:not(#loboofficial) .wrapper-header.wrapper_header_02.header-lang-style2 {
-    position: relative;
-}
-
 .nav-search {
     width: 40%;
 }
@@ -57,11 +53,15 @@ a.logo-img {
     margin-top: 4%;
 }
 
-.wrapper-header.wrapper_header_02.header-lang-style2 {
+#loboofficial .wrapper-header.wrapper_header_02.header-lang-style2 {
     position: absolute;
     width: 100%;
     z-index: 9;
 }
+/* body:not(#loboofficial) .wrapper-header.wrapper_header_02.header-lang-style2 {
+    position: relative !important;
+} */
+
 .is-sticky .wrapper-navigation {
     background-color: #fff;
 }
