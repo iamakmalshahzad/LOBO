@@ -405,7 +405,9 @@ a.close.close-search,
         border-radius: 0px 3px 3px 0 !important;
     }
     
-    .custom-style-des button.btn.add-to-cart-btn {
+    .custom-style-des button.btn.add-to-cart-btn,
+    .custom-style-des a.btn
+     {
         border: none;
         padding: 15px 0px !important;
         min-width: 115px !important;
@@ -440,7 +442,14 @@ a.close.close-search,
     .product-item .product-des.abs-bottom {
         bottom: unset !important;
     }
-    
+    .product-top:hover .custom-style-des {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        width: 95%;
+        left: 2.5%;
+        border-radius: 3px;
+        border: 1px solid #fbfbfb
+    }
+ 
     .custom-style-des svg:hover,
     .custom-style-des .add-to-cart-btn:hover,
     .custom-style-des .quickview-button:hover {
