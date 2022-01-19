@@ -7,7 +7,7 @@
     "category_layout": "default",
     "product_layout": "default",
     "blog_layout": "default",
-    "footer_layout": "default",
+    "footer_layout": "09",
     "password_layout": "default",
     "favicon": "shopify:\/\/shop_images\/FAV_09.png",
     "body_font_size": "12",
@@ -1165,7 +1165,7 @@
         ],
         "settings": {
           "bg_footer_img": "none",
-          "bg_footer_color": "#232323",
+          "bg_footer_color": "#000000",
           "bg_footer_position_x": "left",
           "bg_footer_position_y": "top",
           "bg_footer_repeat": "repeat",
