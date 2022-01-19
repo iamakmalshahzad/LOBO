@@ -444,7 +444,7 @@ a.close.close-search,
     .custom-style-des svg:hover,
     .custom-style-des .add-to-cart-btn:hover,
     .custom-style-des .quickview-button:hover {
-        background-color: #e20044;
+        background-color: #000;
         color: #fff;
     }
     a.wishlist.whislist-added svg {
@@ -456,13 +456,13 @@ a.close.close-search,
         height: 50px;
         padding: 14px 0 !important;
         background-color: transparent;
-        border: 2.5px solid #e20044;
+        border: 2.5px solid #000;
         border-radius: 50px;
         max-width: 180px !important;
-        color: #e20044;
+        color: #000;
     }
     a.btn.btn--secondary-accent.btn--big.btn-product-show-more:hover,
     div#shopify-section-1541566560488 a.btn:hover {
-        background-color: #e20044;
+        background-color: #000;
         color: #fff;
     }
