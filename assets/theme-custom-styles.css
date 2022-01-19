@@ -470,10 +470,15 @@ a.close.close-search,
         margin-bottom: 15px;
     }
     /* ***************************************FOOTER************************************* */
+    .footer-top-newsletter .banner-large-img {
+        padding: 40px 0 !important;
+    }
     .footer-09 .footer-bottom address {
         text-align: center;
-        color: #fff;
     }
     .footer-09 .footer-bottom {
         padding: 10px !important;
+    }
+    .footer-09 .col-footer.info_store .location_info ul li {
+        align-items: center !important;
     }
