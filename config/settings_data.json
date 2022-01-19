@@ -3182,7 +3182,7 @@
           "footer_social_enable": true,
           "footer_typography_label": true,
           "bg_footer_bottom_color": "#000000",
-          "footer_bottom_color": "#000000",
+          "footer_bottom_color": "#ffffff",
           "footer_address_code": "© 2022 LOBO Shoes. All Rights Reserved. <br>Powered by Shopify",
           "show_payment_icons": false,
           "payment_display_visa": true,
