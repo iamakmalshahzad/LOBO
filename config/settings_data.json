@@ -3122,28 +3122,28 @@
           "17bc95e9-278b-45bd-b510-24f6138d78fe": {
             "type": "footer_link",
             "settings": {
-              "footer_title": "",
+              "footer_title": "some title",
               "footer_linklist": "footer"
             }
           },
           "bf1edef1-e600-4986-8e80-5c6e138268f6": {
             "type": "footer_link",
             "settings": {
-              "footer_title": "",
+              "footer_title": "some title",
               "footer_linklist": "footer"
             }
           },
           "eae2215a-c383-43bd-91bb-bb49ba1d812a": {
             "type": "footer_link",
             "settings": {
-              "footer_title": "",
+              "footer_title": "some title",
               "footer_linklist": "footer"
             }
           },
           "a67351df-b24d-4bd7-b77c-5010dd0b0d54": {
             "type": "info_store",
             "settings": {
-              "footer_logo": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+              "footer_logo": "shopify:\/\/shop_images\/FAV_09.png",
               "info_icon_1": "<i class=\"fa fa-location-arrow\" aria-hidden=\"true\"><\/i>",
               "info_text_1": "163 B, Eden Boulevard, Eden Residencia, LHR",
               "info_icon_2": "<i class=\"fa fa-phone\" aria-hidden=\"true\"><\/i>",
@@ -3161,16 +3161,16 @@
         ],
         "settings": {
           "footer_border_top": false,
-          "bg_footer_img": "bg-footer",
-          "bg_footer_color": "#f8f8f8",
+          "bg_footer_img": "none",
+          "bg_footer_color": "#000000",
           "bg_footer_position_x": "left",
           "bg_footer_position_y": "top",
           "bg_footer_repeat": "repeat",
           "bg_footer_attachment": "scroll",
-          "footer_title_color": "#141414",
-          "footer_link_color": "#3c3c3c",
-          "footer_link_hover_color": "#3c3c3c",
-          "bg_footer_line_color": "#ebebeb",
+          "footer_title_color": "#ffffff",
+          "footer_link_color": "#ffffff",
+          "footer_link_hover_color": "#ffffff",
+          "bg_footer_line_color": "#ffffff",
           "footer_newsletter_enable": false,
           "footer_newsletter_title": "",
           "des_newslette": "",
@@ -3181,8 +3181,8 @@
           "newsletter_button_color": "#fff",
           "footer_social_enable": true,
           "footer_typography_label": true,
-          "bg_footer_bottom_color": "#232323",
-          "footer_bottom_color": "#969696",
+          "bg_footer_bottom_color": "#000000",
+          "footer_bottom_color": "#000000",
           "footer_address_code": "© 2022 LOBO Shoes. All Rights Reserved. <br>Powered by Shopify",
           "show_payment_icons": false,
           "payment_display_visa": true,
