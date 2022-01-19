@@ -127,11 +127,8 @@
         </div>
         </div>
         {% endif %}
+
         
-        {% if settings.display_item_size %}
-          {% render 'items-size' with product as product %}
-        {% endif %}
-      </div>
 
     <div class="product-bottom">
       {% if settings.show_vendor %}
@@ -172,6 +169,10 @@
       {% if settings.display_item_swatch %}
       {% render 'item-swatch' with product as product %}
       {% endif %}
+      {% if settings.display_item_size %}
+          {% render 'items-size' with product as product %}
+        {% endif %}
+      </div>
     </div> 
   </div>        
 </div>

@@ -156,6 +156,9 @@
       {% if settings.display_item_swatch %}
       {% render 'item-swatch', product: product, option_color_swatch: option_color_swatch, downcased_option: option_name, product_option: product_option, index: index %}
       {% endif %}
+      {% if settings.display_item_size %}
+          {% render 'items-size' with product as product %}
+        {% endif %}
 
       {% if product.metafields.c_f.countdown and on_sale and section.settings.show_countdown %}
       {% capture count_down_final %}{{ product.metafields.c_f.countdown }}{% endcapture %}

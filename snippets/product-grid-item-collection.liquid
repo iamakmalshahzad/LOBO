@@ -112,9 +112,7 @@
         </div>
         </div>
         {% endif %}
-        {% if settings.display_item_size %}
-          {% render 'items-size' %}
-        {% endif %}
+        
       </div>
   
       {% comment %} Use for productGrid {% endcomment %}
@@ -158,6 +156,9 @@
       {% comment %}{% if settings.display_item_swatch %}
       {% render 'item-swatch' %}
       {% endif %}{% endcomment %}
+      {% if settings.display_item_size %}
+          {% render 'items-size' %}
+      {% endif %}
     </div>
 
     {% comment %} Use for productList {% endcomment %}
