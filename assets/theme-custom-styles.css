@@ -466,3 +466,14 @@ a.close.close-search,
         background-color: #000;
         color: #fff;
     }
+    .sold-out .inner-top {
+        margin-bottom: 15px;
+    }
+    /* ***************************************FOOTER************************************* */
+    .footer-09 .footer-bottom address {
+        text-align: center;
+        color: #fff;
+    }
+    .footer-09 .footer-bottom {
+        padding: 10px !important;
+    }
