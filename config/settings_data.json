@@ -3118,6 +3118,47 @@
       },
       "footer-9": {
         "type": "footer-9",
+        "blocks": {
+          "17bc95e9-278b-45bd-b510-24f6138d78fe": {
+            "type": "footer_link",
+            "settings": {
+              "footer_title": "",
+              "footer_linklist": "footer"
+            }
+          },
+          "bf1edef1-e600-4986-8e80-5c6e138268f6": {
+            "type": "footer_link",
+            "settings": {
+              "footer_title": "",
+              "footer_linklist": "footer"
+            }
+          },
+          "eae2215a-c383-43bd-91bb-bb49ba1d812a": {
+            "type": "footer_link",
+            "settings": {
+              "footer_title": "",
+              "footer_linklist": "footer"
+            }
+          },
+          "a67351df-b24d-4bd7-b77c-5010dd0b0d54": {
+            "type": "info_store",
+            "settings": {
+              "footer_logo": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+              "info_icon_1": "<i class=\"fa fa-location-arrow\" aria-hidden=\"true\"><\/i>",
+              "info_text_1": "163 B, Eden Boulevard, Eden Residencia, LHR",
+              "info_icon_2": "<i class=\"fa fa-phone\" aria-hidden=\"true\"><\/i>",
+              "info_text_2": "Call us at +923334107487",
+              "info_icon_3": "<i class=\"fa fa-envelope\" aria-hidden=\"true\"><\/i>",
+              "info_text_3": "Drop your querry at: loboshoes.official@gmail.com"
+            }
+          }
+        },
+        "block_order": [
+          "17bc95e9-278b-45bd-b510-24f6138d78fe",
+          "bf1edef1-e600-4986-8e80-5c6e138268f6",
+          "eae2215a-c383-43bd-91bb-bb49ba1d812a",
+          "a67351df-b24d-4bd7-b77c-5010dd0b0d54"
+        ],
         "settings": {
           "footer_border_top": false,
           "bg_footer_img": "bg-footer",
