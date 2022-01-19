@@ -135,7 +135,7 @@
                     </strong>
                   {{/if}}
                 </div>
-                
+                <div class="custom-style-des">
                 <div class="product-des abs-center">
                     {% endraw %}
                     {% if settings.enable_wishlist %}
@@ -357,12 +357,13 @@
                 {% raw %}
                   <a class="quickview-button" href="javascript:void(0)" id="${handle}">
                      <span {% endraw %}{% if settings.enable_multilang %}data-translate="products.product.quick_view"{% endif %}>
-                        {{ 'products.product.quick_view' | t }}{% raw %}
+                      {% raw %}<i class="fa fa-eye" aria-hidden="true"></i>
                      </span>                        
                   </a>
                 {% endraw %}
                 {% endif %}
                 {% raw %}
+                </div>
                 </div>
         </div>
             

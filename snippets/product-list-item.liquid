@@ -54,21 +54,23 @@
       {% render 'product-label' %}
 
       {% if settings.display_item_size or settings.enable_quick_view %}
-      <div class="product-des abs-bottom">
-        {% if settings.display_item_size %}
-        {% render 'items-size' %}
-        {% endif %}
-
-        {% if settings.enable_quick_view %}
-        <a class="quickview-button" href="javascript:void(0)" id="{{ product.handle }}" title="{{ 'products.product.quick_view' | t }}" {% if settings.enable_multilang %}data-translate="products.product.quick_view" translate-item="title"{% endif %}>
-          <span {% if settings.enable_multilang %}data-translate="products.product.quick_view"{% endif %}>
-            {{ 'products.product.quick_view' | t }}
-          </span>
-        </a>
+      <div class="custom-style-des">
+        <div class="product-des abs-bottom">
+          {% if settings.display_item_size %}
+          {% render 'items-size' %}
+          {% endif %}
+  
+          {% if settings.enable_quick_view %}
+          <a class="quickview-button" href="javascript:void(0)" id="{{ product.handle }}" title="{{ 'products.product.quick_view' | t }}" {% if settings.enable_multilang %}data-translate="products.product.quick_view" translate-item="title"{% endif %}>
+            <span {% if settings.enable_multilang %}data-translate="products.product.quick_view"{% endif %}>
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </span>
+          </a>
+          {% endif %}
+        </div>
+      </div>
         {% endif %}
       </div>
-      {% endif %}
-    </div>
 
     <div class="product-details">
       {% if settings.show_vendor %}

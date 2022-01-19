@@ -43,79 +43,81 @@
       {% render 'product-label' with product as product %}
 
       {% comment %} Use for productGrid {% endcomment %}
-      <div class="product-des abs-center">
-
-       {% comment %} {% if settings.show_vendor %}
-        <div class="product-vendor">
-          {{ product.vendor | link_to_vendor }}
-        </div>
-        {% endif %}{% endcomment %}
-        
-        <a class="product-title" href="{{ product.url | within: collection }}">
-          {% render 'multilang' with product.title %}
-        </a>
-
-        <div class="price-box">
-        {% if on_sale %}
-        <div class="price-sale">
-          {% if settings.enable_quick_shop %}
-            <span class="old-price" data-compare-price-grid>{{ product.variants[0].compare_at_price | money }}</span>
-            <span class="special-price" data-price-grid>{{ product.variants[0].price | money }}</span>
+      <div class="custom-style-des">
+        <div class="product-des abs-center">
+  
+         {% comment %} {% if settings.show_vendor %}
+          <div class="product-vendor">
+            {{ product.vendor | link_to_vendor }}
+          </div>
+          {% endif %}{% endcomment %}
+          
+          <a class="product-title" href="{{ product.url | within: collection }}">
+            {% render 'multilang' with product.title %}
+          </a>
+  
+          <div class="price-box">
+          {% if on_sale %}
+          <div class="price-sale">
+            {% if settings.enable_quick_shop %}
+              <span class="old-price" data-compare-price-grid>{{ product.variants[0].compare_at_price | money }}</span>
+              <span class="special-price" data-price-grid>{{ product.variants[0].price | money }}</span>
+            {% else %}
+              <span class="old-price" >{{ product.compare_at_price_min | money }}</span>
+              <span class="special-price">
+                {% if product.price_varies %}{% render 'varies_from' %}{% endif %}{{ product.price_min | money }}
+              </span>
+            {% endif %}
+          </div>
           {% else %}
-            <span class="old-price" >{{ product.compare_at_price_min | money }}</span>
-            <span class="special-price">
-              {% if product.price_varies %}{% render 'varies_from' %}{% endif %}{{ product.price_min | money }}
+            {% if settings.enable_quick_shop %}
+            <div class="price-regular">
+              <span data-price-grid>{{ product.variants[0].price | money }}</span>
+            </div>
+            {% else %}
+            <div class="price-regular">
+              <span>{% if product.price_varies %}{% render 'varies_from' %}{% endif %}{{ product.price_min | money }}</span>
+            </div>
+            {% endif %}
+          {% endif %}
+        </div>
+  
+          {% render 'wishlist-product' with product as product %}
+  
+          {% if settings.display_button %}
+          <div class="action">
+            {% render 'add-to-cart-form', product: product, sold_out: sold_out, id: 'grid-product-form-', position: position, sectionId: sectionId %}
+          </div>
+          {% endif %}
+  
+          {% if settings.display_product_reviews %}
+          <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+          {% endif %}
+        </div>
+  
+        {% if settings.display_item_size or settings.enable_quick_view %}
+        <div class="product-des abs-bottom">
+          {% if settings.display_item_size %}
+          {% render 'items-size' %}
+          {% endif %}
+  
+          {% comment %}{% if settings.display_item_swatch %}
+          {% render 'item-swatch' %}
+          {% endif %}{% endcomment %}
+  
+          {% if settings.enable_quick_view %}
+          <a class="quickview-button" href="javascript:void(0)" id="{{ product.handle }}" title="{{ 'products.product.quick_view' | t }}" {% if settings.enable_multilang %}data-translate="products.product.quick_view" translate-item="title"{% endif %}>
+            <span {% if settings.enable_multilang %}data-translate="products.product.quick_view"{% endif %}>
+              <i class="fa fa-eye" aria-hidden="true"></i>
             </span>
+          </a>
           {% endif %}
         </div>
-        {% else %}
-          {% if settings.enable_quick_shop %}
-          <div class="price-regular">
-            <span data-price-grid>{{ product.variants[0].price | money }}</span>
-          </div>
-          {% else %}
-          <div class="price-regular">
-            <span>{% if product.price_varies %}{% render 'varies_from' %}{% endif %}{{ product.price_min | money }}</span>
-          </div>
-          {% endif %}
-        {% endif %}
-      </div>
-
-        {% render 'wishlist-product' with product as product %}
-
-        {% if settings.display_button %}
-        <div class="action">
-          {% render 'add-to-cart-form', product: product, sold_out: sold_out, id: 'grid-product-form-', position: position, sectionId: sectionId %}
         </div>
         {% endif %}
-
-        {% if settings.display_product_reviews %}
-        <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-        {% endif %}
       </div>
-
-      {% if settings.display_item_size or settings.enable_quick_view %}
-      <div class="product-des abs-bottom">
-        {% if settings.display_item_size %}
-        {% render 'items-size' %}
-        {% endif %}
-
-        {% comment %}{% if settings.display_item_swatch %}
-        {% render 'item-swatch' %}
-        {% endif %}{% endcomment %}
-
-        {% if settings.enable_quick_view %}
-        <a class="quickview-button" href="javascript:void(0)" id="{{ product.handle }}" title="{{ 'products.product.quick_view' | t }}" {% if settings.enable_multilang %}data-translate="products.product.quick_view" translate-item="title"{% endif %}>
-          <span {% if settings.enable_multilang %}data-translate="products.product.quick_view"{% endif %}>
-            {{ 'products.product.quick_view' | t }}
-          </span>
-        </a>
-        {% endif %}
-      </div>
-      {% endif %}
-    </div>
-
-    {% comment %} Use for productGrid {% endcomment %}
+  
+      {% comment %} Use for productGrid {% endcomment %}
     <div class="product-bottom">
       {% if settings.show_vendor %}
       <div class="product-vendor">
