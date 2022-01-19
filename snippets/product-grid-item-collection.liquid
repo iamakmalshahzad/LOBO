@@ -97,10 +97,7 @@
   
         {% if settings.display_item_size or settings.enable_quick_view %}
         <div class="product-des abs-bottom">
-          {% if settings.display_item_size %}
-          {% render 'items-size' %}
-          {% endif %}
-  
+           
           {% comment %}{% if settings.display_item_swatch %}
           {% render 'item-swatch' %}
           {% endif %}{% endcomment %}
@@ -114,6 +111,9 @@
           {% endif %}
         </div>
         </div>
+        {% endif %}
+        {% if settings.display_item_size %}
+          {% render 'items-size' %}
         {% endif %}
       </div>
   

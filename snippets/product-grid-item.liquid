@@ -62,10 +62,6 @@
 
       {% if settings.display_item_size or settings.enable_quick_view %}
       <div class="product-des abs-bottom">
-        {% if settings.display_item_size %}
-        {% render 'items-size' with product as product %}
-        {% endif %}
-
         {% if settings.enable_quick_view %}
         <a class="quickview-button" href="javascript:void(0)" id="{{ product.handle }}" title="{{ 'products.product.quick_view' | t }}" {% if settings.enable_multilang %}data-translate="products.product.quick_view" translate-item="title"{% endif %}>
           <span {% if settings.enable_multilang %}data-translate="products.product.quick_view"{% endif %}>
@@ -75,6 +71,9 @@
         {% endif %}
       </div>
       </div>
+      {% endif %}
+      {% if settings.display_item_size %}
+        {% render 'items-size' with product as product %}
       {% endif %}
     </div>
 
