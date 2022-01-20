@@ -200,7 +200,7 @@
                           </label>
                           {% endif %}
                           <span>
-                          <!-- {% if current_variant.inventory_management %} -->
+                          {% if current_variant.inventory_management %}
                           {% assign first_inventory = current_variant.inventory_quantity %}
                           {% if first_inventory > 0 %}
                           {{ 'products.product.in_stock' | t }}
