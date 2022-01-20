@@ -536,12 +536,16 @@ a.close.close-search,
     
     .sidebar-filter {
         padding: 0 !important;
-    }
-    
-    
-    
+    }        
     .halo-collection-content .sidebar {
         margin: 0 auto !important;
+    }
+    .toolbar .view-mode .icon-mode {
+        border: none;
+    }
+    
+    .toolbar .view-mode .icon-mode.active {
+        border: 1px solid #323232 !important;
     }
 
     /* ***************************************FOOTER************************************* */
