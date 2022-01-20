@@ -577,6 +577,62 @@ a.close.close-search,
     .cus-oofs {
         background-color: #e20044 !important;
     }
+    a.icon-share {
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: var(--font_size_plus8);
+        outline: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border-radius: 0;
+        border: 1px solid #e1e1e1 !important;
+        min-width: 45px;
+        max-width: 100%;
+        transition: all .3s ease;
+        font-size: var(--font_size_btn);
+        letter-spacing: var(--letter_spacing_btn);
+        padding: 10px !important;
+        min-height: var(--font_size_plus33);
+        width: 45px;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    
+    .icon-share svg {
+        width: 21px;
+        height: 21px;
+        position: relative;
+        top: 2px;
+        color: #000;
+        transition: all .3s ease-in-out;
+    }
+    
+    .product-shop .groups-btn .wishlist:hover,
+    .icon-share:hover 
+     {
+        color: #fff;
+        background-color: #000;
+    }
+    .icon-share:hover svg {
+        color: #fff !important;
+    }
+    .product-shop .groups-btn .wishlist.whislist-added:hover {
+        background: var(--bg_wishlist_active);
+    }
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
