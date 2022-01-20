@@ -15,7 +15,7 @@
             "bg_color_content": "rgba(0,0,0,0)",
             "border_color_content": "rgba(0,0,0,0)",
             "height_img": "500px",
-            "enable_sub": true,
+            "enable_sub": false,
             "sub_title": "Jump to:",
             "sub_style": "style_1"
           }
@@ -153,12 +153,10 @@
         "show_countdown": true,
         "text_countdown": "End ins:",
         "show_pro_des": true,
-        "show_banner": true,
-        "show_banner_1": true,
-        "img_banner1": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+        "show_banner": false,
+        "show_banner_1": false,
         "link_banner_1": "",
         "show_banner_2": true,
-        "img_banner2": "shopify:\/\/shop_images\/FAV_09.png",
         "link_banner_2": "",
         "show_banner_3": true,
         "link_banner_3": "",
