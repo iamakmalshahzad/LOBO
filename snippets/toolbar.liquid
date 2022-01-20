@@ -26,19 +26,12 @@
       </label>
 
       <div class="view-mode">
-        <span class="icon-mode icon-mode-list{% if section.settings.collection_results_per_row == '1' %} active{% endif %}" data-col="1"></span>
+        <!-- <span class="icon-mode icon-mode-list{% if section.settings.collection_results_per_row == '1' %} active{% endif %}" data-col="1"></span> -->
         <span class="icon-mode icon-mode-grid grid-2{% if section.settings.collection_results_per_row == '2' %} active{% endif %}" data-col="2"></span>
         <span class="icon-mode icon-mode-grid grid-3{% if section.settings.collection_results_per_row == '3' %} active{% endif %}" data-col="3"></span>
         <span class="icon-mode icon-mode-grid grid-4{% if section.settings.collection_results_per_row == '4' %} active{% endif %}" data-col="4"></span>
-        <span class="icon-mode icon-mode-grid grid-5{% if section.settings.collection_results_per_row == '5' %} active{% endif %}" data-col="5"></span>
+        <!-- <span class="icon-mode icon-mode-grid grid-5{% if section.settings.collection_results_per_row == '5' %} active{% endif %}" data-col="5"></span> -->
       </div> 
-    </div>
-    <div class="view-mode">
-      <span>{{ 'grid01.png' | asset_url | img_tag: 'grid01' }}</span>
-      <span>{{ 'grid02.png' | asset_url | img_tag: 'grid02' }}</span>
-      <span>{{ 'grid03.png' | asset_url | img_tag: 'grid03' }}</span>
-
-
     </div>
     {% endif %}
   </div>
