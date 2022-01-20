@@ -34,9 +34,10 @@
       </div> 
     </div>
     <div class="view-mode">
-      <span>{% render 'icon-grid-1' %}</span>
-      <span>{% render 'icon-grid-2' %}</span>
-      <span>{% render 'icon-grid-3' %}</span>
+      <span>{{ 'grid01.png' | asset_img_url: }}</span>
+      <span>{{ 'grid02.png' | asset_img_url: }}</span>
+      <span>{{ 'grid03.png' | asset_img_url: }}</span>
+
     </div>
     {% endif %}
   </div>
