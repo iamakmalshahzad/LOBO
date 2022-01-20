@@ -9,7 +9,7 @@
             "display_collection_image": true,
             "collection_header_layout": "full",
             "collection_header_style": "style_2",
-            "display_collection_des": true,
+            "display_collection_des": false,
             "color_wrapper": "#ffffff",
             "color_wrapper_mb": "#000000",
             "bg_color_content": "rgba(0,0,0,0)",
