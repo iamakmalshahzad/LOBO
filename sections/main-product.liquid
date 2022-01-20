@@ -153,9 +153,9 @@ endfor
                   if(inventoryQuantity > 0 && inventoryQuantity <= max_stock){
                       var text_stock = window.inventory_text.hotStock.replace('[inventory]', inventoryQuantity);
                       $('[data-stock-hot]').text(text_stock).show();
-                      productInventory.find('span').text(inventoryQuantity + ' ' + window.inventory_text.in_stock);
+                      productInventory.find('span').text(window.inventory_text.in_stock);
                   }else if (inventoryQuantity > 0) {
-                      productInventory.find('span').text(inventoryQuantity + ' ' + window.inventory_text.in_stock);
+                      productInventory.find('span').text(window.inventory_text.in_stock);
                       $('[data-stock-hot]').hide();
                   } else{
                     productInventory.find('span').text(window.inventory_text.out_of_stock);
