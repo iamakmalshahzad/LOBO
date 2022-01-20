@@ -373,9 +373,10 @@ a.close.close-search,
     .custom-style-des {
         display: flex;
         justify-content: center;
-        position: absolute;
-        top: 80% !important;
-        width: 100%;
+        position: relative;
+        width: fit-content !important;
+        margin: -15% auto 3% auto !important;
+        
     }
     
     .custom-style-des .product-des.abs-bottom {
@@ -456,8 +457,6 @@ a.close.close-search,
     }
     .product-top:hover .custom-style-des {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-        width: fit-content !important;
-        /* left: 2.5%; */
         border-radius: 3px;
         border: 1px solid #fbfbfb
     }
