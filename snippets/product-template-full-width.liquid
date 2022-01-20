@@ -831,6 +831,7 @@ $(document).on('click', buttonSlt, function(e) {
                 var url = window.location.href.split('?variant')[0];
                 $('[data-value-email]').val(url + '?variant=' + variant.id);
                 productInventory.find('span').text(window.inventory_text.out_of_stock);
+                productInventory.find('span').css( "background-color", "red" );
                 $('[data-stock-hot]').hide();
             };
 
