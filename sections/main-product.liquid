@@ -154,8 +154,10 @@ endfor
                       var text_stock = window.inventory_text.hotStock.replace('[inventory]', inventoryQuantity);
                       $('[data-stock-hot]').text(text_stock).show();
                       productInventory.find('span').text(window.inventory_text.in_stock);
+                      productInventory.find('span').removeClass('cus-oofs');
                   }else if (inventoryQuantity > 0) {
                       productInventory.find('span').text(window.inventory_text.in_stock);
+                      productInventory.find('span').removeClass('cus-oofs');
                       $('[data-stock-hot]').hide();
                   } else{
                     productInventory.find('span').text(window.inventory_text.out_of_stock);
