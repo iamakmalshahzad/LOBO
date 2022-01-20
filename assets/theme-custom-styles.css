@@ -556,6 +556,26 @@ a.close.close-search,
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding-bottom: 20px;
+    }
+    .custom-prod-info .product-inventory span,
+    .cus-oofs {
+        padding: 5px 10px;
+        color: #fff;
+        border-radius: 2px;
+        text-transform: capitalize;
+        width: 100% !important;
+    }
+    .custom-prod-info .product-inventory span {
+        background-color: #6ca546;
+    }
+
+    .product-shop .product-infor,
+    .product-shop .sold_product {
+        margin: 0 !important;
+    }
+    .cus-oofs {
+        background-color: #e20044 !important;
     }
 
     /* ***************************************FOOTER************************************* */
