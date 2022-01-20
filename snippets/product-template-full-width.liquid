@@ -800,10 +800,8 @@ $(document).on('click', buttonSlt, function(e) {
                       var text_stock = window.inventory_text.hotStock.replace('[inventory]', inventoryQuantity);
                       $('[data-stock-hot]').text(text_stock).show();
                       productInventory.find('span').text(window.inventory_text.in_stock);
-                      productInventory.find('span').removeClass('cus-oofs');
                   }else if (inventoryQuantity > 0) {
                       productInventory.find('span').text(window.inventory_text.in_stock);
-                      productInventory.find('span').removeClass('cus-oofs');
                       $('[data-stock-hot]').hide();
                   } else{
                     productInventory.find('span').text(window.inventory_text.out_of_stock);
@@ -814,6 +812,7 @@ $(document).on('click', buttonSlt, function(e) {
                     // We have a valid product variant, so enable the submit button
                     addToCartBtn.removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
                     $('.groups-btn').removeClass('remove');
+                    productInventory.find('span').removeClass('cus-oofs');
                   }else{
                     addToCartBtn.removeClass('disabled').removeAttr('disabled').val(window.inventory_text.pre_order);
                     $('.groups-btn').addClass('remove');
@@ -821,6 +820,7 @@ $(document).on('click', buttonSlt, function(e) {
                 } else {
                   
                   addToCartBtn.removeClass('disabled').removeAttr('disabled').val(window.inventory_text.add_to_cart);
+                  productInventory.find('span').removeClass('cus-oofs');
                 }
                 $('[data-form-notify]').slideUp();
                 $('[data-soldOut-product]').show();
