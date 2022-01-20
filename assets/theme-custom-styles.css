@@ -426,7 +426,8 @@ a.close.close-search,
         min-width: 115px !important;
         font-weight: 500 !important;
         text-transform: capitalize;
-        background-color: #fff !important;
+        color: #000;
+        background-color: #fff;
     }
     
     .custom-style-des .quickview-button:before {
@@ -465,8 +466,8 @@ a.close.close-search,
     .custom-style-des svg:hover,
     .custom-style-des .add-to-cart-btn:hover,
     .custom-style-des .quickview-button:hover {
-        background-color: #000;
-        color: #fff;
+        background-color: #000 !important;
+        color: #fff !important;
     }
     a.wishlist.whislist-added svg {
         color: #fff !important;
