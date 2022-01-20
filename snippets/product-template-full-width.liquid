@@ -803,6 +803,7 @@ $(document).on('click', buttonSlt, function(e) {
                       $('[data-stock-hot]').hide();
                   } else{
                     productInventory.find('span').text(window.inventory_text.out_of_stock);
+                    productInventory.find('span').addClass('cus-oofs');
                     $('[data-stock-hot]').hide();
                   }
                   // Button Text
