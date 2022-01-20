@@ -33,7 +33,7 @@
         "display_product_sku": false,
         "text_product_sku": "SKU:",
         "display_availability": true,
-        "text_availability": "Availability:",
+        "text_availability": "",
         "display_product_type": false,
         "text_product_type": "Product Type:",
         "enable_countdown": false,
