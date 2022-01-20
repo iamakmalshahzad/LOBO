@@ -269,7 +269,9 @@
                                 {% if first_inventory > 0 %}
                                 {{ 'products.product.in_stock' | t }}
                                 {% else %}
-                                {{ 'products.product.out_of_stock' | t }}
+                                <span class="cus-oofs">
+                                    {{ 'products.product.out_of_stock' | t }}
+                                </span>
                                 {% endif %}
                                 {% else %}
                                 {{ 'products.product.many_in_stock' | t }}
@@ -803,7 +805,6 @@ $(document).on('click', buttonSlt, function(e) {
                       $('[data-stock-hot]').hide();
                   } else{
                     productInventory.find('span').text(window.inventory_text.out_of_stock);
-                    productInventory.find('span').css( "background-color", "red" );
                     $('[data-stock-hot]').hide();
                   }
                   // Button Text
