@@ -8,15 +8,15 @@
           "settings": {
             "display_collection_image": true,
             "collection_header_layout": "full",
-            "collection_header_style": "style_2",
-            "display_collection_des": false,
+            "collection_header_style": "style_1",
+            "display_collection_des": true,
             "color_wrapper": "#ffffff",
             "color_wrapper_mb": "#000000",
             "bg_color_content": "rgba(0,0,0,0)",
             "border_color_content": "rgba(0,0,0,0)",
-            "height_img": "200px",
+            "height_img": "500px",
             "enable_sub": true,
-            "sub_title": "",
+            "sub_title": "Jump to:",
             "sub_style": "style_1"
           }
         },
