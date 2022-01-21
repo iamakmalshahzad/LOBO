@@ -634,6 +634,20 @@ a.close.close-search,
     .product-shop .groups-btn .wishlist.whislist-added:hover {
         background: var(--bg_wishlist_active);
     }
+    .size-chart-open-popup:before {
+        content: " ";
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        top: -45px;
+        right: 0px;
+        background-image: url(icon_sizechart.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        z-index: 9;
+    }
+    
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
