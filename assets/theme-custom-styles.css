@@ -727,6 +727,35 @@ a.close.close-search,
     .recently-viewed-products .widget-title {
         text-align: center !important;
     }
+    .sticky_form {
+        background-color: #fff !important;
+        box-shadow: 0 -5px 5px -3px #0000001a !important;
+    }
+    
+    .sticky_form .pr-selectors .pr-active {
+        color: #fff !important;
+        border-color: #000 !important;
+        border-radius: 3px !important;
+    }
+    
+    .sticky_form .qty-group .button:before, .sticky_form .qty-group .button:after {
+        background-color: #000 !important;
+    }
+    
+    .sticky_form .qty-group {
+        border-color: #000;
+        border-radius: 3px;
+    }
+    
+    .sticky_form .sticky-add-to-cart {
+        border-radius: 3px;
+    }
+    
+    .pr-img.sticky-item {
+        border: 1px solid #000;
+        border-radius: 3px;
+        padding: 2px 0;
+    }
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
