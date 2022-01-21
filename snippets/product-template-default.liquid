@@ -515,29 +515,31 @@
 
                       <div class="groups-btn">
                           <div class="groups-btn-tree {% if section.settings.display_product_detail_share or settings.enable_wishlist %}margin-button{% endif %}">
-                            {% if product.available and section.settings.display_qty %}
-                  <div class="quantity">
-                      <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
-                          {{ 'cart.label.quantity' | t }}:
-                      </label>
-                      <div class="qty-group">
-                          <a href="#" data-minus-qtt class="minus button"></a>
-                          <input type="number" data-qtt-id="quantity__{{ product.id }}" name="quantity" value="1" inputmode="numeric" pattern="[0-9]*">
-                          <a href="#" data-plus-qtt class="plus button"></a>
-                      </div>
-                  </div>
-                  {% endif %}
+                              <div class="cus-div-single-prod">
+                                {% if product.available and section.settings.display_qty %}
+                                <div class="quantity">
+                                    <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>
+                                        {{ 'cart.label.quantity' | t }}:
+                                    </label>
+                                    <div class="qty-group">
+                                        <a href="#" data-minus-qtt class="minus button"></a>
+                                        <input type="number" data-qtt-id="quantity__{{ product.id }}" name="quantity" value="1" inputmode="numeric" pattern="[0-9]*">
+                                        <a href="#" data-plus-qtt class="plus button"></a>
+                                    </div>
+                                </div>
+                                {% endif %}
 
-                  {% if section.settings.display_subtotal and product.available and section.settings.display_qty %}
-                  <div class="total-price">
-                      <label {% if settings.enable_multilang %}data-translate="cart.general.subtotal"{%endif%}>
-                          {{ 'cart.general.subtotal' | t }}:
-                      </label>
-                      <span class="total-money">
-                          {{ current_variant.price | money }}
-                      </span>
-                  </div>
-                  {% endif %}
+                                {% if section.settings.display_subtotal and product.available and section.settings.display_qty %}
+                                <div class="total-price">
+                                    <label {% if settings.enable_multilang %}data-translate="cart.general.subtotal"{%endif%}>
+                                        {{ 'cart.general.subtotal' | t }}:
+                                    </label>
+                                    <span class="total-money">
+                                        {{ current_variant.price | money }}
+                                    </span>
+                                </div>
+                                {% endif %}
+                              </div>
                             {% if current_variant.available %}
                           
                             {% if current_variant.inventory_management %}
