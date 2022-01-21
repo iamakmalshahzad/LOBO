@@ -671,9 +671,6 @@ body > .tooltip {
     max-width: 100%;
 }
 
-.recently-viewed-products .widget-title, .related-products .widget-title {
-    text-align: center;
-}
 
 .product_layout_skin_1 .widget-title .box-title {
     margin-bottom: 72px;
