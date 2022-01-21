@@ -714,6 +714,13 @@ a.close.close-search,
     .qty-group.minus:hover .minus:before {
         background-color: #fff !important;
     }
+    
+    .product-shop .shopify-payment-button button.shopify-payment-button__button {
+        border-radius: 3px !important;
+        padding: 11px !important;
+        width: 100% !important;
+        margin: 0 0 0 5px !important;
+    }
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
