@@ -756,6 +756,18 @@ a.close.close-search,
         border-radius: 3px;
         padding: 2px 0;
     }
+    .main-content input[type=text],
+    .main-content input[type=password],
+    .main-content input[type=email],
+    .main-content input[type=tel],
+    .main-content textarea,
+    input#soldOut-button {
+        border-radius: 3px !important;
+    }
+
+    input#product-add-to-cart .disabled {
+        background-color: #656565 !important;
+    }
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
