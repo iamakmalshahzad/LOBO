@@ -636,12 +636,12 @@ a.close.close-search,
     }
     .size-chart-open-popup:before {
         content: " ";
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
         position: absolute;
         top: 85%;
         right: 2%;
-        background-image: url(icon_sizechart.png);
+        background-image: url(sizechart_icon.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
