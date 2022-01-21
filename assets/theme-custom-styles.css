@@ -647,7 +647,73 @@ a.close.close-search,
         background-size: contain;
         z-index: 9;
     }
+    .product-shop .groups-btn #product-add-to-cart, .product-shop .groups-btn .product-add-to-cart {
+        background: #fff !important;
+        color: #000 !important;
+        padding: 11px !important;
+        margin: 0 10px 0.5rem !important;
+        height: fit-content !important;
+        border-radius: 3px !important;
+    }
     
+    .product-shop .groups-btn .wishlist, .product-shop .groups-btn .icon-share {
+        padding: 0 !important;
+        margin: 0 0 0.5rem 0;
+        line-height: 0 !important;
+        font-size: 22px;
+        height: fit-content;
+        border: 1px solid #000 !important;
+        border-radius: 3px !important;
+    }
+    
+    .product-shop .groups-btn #product-add-to-cart:hover, .product-shop .groups-btn .product-add-to-cart:hover {
+        background: #000 !important;
+        color: #fff !important;
+    }
+    
+    .product-shop .groups-btn .groups-btn-tree {
+        align-items: center;
+    }
+    
+    .product-shop .quantity {
+        margin: 0 !important;
+    }
+    
+    .product-shop .total-price {
+        margin: 0 !important;
+    }
+    
+    .product-shop .qty-group {
+        border: 1px solid #000 !important;
+        border-radius: 3px !important;
+        margin-bottom: 0.5rem;
+    }
+    
+    .product-shop .qty-group input[name=quantity], .product-shop .qty-group input[name=group_quantity] {
+        padding: 0 !important;
+        width: 35px;
+    }
+    
+    .product-shop .qty-group .button {
+        width: 35px !important;
+        padding: 21px 0 !important;
+    }
+    
+    .product-shop .qty-group .button.minus {
+        border-right: 1px solid #000 !important;
+    }
+    .product-shop .qty-group .button.plus {
+        border-left: 1px solid #000 !important;
+    }
+    .product-shop .qty-group .button.minus:hover {
+        background-color: #000;
+    }
+    .product-shop .qty-group .button.plus:hover {
+        background-color: #000;
+    }
+    .qty-group.minus:hover .minus:before {
+        background-color: #fff !important;
+    }
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
