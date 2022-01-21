@@ -723,6 +723,10 @@ a.close.close-search,
         width: 100% !important;
         margin: 0 0 0 5px !important;
     }
+    .related-products .widget-title,
+    .recently-viewed-products .widget-title {
+        text-align: center !important;
+    }
 
     /* ***************************************FOOTER************************************* */
     .footer-top-newsletter .banner-large-img {
