@@ -142,16 +142,6 @@
     </ul>
     {% render 'gift-wrapper-cart', cart: cart %}
 
-    {% if section.settings.cart_notes %}
-      <label class="add-comments" for="cartSpecialInstructions">
-        <span>
-          {{ 'cart.general.label_text' | t }}
-        </span>
-      </label>
-      
-      <textarea name="note" class="input-full" id="cartSpecialInstructions" placeholder="{{ 'cart.general.note_placeholder' | t }}">{{ cart.note }}</textarea>
-    {% endif %}
-    
     {% if section.settings.img_trust != blank %}
     <div class="secure-shopping-guarantee">
       <div class="secure-text">
@@ -218,6 +208,15 @@
           {{ cart.total_price | money }}
         </span> 
       </div>
+      {% if section.settings.cart_notes %}
+      <label class="add-comments" for="cartSpecialInstructions">
+        <span>
+          {{ 'cart.general.label_text' | t }}
+        </span>
+      </label>
+      
+      <textarea name="note" class="input-full" id="cartSpecialInstructions" placeholder="{{ 'cart.general.note_placeholder' | t }}">{{ cart.note }}</textarea>
+    {% endif %}
       <div class="btn-actions">
         {% if settings.enable_checkbox %}
           <div class="checkbox-group">
