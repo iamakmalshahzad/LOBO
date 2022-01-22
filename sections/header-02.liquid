@@ -59,7 +59,7 @@
                                     <div class="customer-links"> 
                                         {% if customer %}
                                         <a data-user-pc-translate class="acc-links acc-title" href="{{ routes.account_url }}"{% if settings.enable_multilang %} data-translate="customer.account.title"{% endif %}>
-                                            <span class="cus-icon">{% render 'icon-user' %}</span><span class="cus-name">{{ customer.first_name }}</span>
+                                            {% render 'icon-user' %}
                                         </a>
                                         {% else %}                                       
                                         <a data-user-pc-translate class="acc-links acc-sign-in" id="customer_login_link" href="{{ routes.account_login_url }}" {% if settings.enable_multilang %}data-translate="customer.login.sign_in"{% endif %}>
