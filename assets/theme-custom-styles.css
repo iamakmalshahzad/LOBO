@@ -768,8 +768,30 @@ a.close.close-search,
     .btn.disabled, .btn:disabled {
         opacity: .60 !important;
     }
+    /* *************************************ADD TO CART POPUP STYLES********************** */
+    .cart-form .box-title {
+        background-color: #000;
+        color: #fff;
+        border-radius: 3px;
+    }
+    .cart-popup-content a.btn.btn-continue,
+    .cart-popup-content a.btn.btn-view-cart {
+        background: #fff !important;
+        color: #000 !important;
+        border-radius: 3px;
+        border: 1px solid #000 !important;
+    }
+    .cart-popup-content a.btn.btn-continue:hover,
+    .cart-popup-content a.btn.btn-view-cart:hover {
+        background: #000 !important;
+        color: #fff !important;
+    }
 
+    
+    /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
+    /* ********************************************************************************** */
+
     .footer-top-newsletter .banner-large-img {
         padding: 40px 0 !important;
     }
