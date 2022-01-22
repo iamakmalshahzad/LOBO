@@ -223,7 +223,8 @@ a.close.close-search,
     .home-spotlight-block .widget-title:before,
     .home-product-tabs .widget-title:before,
     .related-products .widget-title:before,
-    .recently-viewed-products .widget-title:before  {
+    .recently-viewed-products .widget-title:before,
+    .cart-popup-coll-related .widget-title:before {
       content: ' ';
       display: block;
       position: absolute;
