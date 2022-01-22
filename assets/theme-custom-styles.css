@@ -769,6 +769,9 @@ a.close.close-search,
     .btn.disabled, .btn:disabled {
         opacity: .60 !important;
     }
+    .template-product .footer-09 .footer-bottom {
+        padding-bottom: 60px !important;
+    }
     /* ***************************ADD TO CART POPUP SELECT OPTIONS STYLES****************** */
     .product-card__variant--popup {
         position: absolute;
