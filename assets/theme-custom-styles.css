@@ -849,6 +849,14 @@ a.close.close-search,
         background: #000;
         color: #fff;
     }
+    .cart-template .wrapper-cart-template .input-full {
+        margin-bottom: 15px;
+    }
+    
+    .cart-template .wrapper-cart-template .add-comments {
+        margin-top: 0 !important;
+        margin-bottom: 18px;
+    }
 
 
 
