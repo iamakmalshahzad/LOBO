@@ -765,8 +765,8 @@ a.close.close-search,
         border-radius: 3px !important;
     }
 
-    input#product-add-to-cart .disabled {
-        background-color: #656565 !important;
+    .btn.disabled, .btn:disabled {
+        opacity: .60 !important;
     }
 
     /* ***************************************FOOTER************************************* */
