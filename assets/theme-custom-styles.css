@@ -806,19 +806,21 @@ a.close.close-search,
         background-color: transparent;
     }    
     .cart-template .cart-form .cart--remove a svg {
-        border: 2px solid #000;
+        border: 2px solid #e20044;
         border-radius: 50%;
-        background-color: #000;
-        color: #fff;
-        width: 25px;
-        height: 25px;
+        color: #e20044;
+        width: 20px;
+        height: 20px;
         padding: 1px;
         transition: all .3s ease-in-out;
+        
     }    
     .cart-template .cart-form .cart--remove a svg:hover {
         border-color:  #e20044;
         background: #e20044;
-        transform: scale(1.1);
+        color: #fff;
+        transform: rotate(180deg) scale(1.2);
+        
     }
     .cart-template .right-col .cart-header .cart--title {
         justify-content: center;
