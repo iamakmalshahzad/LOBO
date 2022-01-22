@@ -686,7 +686,11 @@ a.close.close-search,
     }    
     .sticky_form .qty-group .button:before, .sticky_form .qty-group .button:after {
         background-color: #000 !important;
-    }    
+    }
+    .sticky_form .qty-group .minus:after {
+        background-color: #fff;
+    }
+
     .sticky_form .qty-group {
         border-color: #000;
         border-radius: 3px;
