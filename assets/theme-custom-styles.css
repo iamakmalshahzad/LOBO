@@ -688,7 +688,7 @@ a.close.close-search,
         background-color: #000 !important;
     }
     .sticky_form .qty-group .minus:after {
-        background-color: #fff;
+        background-color: transparent !important;
     }
 
     .sticky_form .qty-group {
