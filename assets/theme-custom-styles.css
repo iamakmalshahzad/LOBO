@@ -916,3 +916,23 @@ a.close.close-search,
     #dropdown-cart a.close-cart.close span {
         color: #000 !important;
     }
+    #dropdown-cart .quantity input {
+        padding: 11px 5px !important;
+        height: 40px !important;
+        width: 85px;
+        border-radius: 3px;
+    } 
+    #dropdown-cart .actions .btn-view-cart,
+    #dropdown-cart .actions .btn-checkout {
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    #dropdown-cart .actions .btn-view-cart {
+        background: #fff;
+        color: #000;
+        
+    }
+    #dropdown-cart .actions .btn-view-cart:hover {
+        background: #000;
+        color: #fff;
+    }
