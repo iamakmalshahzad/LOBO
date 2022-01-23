@@ -992,20 +992,14 @@ a.close.close-search,
         z-index: -1;
         top: 0;
         left: 0;
-    }
-    
-    .col-left.returning-customer {
-        /* background: #e20044; */
-    }
-    
+    }    
     .col-right.new-customer.text-center {
         background: #fff;
         flex: auto !important;
         width: 50% !important;
         border-radius: 0 10px 10px 0;
         box-shadow: rgb(0 0 0 / 27%) 1px 1px 15px 1px;
-    }
-    
+    }    
     .wrapper-login-customer h1 {
         text-align: center;
         color: #000;
@@ -1013,8 +1007,7 @@ a.close.close-search,
     .custom-acc-page .wrapper-content {
         border: none !important;
         padding: 100px;
-    }
-    
+    }    
     .wrapper-login-customer .wrapper-content .col-left {
         width: 50% !important;
         flex: auto !important;
@@ -1022,51 +1015,41 @@ a.close.close-search,
         box-shadow: rgb(0 0 0 / 27%) 1px 1px 15px 1px;
         /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
         max-width: 50% !important;
-        }
-    
+    }    
     .custom-acc-page .wrapper-title {
         background: none !important;
         border: none !important;
         margin: 0 !important;
         padding: 50px 50px;
-    }
-    
+    }   
     form#customer_login, #recover_password {
         margin: 0;
         padding: 0 !important;
         width: 70%;
         margin: 0px auto 50px;
-    }
-    
-    
+    }   
     .login-page .container {
         padding: 0 !important;
-    }
-    
+    }    
     #account main.main-content {
         padding: 0 !important;
-    }
-    
+    }    
     .wrapper-login-customer .wrapper-content:after {
         display: none;
     }
-    
-    
     .wrapper-login-customer .custom-or-abs {
         background: transparent !important;
         top: 50%;
         left: 50%;
         transform: translate(-20px, -20px);
         padding: 0 !important;
-    }
-    
+    }    
     .wrapper-login-customer .custom-or-abs .or_text {
         border: none;
         color: transparent;
         font-weight: 700;
         background: transparent;
-    }
-    
+    }    
     .wrapper-login-customer .custom-or-abs .or_text:after {
         content: " R";
         position: absolute;
@@ -1095,14 +1078,45 @@ a.close.close-search,
         display: flex;
         justify-content: flex-end;
         align-items: center;
-    }
-    
+    }    
     .custom-acc-page .col-left .box-title,
     .custom-acc-page .col-left li,
     .custom-acc-page .col-left label,
     #recover_password {
         color: #fff !important;
     }
-    #recover_password {
-        padding: 50px;
+    .custom-acc-page .col-left input.btn {
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-shadow: #00000045 1px 1px 15px 1px;
+        transition: all .3s ease-in-out;
+    }
+    .custom-acc-page .col-left input.btn:hover {
+        background-color: black;
+        border-color: #000;
+    
+    }    
+    .custom-acc-page .last a,
+    .custom-acc-page .last span,
+    .wrapper-login-customer #recover_password .action-btn span,
+    .wrapper-login-customer #recover_password .action-btn a {
+        color: #fff;
+    }
+    .custom-acc-page .last a:last-child {
+        border-color: #fff;
+    }
+    .wrapper-login-customer #recover_password .action-btn a:hover {
+        color: #000;
+    }
+    .col-right a.btn.btn-2.btn-register {
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    .col-right a.btn.btn-2.btn-register:hover {
+        background-color: #e20044;
+        border-color: #e20044;
+    }
+    .create-an-account .des, .login-page .des {
+        margin-top: 35px;
     }
