@@ -20,8 +20,7 @@
       {{ 'customer.login.account' | t }}
     </h1>
   </header>
-  <div class="container left"> 
-
+  <div class="container left">
     <div class="wrapper-login-customer">
       <header class="page-header">
         <h1 {% if settings.enable_multilang %}data-translate="customer.login.account"{%endif%}>
@@ -158,27 +157,16 @@
             {% endif %}
           </div>
         </div>
-        
-        <div class="custom-or-abs">
-          <span class="or_text">
-            {{ 'cart.label.or' | t }}
-          </span>
-        </div>
       </div>            
     </div>
   </div>
-  <div class="container right"> 
-
-    <div class="wrapper-login-customer">
-      
-      
-      <div class="wrapper-content">        
-        <div class="custom-or-abs">
-          <span class="or_text">
-            {{ 'cart.label.or' | t }}
-          </span>
-        </div>
-        
+  <div class="custom-or-abs">
+    <span class="or_text">
+      {{ 'cart.label.or' | t }}
+    </span>
+  </div>
+  <div class="container right">
+    <div class="wrapper-login-customer">        
         <div class="col-right new-customer text-center">
           <div class="wrapper-title">
             <div class="box-title"{% if settings.enable_multilang %} data-translate="customer.login.new_customer"{%endif%}>
