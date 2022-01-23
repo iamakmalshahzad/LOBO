@@ -783,6 +783,9 @@ a.close.close-search,
     .cart-popup-content a.btn.btn-checkout {
         border-radius: 3px;
     }
+    .cart-popup-content .cart-form .cart-list .qty-group {
+        border-radius: 3px;
+    }
 
     /* ********************************************************************************** */
     /* ***************************************CART PAGE ********************************* */
@@ -814,7 +817,8 @@ a.close.close-search,
         background-color: transparent;
     }    
     .cart-template .cart-form .cart--remove a svg,
-    #dropdown-cart .btn-remove svg {
+    #dropdown-cart .btn-remove svg,
+    .cart-popup-content .cart-form .cart-list .cart-remove svg {
         border: 2px solid #e20044;
         border-radius: 50%;
         color: #e20044;
@@ -825,7 +829,8 @@ a.close.close-search,
         
     }    
     .cart-template .cart-form .cart--remove a svg:hover,
-    #dropdown-cart .btn-remove svg:hover {
+    #dropdown-cart .btn-remove svg:hover,
+    .cart-popup-content .cart-form .cart-list .cart-remove svg:hover {
         border-color:  #e20044;
         background: #e20044;
         color: #fff;
@@ -961,3 +966,11 @@ a.close.close-search,
     .ajax-compare a.btn {
         border-radius: 3px;
     }
+    .product-item .wrapper-compare .compare-button .compare-text:before,
+input[type=checkbox]+label:before {
+    border-radius: 3px;
+}
+.cart-form .cart-list .qty-group {
+    border-radius: 3px;
+}
+
