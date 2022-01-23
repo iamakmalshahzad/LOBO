@@ -851,13 +851,29 @@ a.close.close-search,
     }
     .cart-template .wrapper-cart-template .input-full {
         margin-bottom: 15px;
-    }
-    
+    }    
     .cart-template .wrapper-cart-template .add-comments {
         margin-top: 0 !important;
         margin-bottom: 18px;
     }
 
+    /* ************************************PAYMENT PAGE********************************** */
+    
+    .step__footer__continue-btn {
+        padding: 12px 25px;
+    }    
+    a.step__footer__previous-link {
+        border: 1px solid #000;
+        border-radius: 3px;
+        padding: 12px 25px;
+        font-weight: 600;
+        margin-left: 10px !important;
+        transition: all .3s ease-in-out;
+    }    
+    a.step__footer__previous-link:hover {
+        background: #000;
+        color: #fff;
+    }
 
 
     /* ********************************************************************************** */
