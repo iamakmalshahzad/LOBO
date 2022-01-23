@@ -16,7 +16,6 @@
 {% layout settings.customer_layout %}
 <div class="account-page custom-acc-page">
   <div class="container">
-    {% render 'breadcrumb' %}
     <header class="page-header">
       <h1 {% if settings.enable_multilang %}data-translate="customer.activate_account.title"{%endif%}>{{ 'customer.activate_account.title' | t }}</h1>
     </header>
