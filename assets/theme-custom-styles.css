@@ -473,6 +473,9 @@ a.close.close-search,
     .sidebar-label .icon-filter {
         color: #fff !important;
     }
+    .toolbar .toolbar-col .label-tab {
+        border-radius: 2px;
+    }
     #CollectionFiltersForm .widget-title {
         padding: 0 0 5px !important;
     }    
@@ -908,7 +911,8 @@ a.close.close-search,
     #dropdown-cart .summary {
         margin-bottom: 18px;
     }
-    #dropdown-cart a.close-cart.close {
+    #dropdown-cart a.close-cart.close,
+    #dropdown-customer a.close-customer.close{
         width: 50% !important;
         float: right;
     }
@@ -935,4 +939,25 @@ a.close.close-search,
     #dropdown-cart .actions .btn-view-cart:hover {
         background: #000;
         color: #fff;
+    }
+    #dropdown-customer a.close-customer.close{
+        width: 50% !important;
+        float: right;
+    }
+    .customer-content .form-group .form-control {
+        border-radius: 3px;
+    }
+    .customer-content .ct-register .btn-register,
+    .customer-content .btn-login,
+    #dropdown-cart a.btn.btn-continue {
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    .customer-content .ct-register .btn-register:hover,
+    .customer-content .btn-login:hover,
+    #dropdown-cart a.btn.btn-continue:hover {
+        transform: scale(1.02);
+    }
+    .ajax-compare a.btn {
+        border-radius: 3px;
     }
