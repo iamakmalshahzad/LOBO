@@ -980,3 +980,129 @@ a.close.close-search,
     .cart-edit h5 {
         text-align: center;
     }
+
+/* **********************************login page****************************************** */
+
+
+    .bg-cus {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background: #e20044;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+    
+    .col-left.returning-customer {
+        /* background: #e20044; */
+    }
+    
+    .col-right.new-customer.text-center {
+        background: #fff;
+        flex: auto !important;
+        width: 50% !important;
+        border-radius: 0 10px 10px 0;
+        box-shadow: rgb(0 0 0 / 27%) 1px 1px 15px 1px;
+    }
+    
+    .wrapper-login-customer h1 {
+        text-align: center;
+        color: #000;
+    }
+    .custom-acc-page .wrapper-content {
+        border: none !important;
+        padding: 100px;
+    }
+    
+    .wrapper-login-customer .wrapper-content .col-left {
+        width: 50% !important;
+        flex: auto !important;
+        border-radius: 10px 0 0 10px;
+        box-shadow: rgb(0 0 0 / 27%) 1px 1px 15px 1px;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        max-width: 50% !important;
+        }
+    
+    .custom-acc-page .wrapper-title {
+        background: none !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 50px 50px;
+    }
+    
+    form#customer_login, #recover_password {
+        margin: 0;
+        padding: 0 !important;
+        width: 70%;
+        margin: 0px auto 50px;
+    }
+    
+    
+    .login-page .container {
+        padding: 0 !important;
+    }
+    
+    #account main.main-content {
+        padding: 0 !important;
+    }
+    
+    .wrapper-login-customer .wrapper-content:after {
+        display: none;
+    }
+    
+    
+    .wrapper-login-customer .custom-or-abs {
+        background: transparent !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-20px, -20px);
+        padding: 0 !important;
+    }
+    
+    .wrapper-login-customer .custom-or-abs .or_text {
+        border: none;
+        color: transparent;
+        font-weight: 700;
+        background: transparent;
+    }
+    
+    .wrapper-login-customer .custom-or-abs .or_text:after {
+        content: " R";
+        position: absolute;
+        width: 22px;
+        height: 42px;
+        top: 0;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+        background: #e20044;
+        z-index: -1;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+    .wrapper-login-customer .custom-or-abs .or_text:before {
+        content: "O";
+        position: absolute;
+        width: 21px;
+        height: 42px;
+        top: 0;
+        left: 0;
+        border-radius: 50px 0 0 50px;
+        background: #fff;
+        z-index: -1;
+        color: #e20044;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .custom-acc-page .col-left .box-title,
+    .custom-acc-page .col-left li,
+    .custom-acc-page .col-left label,
+    #recover_password {
+        color: #fff !important;
+    }
+    #recover_password {
+        padding: 50px;
+    }
