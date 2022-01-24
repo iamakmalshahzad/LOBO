@@ -1252,3 +1252,6 @@ a.close.close-search,
         justify-content: center;
         margin: 0;
     }
+    .account-page .acc-name {
+        font-weight: bold;
+    }

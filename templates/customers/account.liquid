@@ -122,7 +122,7 @@
           {% endif %}
         {% endif %}
 
-        <div class="action-btn">
+        <!-- <div class="action-btn">
           <a class="btn btn-padd42" href="{{ routes.account_addresses_url }}">
             <span {% if settings.enable_multilang %}data-translate="customer.account.view_addresses"{%endif%}>
               {{ 'customer.account.view_addresses' | t }}
@@ -131,6 +131,14 @@
               ({{ customer.addresses_count }})
             </span>
           </a>
+        </div> -->
+        <div class="action-btn">
+          {% if customer.addresses_count > 0 %}           
+            <span>Edit account details</span> 
+          {% else %}
+              <span>add account details</span>
+          {% endif %}           
+         
         </div>
       </div>
     </div>
