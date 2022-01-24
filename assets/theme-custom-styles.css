@@ -1152,6 +1152,45 @@ a.close.close-search,
         margin: auto;    
         padding: 3% 5%;
     }    
-    input.btn.btn-padd42 {
+    .custom-acc-page .action-btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        align-content: center !important;
+    }    
+    .custom-acc-page .btn {
+        margin: 0 !important;
+        min-width: 190px;
+        background: #fff;
+        color: #000;
         border-radius: 3px;
+    }
+    .reset-password-page form {
+        width: 100%;
+        margin: auto;
+    }
+    .reset-password-page .page-header,
+    .reset-password-page h1,
+    .reset-password-page p {
+        margin: 0 !important;
+        padding: 0;
+        text-align: center;
+     }
+     .reset-password-page p {
+         margin-top: 20px !important;
+     }
+    
+    .reset-password-page .container {
+        padding: 3% 10% !important;
+        margin: 2% auto;
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px
+    }
+    
+    .custom-acc-page.reset-password-page.account-page {
+        padding: 2% 10%;
+    }
+    .reset-password-page .grid-item {
+        margin: 0 !important;
     }
