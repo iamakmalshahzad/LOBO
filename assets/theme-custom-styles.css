@@ -1161,9 +1161,6 @@ a.close.close-search,
     .custom-acc-page .btn {
         margin: 0 !important;
         min-width: 190px;
-        background: #fff;
-        color: #000;
-        border-radius: 3px;
     }
     .reset-password-page form {
         width: 100%;
