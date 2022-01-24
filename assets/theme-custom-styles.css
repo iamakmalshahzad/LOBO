@@ -973,6 +973,7 @@ a.close.close-search,
     .cart-form .cart-list .qty-group,
     .close, .btn-cancel {
         border-radius: 3px !important;
+        max-width: 100%;
     }
     .infinite-scrolling .btn {
         border-radius: 50px;
