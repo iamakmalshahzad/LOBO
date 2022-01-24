@@ -85,24 +85,24 @@
         {% if customer.default_address != nil %}
         <div class="addr">
           <span class="cus-addr">
-            {{ customer.default_address.address1 }},&nbsp;
+            {{ customer.default_address.address1 }}, &nbsp;
           </span>
 
           {% if customer.default_address.address2 != "" %}
           <span class="cus-addr">
-            /{{ customer.default_address.address2 }},&nbsp;
+            /{{ customer.default_address.address2 }}, &nbsp;
           </span>
           {% endif %}
 
           {% if customer.default_address.city != "" %}
           <span class="cus-addr">
-            {{ customer.default_address.city }}&nbsp;
+            {{ customer.default_address.city }} &nbsp;
           </span>
           {% endif %}  
 
           {% if customer.default_address.zip != "" %}
           <span class="cus-addr addr-zip">
-            ({{ customer.default_address.zip | upcase }}),&nbsp;
+            ({{ customer.default_address.zip | upcase }}), &nbsp;
           </span>
           {% endif %}
 
