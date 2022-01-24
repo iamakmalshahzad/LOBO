@@ -1201,3 +1201,41 @@ a.close.close-search,
         text-decoration: underline;
         border: none;
     }
+    /* *****************************ACCOUNT PAGE LOGGED IN******************************* */
+    .account-page .page-header {
+        text-align: center;
+    }
+    
+    .account-page .grid {
+        display: flex;
+        padding-top: 2%;
+    }
+    .account-page .grid-item {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 10px;
+    }
+    
+    .account-page .box-title {
+        text-align: center;
+        color: #fff;
+        background: #000;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #000;
+        border-radius: 3px;
+    }
+    
+    p.note {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: #fbfbfb;
+        border: 1px solid;
+        border-radius: 3px;
+    }
+    
+    p.note svg {
+        margin-right: 5px;
+    }
