@@ -85,30 +85,24 @@
         {% if customer.default_address != nil %}
         <div class="addr">
           <span class="cus-addr">
-            {{ customer.default_address.address1 }}
+            {{ customer.default_address.address1 }},&nbsp;
           </span>
 
           {% if customer.default_address.address2 != "" %}
           <span class="cus-addr">
-            {{ customer.default_address.address2 }}
+            /{{ customer.default_address.address2 }},&nbsp;
           </span>
           {% endif %}
 
           {% if customer.default_address.city != "" %}
           <span class="cus-addr">
-            {{ customer.default_address.city }}
+            {{ customer.default_address.city }}&nbsp;
           </span>
-          {% endif %}
-
-          {% if customer.default_address.province_code != "" %}
-          <span class="cus-addr">
-            {{ customer.default_address.province_code | upcase }}
-          </span>
-          {% endif %}
+          {% endif %}  
 
           {% if customer.default_address.zip != "" %}
           <span class="cus-addr addr-zip">
-            {{ customer.default_address.zip | upcase }}
+            ({{ customer.default_address.zip | upcase }}),&nbsp;
           </span>
           {% endif %}
 
@@ -117,13 +111,15 @@
             {{ customer.default_address.country }}
           </span>
           {% endif %}
-
-          {% if customer.default_address.phone != "" %}
-          <span class="cus-addr">
-            {{ customer.default_address.phone }}
-          </span>
-          {% endif %}
         </div>
+
+        {% endif %}
+        {% if customer.default_address != nil %}
+          {% if customer.default_address.phone != "" %}
+            <span class="cus-addr">
+              {{ customer.default_address.phone }}
+            </span>
+          {% endif %}
         {% endif %}
 
         <div class="action-btn">
