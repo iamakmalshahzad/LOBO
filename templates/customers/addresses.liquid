@@ -23,12 +23,10 @@
         {{ 'customer.account.title' | t }}
       </h1>
     </header>
-    
+    <h4 class="box-title" {% if settings.enable_multilang %}data-translate="customer.addresses.title"{% endif %}>
+      {{ 'customer.addresses.title' | t }}
+    </h4>
     <div class="grid main-grid">
-      
-      <h4 class="box-title" {% if settings.enable_multilang %}data-translate="customer.addresses.title"{% endif %}>
-        {{ 'customer.addresses.title' | t }}
-      </h4>
       <div class="grid-item">
         {% comment %}
         List all customer addresses with a unique edit form.
