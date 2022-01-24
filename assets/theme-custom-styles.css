@@ -1131,21 +1131,27 @@ a.close.close-search,
         text-align: center;
         margin: 0 !important;
         padding: 0;
-    }
-    
+    }    
     .create-an-account .page-header {
         text-align: center;
-    }
-    
-    .create-an-account {
-        width: 80%;
-        margin: auto;
-        border: 1px solid;
-        padding: 3% 13%;
-    }
-    
+    }    
     form#create_customer {
         width: 80%;
         padding: 2% 10%;
         margin: auto;
+    }
+    .cus-create-acc-wrapper {
+        width: 80%;
+        margin: 6% auto;
+        padding: 3% 3%;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .create-an-account {
+        width: 80%;
+        margin: auto;    
+        padding: 3% 5%;
+    }    
+    input.btn.btn-padd42 {
+        border-radius: 3px;
     }
