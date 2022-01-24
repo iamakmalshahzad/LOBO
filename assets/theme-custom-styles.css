@@ -713,6 +713,7 @@ a.close.close-search,
     .main-content textarea,
     input#soldOut-button {
         border-radius: 3px !important;
+        max-width: 100%;
     }
     .btn.disabled, .btn:disabled {
         opacity: .60 !important;
@@ -973,7 +974,6 @@ a.close.close-search,
     .cart-form .cart-list .qty-group,
     .close, .btn-cancel {
         border-radius: 3px !important;
-        max-width: 100%;
     }
     .infinite-scrolling .btn {
         border-radius: 50px;
