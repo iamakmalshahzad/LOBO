@@ -1234,19 +1234,17 @@ a.close.close-search,
         background: #fbfbfb;
         border: 1px solid;
         border-radius: 3px;
-    }
-    
+        margin-bottom: 20px;
+    }    
     p.note svg {
         margin-right: 5px;
     }
     .account-page .addr .addr-zip {
         margin: 0;
-    }
-    
+    }    
     .grid-item.cus-acc-det {
         text-align: center;
-    }
-    
+    }    
     .cus-acc-det .addr {
         display: flex;
         justify-content: center;
@@ -1254,4 +1252,8 @@ a.close.close-search,
     }
     .account-page .acc-name {
         font-weight: bold;
+    }
+    .cus-acc-det .btn {
+        border-radius: 3px !important;
+        padding: 10px 30px !important;
     }
