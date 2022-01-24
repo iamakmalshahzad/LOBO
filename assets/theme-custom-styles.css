@@ -1152,13 +1152,15 @@ a.close.close-search,
         margin: auto;    
         padding: 3% 5%;
     }    
-    .custom-acc-page .action-btn {
+    .create-an-account .custom-acc-page .action-btn,
+    .reset-password-page .custom-acc-page .action-btn {
         display: flex;
         justify-content: center;
         padding-top: 15px;
         align-content: center !important;
     }    
-    .custom-acc-page .btn {
+    .create-an-account .custom-acc-page .btn,
+    ..reset-password-page .custom-acc-page .btn {
         margin: 0 !important;
         min-width: 190px;
         border-radius: 3px;
