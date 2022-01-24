@@ -1206,7 +1206,7 @@ a.close.close-search,
         text-align: center;
     }
     
-    .account-page .grid {
+    .custom-acc-page .grid {
         display: flex;
         padding-top: 2%;
     }
