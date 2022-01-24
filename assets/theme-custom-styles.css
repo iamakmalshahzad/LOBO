@@ -1123,3 +1123,29 @@ a.close.close-search,
     .shopify-challenge__container .shopify-challenge__button {
         border-radius: 3px;
     }
+
+/* *******************************************CRATE AN ACCOUNT PAGE ***************************** */
+
+    .create-an-account .des {
+        border: none !important;
+        text-align: center;
+        margin: 0 !important;
+        padding: 0;
+    }
+    
+    .create-an-account .page-header {
+        text-align: center;
+    }
+    
+    .create-an-account {
+        width: 80%;
+        margin: auto;
+        border: 1px solid;
+        padding: 3% 13%;
+    }
+    
+    form#create_customer {
+        width: 80%;
+        padding: 2% 10%;
+        margin: auto;
+    }
