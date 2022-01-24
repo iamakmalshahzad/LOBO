@@ -1160,7 +1160,7 @@ a.close.close-search,
         align-content: center !important;
     }    
     .create-an-account .custom-acc-page .btn,
-    ..reset-password-page .custom-acc-page .btn {
+    .reset-password-page .custom-acc-page .btn {
         margin: 0 !important;
         min-width: 190px;
         border-radius: 3px;
