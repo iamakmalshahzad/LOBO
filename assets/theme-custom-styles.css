@@ -1195,3 +1195,9 @@ a.close.close-search,
     .reset-password-page .grid-item {
         margin: 0 !important;
     }
+    div#resetSuccess, .errors {
+        text-align: center;
+        padding: 0;
+        text-decoration: underline;
+        border: none;
+    }
