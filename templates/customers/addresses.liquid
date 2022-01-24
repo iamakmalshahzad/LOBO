@@ -77,13 +77,12 @@
           {{ 'customer.addresses.delete' | t | delete_customer_address_link: address.id }}
         </div>
         
-      </div>
-      
+      </div>      
       <div class="grid-item edit-address">
         <div class="add-edit-addr" id="edit_address_{{address.id}}" style="display:none;">
           {% form 'customer_address', address %}
           <h4 class="box-title" {% if settings.enable_multilang %}data-translate="customer.addresses.edit_address"{% endif %}>
-            {{ 'customer.addresses.edit_address' | t }}
+            testing {{ 'customer.addresses.edit_address' | t }}
           </h4>
 
           <div class="form-group">
