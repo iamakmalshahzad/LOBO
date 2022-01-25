@@ -323,4 +323,7 @@ span.border-bt-hover {
         padding: 0 !important;
         margin: 0 !important;
     }
+    .list-product-tabs li .tab-links.active {
+        border: 1px;
+    }
 }
