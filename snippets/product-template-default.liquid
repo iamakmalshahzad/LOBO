@@ -474,12 +474,13 @@
                             {% else %}
                             <input type="submit" name="add" class="btn" {% if settings.enable_multilang %}data-translate="products.product.unavailable"{%endif%} id="product-add-to-cart" disabled value="{{ 'products.product.unavailable' | t }}" >
                             {% endif %}
+                            <div class="cus-btns-wrapper">
+                              {% render 'wishlist-product' %}
 
-                            {% render 'wishlist-product' %}
-
-                            {% if section.settings.display_product_detail_share %}
-                              <a class="icon-share" href="javascript:void(0)" aria-label="{{ 'products.product.share' | t }}" {% if settings.enable_multilang %}data-translate="products.product.share"{%endif%}>{% render 'icon-share' %}</a>
-                            {% endif %}
+                              {% if section.settings.display_product_detail_share %}
+                                <a class="icon-share" href="javascript:void(0)" aria-label="{{ 'products.product.share' | t }}" {% if settings.enable_multilang %}data-translate="products.product.share"{%endif%}>{% render 'icon-share' %}</a>
+                              {% endif %}
+                            </div>
                           </div>
 
                           <div class="checkbox-group">
