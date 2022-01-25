@@ -167,4 +167,10 @@
         border: 1px solid #eee;
         padding: 0 5%;
     }
+    .site-nav .menu-lv-1:last-of-type a {
+        padding: 10px !important;
+        background: #e20044;
+        border-radius: 0 !important;
+        text-align: center;
+    }
 }
