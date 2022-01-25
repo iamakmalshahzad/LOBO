@@ -310,13 +310,13 @@ span.border-bt-hover {
     ul.list-product-tabs {
         margin: 0 auto 15px !important;
         padding: 0 !important;
-        width: 90% !important;
+        width: 60% !important;
         justify-content: space-evenly;
     }
     .list-product-tabs li {
         margin: 0 !important;
         padding: 0 !important;
-        max-width: 20%;
+        max-width: 22%;
     }
     .list-product-tabs li .tab-links {
         border: none;
