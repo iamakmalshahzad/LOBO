@@ -237,7 +237,7 @@ span.border-bt-hover {
         display: none;
     }
     .toolbar {
-        background: #000;
+        background: #000 !important;
         border-radius: 3px;
     }    
     .toolbar label,
