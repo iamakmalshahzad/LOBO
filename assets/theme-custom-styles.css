@@ -304,14 +304,12 @@ span.border-bt-hover {
         height: 100px !important;
         background-size: 100px !important;
     }
-    .home-product-tabs .widget-product {
-        margin-top: 4%;
-    }
     ul.list-product-tabs {
         margin: 0 auto 15px !important;
         padding: 0 !important;
         width: 80% !important;
         justify-content: space-evenly;
+        min-height: 60px;
     }
     .list-product-tabs li {
         margin: 0 !important;
@@ -322,12 +320,11 @@ span.border-bt-hover {
         max-width: 50%;
     }
     .list-product-tabs li .tab-links {
-        border: none;
+        /* border: none; */
         padding: 0 !important;
         margin: 0 !important;
     }
     .list-product-tabs li .tab-links.active {
         border: 1px solid ;
-        padding: 3px !important;
     }
 }
