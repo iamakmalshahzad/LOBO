@@ -1296,8 +1296,9 @@ input.btn.btn-padd42,
     text-transform: uppercase;
     font-weight: bold;
 }
-
-
+.account-page .addr {
+    min-height: 145px;
+}
 .large--right a {
     margin: 0 !important;
 }
