@@ -24,6 +24,7 @@
 /* body {
     background-color: #fbfbfb !important;
 } */
+/* ************************************scroll bar css************************* */
 ::-webkit-scrollbar {
     width: 5px !important;
     height: 5px !important;
@@ -36,6 +37,8 @@
     background-color: #e20044 !important;
     border-radius: 10px !important;
 }
+/* ************************************header and navigation************************* */
+
 .header-top .top-message {
     padding: 3px !important;
 }
@@ -165,6 +168,7 @@ span.border-bt-hover {
     padding: 70px !important;
     margin-bottom: 0 !important;
 }
+/* ************************************title and title backgrounds************************* */
 .new-arrivals-product .widget-title:before,
 .featured-products .widget-title:before,
 .home-instagram .widget-title:before,
@@ -207,6 +211,7 @@ span.border-bt-hover {
 .text-center {
     width: 100% !important;
 }
+/* ********************************* tabs menu css **************************** */
 .list-product-tabs .tab-links.active {
         border-color: #000;
         border-radius: 50px !important;
@@ -220,6 +225,60 @@ span.border-bt-hover {
     }
     .list-product-tabs .tab-links:not(.active):hover {
         transform: scale(1.2);
+    }
+
+    /* ************************************************************************************************** */
+    /* ************************************** CSS FOR collection pages*********************************** */
+    /* ************************************************************************************************** */
+
+    header.collection-header.collection-header-sections {
+        display: none;
+    }
+    .toolbar {
+        background: #000;
+        border-radius: 3px;
+    }    
+    .toolbar label,
+    .sidebar-label .icon-filter {
+        color: #fff !important;
+    }
+    .toolbar .toolbar-col .label-tab {
+        border-radius: 2px;
+    }
+    #CollectionFiltersForm .widget-title {
+        padding: 0 0 5px !important;
+    }    
+    .sidebar .sidebar-title {
+        padding: 16px 0 !important;
+        border-radius: 3px;
+        border: none !important;
+        background-color: #000;
+        justify-content: center;
+    }
+    h3.sidebar-title {
+        padding: 0 !important;
+        color: #fff !important;
+        text-align: center !important;
+    }    
+    .sidebar-filter .sidebar-title:before {
+        color: #fff !important;
+        top: unset !important;
+        right: 15px !important;
+    }    
+    .widget-content {
+        padding: 36px 15px 0 !important;
+    }    
+    .sidebar-filter {
+        padding: 0 !important;
+    }        
+    .halo-collection-content .sidebar {
+        margin: 0 auto !important;
+    }
+    .toolbar .view-mode .icon-mode {
+        border: none;
+    }    
+    .toolbar .view-mode .icon-mode.active {
+        border: 1px solid #323232 !important;
     }
 
 /* ---------------------------------------------------------------------------------------------------------------------------- */
