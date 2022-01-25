@@ -159,8 +159,7 @@
     form.search-bar {
         background: #fff !important;
         max-width: 100% !important;
-    }
-    
+    }    
     .header-search {
         max-width: 100% !important;
         margin: 0 !important;
@@ -172,5 +171,21 @@
         background: #e20044;
         border-radius: 0 !important;
         text-align: center;
+    }
+    .wrapper_header_02 .customer-links svg, .wrapper_header_02 .wishlist svg {
+        display: inline-flex !important;
+    }
+    .wrapper_header_02 .customer-links span,
+    .wrapper_header_02 .wishlist span {
+        margin-left: 5px;
+    }    
+    a#customer_login_link,
+    a.wishlist{
+        display: flex !important;
+        align-items: center;
+    }    
+    .right-groups.header-items {
+        display: flex;
+        justify-content: space-between;
     }
 }
