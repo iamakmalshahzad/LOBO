@@ -307,4 +307,20 @@ span.border-bt-hover {
     .home-product-tabs .widget-product {
         margin-top: 4%;
     }
+    ul.list-product-tabs {
+        margin: 0 auto 15px !important;
+        padding: 0 !important;
+        width: 90% !important;
+        justify-content: space-evenly;
+    }
+    .list-product-tabs li {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 20%;
+    }
+    .list-product-tabs li .tab-links {
+        border: none;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }
