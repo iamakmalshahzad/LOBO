@@ -396,6 +396,9 @@ span.border-bt-hover {
         height: fit-content;
         border: 1px solid #000 !important;
         border-radius: 3px !important;
+    }
+    .cus-btns-wrapper {
+        display: flex;
     }    
     .product-shop .groups-btn #product-add-to-cart:hover, .product-shop .groups-btn .product-add-to-cart:hover {
         background: #000 !important;
@@ -441,8 +444,7 @@ span.border-bt-hover {
     .product-shop .shopify-payment-button button.shopify-payment-button__button {
         border-radius: 3px !important;
         padding: 11px !important;
-        width: 100% !important;
-        margin: 0 0 0 5px !important;
+        width: 100% !important;        
     }
     .related-products .widget-title,
     .recently-viewed-products .widget-title {
@@ -533,6 +535,9 @@ span.border-bt-hover {
     .search-open .wrapper-header .search-bar .icon-search {
         margin-top: 5px
     }
+    .product-shop .shopify-payment-button button.shopify-payment-button__button {
+        margin: 0 0 0 5px !important;
+    }
 }
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------- MOBILE ONLY STYLES ---------------------------------------------------------------- */
@@ -575,6 +580,9 @@ span.border-bt-hover {
         font-size: 10px !important;
         padding: 5px !important;
         border: 1px solid #fff;
+    }
+    .cus-btns-wrapper .icon-share {
+        margin-left: 8px !important;
     }
 }
 @media all and (max-width: 479px){
