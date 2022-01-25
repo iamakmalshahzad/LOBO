@@ -209,7 +209,7 @@ span.border-bt-hover {
 }
 .list-product-tabs .tab-links.active {
         border-color: #000;
-        border-radius: 50px;
+        border-radius: 50px !important;
         transform: scale(1.2);
     }
     .list-product-tabs .tab-links {
