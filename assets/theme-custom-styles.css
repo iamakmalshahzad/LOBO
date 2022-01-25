@@ -158,7 +158,9 @@ span.border-bt-hover {
     opacity: 1 !important;
 }
 .site-nav-dropdown.style_3 .container,
-.site-nav-dropdown.style_3 .container ul.site-nav-dropdown {
+.site-nav-dropdown.style_3 .container ul.site-nav-dropdown,
+.recently-viewed-products .widget-title,
+.related-products .widget-title {
     text-align: center;
 }
 .site-nav-dropdown.style_3 .row {
