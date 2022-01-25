@@ -324,6 +324,6 @@ span.border-bt-hover {
         margin: 0 !important;
     }
     .list-product-tabs li .tab-links.active {
-        border: 1px;
+        border: 1px solid ;
     }
 }
