@@ -1263,7 +1263,41 @@ a.close.close-search,
     .cus-grid .grid-item {
         display: flex;
         justify-content: space-between;
+        padding: 20px 10px;
+        align-items: center;
     }    
     div#add_address {
         width: 100%;
     }
+    .addresses-page .btn-edit-delete a:first-child,
+.addresses-page .btn-edit-delete a:last-child,
+.addresses-page .large--right .btn,
+.cus-grid .last a,
+input.btn.btn-padd42,
+.main-grid input.btn {
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.addresses-page .btn-edit-delete a:last-child {
+    background: #fff;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+.addresses-page .btn-edit-delete a:last-child:hover {
+    background: #e20044;
+    color: #fff;
+    border-color: #e20044;
+}
+.cus-grid .last a {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    padding: 9px 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.large--right a {
+    margin: 0 !important;
+}
