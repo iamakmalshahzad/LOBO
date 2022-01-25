@@ -318,6 +318,9 @@ span.border-bt-hover {
         padding: 0 !important;
         max-width: 25%;
     }
+    #product-tabs-1642512848765f5db8 .list-product-tabs li {
+        max-width: 50%;
+    }
     .list-product-tabs li .tab-links {
         border: none;
         padding: 0 !important;
@@ -325,5 +328,6 @@ span.border-bt-hover {
     }
     .list-product-tabs li .tab-links.active {
         border: 1px solid ;
+        padding: 3px !important;
     }
 }
