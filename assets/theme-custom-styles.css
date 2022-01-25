@@ -90,6 +90,43 @@
 #slideshow-1540952363851 .slick-arrow.slick-next {
     right: 1% !important;
 }
+.site-nav .menu-lv-1 > a {
+    transition: all .3s;
+    transition-timing-function: ease-in-out;    
+}
+.site-nav .menu-lv-1 > a:hover {
+    transform: scale(1.2);
+    color:#000 !important;
+    font-weight: 900 !important;
+}
+
+.site-nav .menu-lv-1>a>span:not(.icon-dropdown):before {
+    display: none !important; 
+}
+.main-menu.jas-mb-style .row,
+.search-fixed,
+.cart-fixed {
+    padding: 5px 0 !important;
+}
+.header-lang-style2 .is-sticky .fixed-right-menu {
+    align-items: center !important;
+}
+.site-nav .menu-lv-1{
+    padding: 0 20px !important;
+    margin: 0 !important;
+}
+.site-nav .menu-lv-1:last-of-type {
+    padding: 0 !important;
+}
+.site-nav .menu-lv-1:last-of-type a {
+    background-color: #e20044;
+    padding: 2px 20px !important;
+    border-radius: 50px;
+}
+
+.site-nav .menu-lv-1:last-of-type span {
+    color: #fff !important;
+}
 
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- DESKTOP ONLY STYLES -------------------------------------------------------------- */
