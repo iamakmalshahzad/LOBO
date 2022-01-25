@@ -1257,3 +1257,13 @@ a.close.close-search,
         border-radius: 3px !important;
         padding: 10px 30px !important;
     }
+    .grid.main-grid {
+        display: flex;
+    }    
+    .cus-grid .grid-item {
+        display: flex;
+        justify-content: space-between;
+    }    
+    div#add_address {
+        width: 100%;
+    }
