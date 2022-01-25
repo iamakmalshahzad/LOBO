@@ -290,5 +290,21 @@ span.border-bt-hover {
     }
 }
 @media all and (max-width: 479px){
-
+    .widget-title {
+        padding: 40px !important;
+    }
+    .new-arrivals-product .widget-title:before,
+    .featured-products .widget-title:before,
+    .home-instagram .widget-title:before,
+    .home-spotlight-block .widget-title:before,
+    .home-product-tabs .widget-title:before,
+    .related-products .widget-title:before,
+    .recently-viewed-products .widget-title:before,
+    .cart-popup-coll-related .widget-title:before {
+        height: 100px !important;
+        background-size: 100px !important;
+    }
+    .home-product-tabs .widget-product {
+        margin-top: 4%;
+    }
 }
