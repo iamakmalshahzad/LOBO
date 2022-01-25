@@ -9,6 +9,7 @@
     "blog_layout": "default",
     "footer_layout": "09",
     "password_layout": "default",
+    "header_style_mobile": "header_mobile_1",
     "favicon": "shopify:\/\/shop_images\/FAV_09.png",
     "body_font_size": "12",
     "enable_opengraph": true,
@@ -1101,7 +1102,7 @@
         ],
         "settings": {
           "display_fixtop_menu": true,
-          "logo_fix": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+          "logo_fix": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v2.0.png",
           "horizontal_linklist": "lobo-menu-01",
           "alignment": "center",
           "bg_menu": "rgba(0,0,0,0)",
@@ -2505,9 +2506,9 @@
           "brand_text": "LOBO",
           "logo_max_width": 210,
           "logo_text_color": "#000000",
-          "logo_pc": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+          "logo_pc": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v2.0.png",
           "max_height_logo_pc": "210px",
-          "logo": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v1.1.png",
+          "logo": "shopify:\/\/shop_images\/lobo_LOGO_landscape_v2.0.png",
           "max_height_logo_mb": "130px",
           "bg_header_bottom_color": "rgba(0,0,0,0)",
           "header_bottom_link_color": "#000000",
@@ -3146,7 +3147,7 @@
           "a67351df-b24d-4bd7-b77c-5010dd0b0d54": {
             "type": "info_store",
             "settings": {
-              "footer_logo": "shopify:\/\/shop_images\/FAV_09.png",
+              "footer_logo": "shopify:\/\/shop_images\/lobo_LOGO_landscape_white.png",
               "info_icon_1": "<i class=\"fa fa-location-arrow\" aria-hidden=\"true\"><\/i>",
               "info_text_1": "163 B, Eden Boulevard, Eden Residencia, LHR",
               "info_icon_2": "<i class=\"fa fa-phone\" aria-hidden=\"true\"><\/i>",
