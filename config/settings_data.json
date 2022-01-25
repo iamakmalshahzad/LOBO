@@ -9,7 +9,7 @@
     "blog_layout": "default",
     "footer_layout": "09",
     "password_layout": "default",
-    "header_style_mobile": "header_mobile_3",
+    "header_style_mobile": "header_mobile_1",
     "favicon": "shopify:\/\/shop_images\/FAV_09.png",
     "body_font_size": "12",
     "enable_opengraph": true,
