@@ -626,3 +626,8 @@ span.border-bt-hover {
         padding: 3px !important;
     }
 }
+@media all and (max-width: 375px){
+    .product-shop .groups-btn .icon-share {
+        display: none;
+    }
+}
