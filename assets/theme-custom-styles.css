@@ -791,6 +791,83 @@ span.border-bt-hover {
         min-width: 100% !important;
     }
 
+    /* ********************************************************************************** */
+    /* ************************************** MISC. STYLES ****************************** */
+    /* ********************************************************************************** */
+
+    .summary span.text {
+        text-align: right;
+        width: 100%;
+        color: #000 !important;
+        font-style: normal !important;    
+    }
+    
+    #dropdown-cart .summary {
+        margin-bottom: 18px;
+    }
+    #dropdown-cart a.close-cart.close,
+    #dropdown-customer a.close-customer.close{
+        width: 50% !important;
+        float: right;
+    }
+    #dropdown-cart a.close-cart.close svg,
+    #dropdown-cart a.close-cart.close span {
+        color: #000 !important;
+    }
+    #dropdown-cart .quantity input {
+        padding: 11px 5px !important;
+        height: 40px !important;
+        width: 85px;
+        border-radius: 3px;
+    } 
+    #dropdown-cart .actions .btn-view-cart,
+    #dropdown-cart .actions .btn-checkout {
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    #dropdown-cart .actions .btn-view-cart {
+        background: #fff;
+        color: #000;
+        
+    }
+    #dropdown-cart .actions .btn-view-cart:hover {
+        background: #000;
+        color: #fff;
+    }
+    #dropdown-customer a.close-customer.close{
+        width: 50% !important;
+        float: right;
+    }
+    .customer-content .form-group .form-control {
+        border-radius: 3px;
+    }
+    .customer-content .ct-register .btn-register,
+    .customer-content .btn-login,
+    #dropdown-cart a.btn.btn-continue {
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    .customer-content .ct-register .btn-register:hover,
+    .customer-content .btn-login:hover,
+    #dropdown-cart a.btn.btn-continue:hover {
+        transform: scale(1.02);
+    }
+     
+    .product-item .wrapper-compare .compare-button .compare-text:before,
+    .cart-edit .product-edit input[type=number],
+    input[type=checkbox]+label:before,
+    .ajax-compare a.btn,
+    .cart-form .cart-list .qty-group,
+    .close, .btn-cancel {
+        border-radius: 3px !important;
+    }
+    .infinite-scrolling .btn {
+        border-radius: 50px;
+    }
+    .cart-edit h5 {
+        text-align: center;
+    }
+
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
