@@ -769,10 +769,10 @@ span.border-bt-hover {
         box-shadow: #0000001a 0 1px 3px, #0000000f 0 1px 2px;
         border-radius: 3px;
     }
-    .custom-style-des button.btn.add-to-cart-btn, .custom-style-des a.btn {
+    /* .custom-style-des button.btn.add-to-cart-btn, .custom-style-des a.btn {
         background: #000;
         color: #fff !important;
-    }
+    } */
     .custom-style-des a:before {
         top: 12px !important;
         left: 29px;
