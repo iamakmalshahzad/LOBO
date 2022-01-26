@@ -397,6 +397,30 @@ span.border-bt-hover {
         justify-content: space-evenly;
         bottom: 7% !important;
     }
+    /* *************************************ADD TO CART POPUP STYLES********************** */
+    .cart-form .box-title {
+        background-color: #000;
+        color: #fff;
+        border-radius: 3px;
+    }
+    .cart-popup-content a.btn.btn-continue,
+    .cart-popup-content a.btn.btn-view-cart {
+        background: #fff !important;
+        color: #000 !important;
+        border-radius: 3px;
+        border: 1px solid #000 !important;
+    }
+    .cart-popup-content a.btn.btn-continue:hover,
+    .cart-popup-content a.btn.btn-view-cart:hover {
+        background: #000 !important;
+        color: #fff !important;
+    }
+    .cart-popup-content a.btn.btn-checkout {
+        border-radius: 3px;
+    }
+    .cart-popup-content .cart-form .cart-list .qty-group {
+        border-radius: 3px;
+    }
     
 
     /* ************************************************************************************************** */
