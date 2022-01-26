@@ -1048,11 +1048,10 @@ span.border-bt-hover {
     .col-right a.btn.btn-2.btn-register {
         border-radius: 3px;
         transition: all .3s ease-in-out;
-    }
-    .col-right a.btn.btn-2.btn-register {
         background-color: #fff;
         color: #000;
         border-color: #000;
+        box-shadow: #00000045 1px 1px 15px 1px;
     }
     .col-right a.btn.btn-2.btn-register:hover {
         background: #fff;
