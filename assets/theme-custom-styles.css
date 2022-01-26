@@ -997,6 +997,7 @@ span.border-bt-hover {
         color: #fff;
         display: flex;
         align-items: center;
+        box-shadow: #00000045 1px 1px 15px 1px;        
     }
     .wrapper-login-customer .custom-or-abs .or_text:before {
         content: "O";
@@ -1012,6 +1013,7 @@ span.border-bt-hover {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        box-shadow: #ffffff45 1px 1px 15px 1px;
     }    
     .custom-acc-page .col-left .box-title,
     .custom-acc-page .col-left li,
@@ -1023,7 +1025,7 @@ span.border-bt-hover {
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 4px;
-        box-shadow: #00000045 1px 1px 15px 1px;
+        box-shadow: #ffffff45 1px 1px 15px 1px;
         transition: all .3s ease-in-out;
     }
     .custom-acc-page .col-left input.btn:hover {
@@ -1035,7 +1037,7 @@ span.border-bt-hover {
     .custom-acc-page .last span,
     .wrapper-login-customer #recover_password .action-btn span,
     .wrapper-login-customer #recover_password .action-btn a {
-        color: #fff;
+        color: #fff !important;
     }
     .custom-acc-page .last a:last-child {
         border-color: #fff;
@@ -1047,9 +1049,15 @@ span.border-bt-hover {
         border-radius: 3px;
         transition: all .3s ease-in-out;
     }
+    .col-right a.btn.btn-2.btn-register {
+        background-color: #fff;
+        color: #000;
+        border-color: #000;
+    }
     .col-right a.btn.btn-2.btn-register:hover {
-        background-color: #e20044;
-        border-color: #e20044;
+        background: #fff;
+        color: #000;
+        border-color: #fff;
     }
     .create-an-account .des, .login-page .des {
         margin-top: 35px;
