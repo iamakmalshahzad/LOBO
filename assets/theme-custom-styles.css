@@ -886,6 +886,11 @@ span.border-bt-hover {
         display: none !important;
     }
 }
+@media all and (max-width: 992px) {    
+    .cart-template .wrapper-cart-template .cart_items.left-col .cart-header .cart--price {
+        padding-right: 25px;
+    }
+}
 @media all and (max-width: 767px) {
     .product-item .wishlist svg,
     .custom-style-des .quickview-button {
