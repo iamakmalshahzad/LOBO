@@ -790,6 +790,83 @@ span.border-bt-hover {
     .cart--title.summary {
         min-width: 100% !important;
     }
+    /* ********************************************************************************************** */
+    /* *******************************************CRATE AN ACCOUNT PAGE ***************************** */
+    /* ********************************************************************************************** */
+    .create-an-account .des {
+        border: none !important;
+        text-align: center;
+        margin: 0 !important;
+        padding: 0;
+    }    
+    .create-an-account .page-header {
+        text-align: center;
+    }    
+    form#create_customer {
+        width: 80%;
+        padding: 2% 10%;
+        margin: auto;
+    }
+    .cus-create-acc-wrapper {
+        width: 80%;
+        margin: 6% auto;
+        padding: 3% 3%;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .create-an-account {
+        width: 80%;
+        margin: auto;    
+        padding: 3% 5%;
+    }    
+    .create-an-account .action-btn,
+    .reset-password-page .action-btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        align-content: center !important;
+    }    
+    .create-an-account .btn,
+    .reset-password-page .btn {
+        margin: 0 !important;
+        min-width: 190px;
+        border-radius: 3px;
+    }
+    .reset-password-page form {
+        width: 100%;
+        margin: auto;
+    }
+    .reset-password-page .page-header,
+    .reset-password-page h1,
+    .reset-password-page p {
+        margin: 0 !important;
+        padding: 0;
+        text-align: center;
+     }
+     .reset-password-page p {
+         margin-top: 20px !important;
+     }
+    
+    .reset-password-page .container {
+        padding: 3% 10% !important;
+        margin: 2% auto;
+        width: 60%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px
+    }
+    
+    .custom-acc-page.reset-password-page.account-page {
+        padding: 2% 10%;
+    }
+    .reset-password-page .grid-item {
+        margin: 0 !important;
+    }
+    div#resetSuccess, .errors {
+        text-align: center;
+        padding: 0;
+        text-decoration: underline;
+        border: none;
+    }
 
     /* ********************************************************************************** */
     /* ************************************** MISC. STYLES ****************************** */
