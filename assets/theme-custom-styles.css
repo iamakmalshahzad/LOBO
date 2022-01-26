@@ -777,6 +777,9 @@ span.border-bt-hover {
         top: 12px !important;
         left: 29px;
     }
+    .custom-style-des i.fa.fa-eye {
+        font-size: 18px;
+    }
     .quickview-button {
         line-height: 0 !important;
     }
