@@ -914,6 +914,150 @@ span.border-bt-hover {
         margin: 0 0 0 5px !important;
     }
 }
+@media all and (min-width: 768px) {
+    /* **********************************login page****************************************** */
+
+
+    .bg-cus {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background: #e20044;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }    
+    .col-right.new-customer.text-center {
+        background: #fff;
+        flex: auto !important;
+        width: 50% !important;
+        border-radius: 0 10px 10px 0;
+        box-shadow: rgb(0 0 0 / 27%) 1px 1px 15px 1px;
+    }    
+    .wrapper-login-customer h1 {
+        text-align: center;
+        color: #000;
+    }
+    .custom-acc-page .wrapper-content {
+        border: none !important;
+        padding: 100px;
+    }    
+    .wrapper-login-customer .wrapper-content .col-left {
+        width: 50% !important;
+        flex: auto !important;
+        border-radius: 10px 0 0 10px;
+        box-shadow: rgb(0 0 0 / 27%) 1px 1px 15px 1px;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+        max-width: 50% !important;
+    }    
+    .custom-acc-page .wrapper-title {
+        background: none !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 50px 50px;
+    }   
+    form#customer_login, #recover_password {
+        margin: 0;
+        padding: 0 !important;
+        width: 70%;
+        margin: 0px auto 50px;
+    }   
+    .login-page .container {
+        padding: 0 !important;
+    }    
+    #account main.main-content {
+        padding: 0 !important;
+    }    
+    .wrapper-login-customer .wrapper-content:after {
+        display: none;
+    }
+    .wrapper-login-customer .custom-or-abs {
+        background: transparent !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-20px, -20px);
+        padding: 0 !important;
+    }    
+    .wrapper-login-customer .custom-or-abs .or_text {
+        border: none;
+        color: transparent;
+        font-weight: 700;
+        background: transparent;
+    }    
+    .wrapper-login-customer .custom-or-abs .or_text:after {
+        content: " R";
+        position: absolute;
+        width: 22px;
+        height: 42px;
+        top: 0;
+        right: 0;
+        border-radius: 0 50px 50px 0;
+        background: #e20044;
+        z-index: -1;
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+    .wrapper-login-customer .custom-or-abs .or_text:before {
+        content: "O";
+        position: absolute;
+        width: 21px;
+        height: 42px;
+        top: 0;
+        left: 0;
+        border-radius: 50px 0 0 50px;
+        background: #fff;
+        z-index: -1;
+        color: #e20044;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }    
+    .custom-acc-page .col-left .box-title,
+    .custom-acc-page .col-left li,
+    .custom-acc-page .col-left label,
+    #recover_password {
+        color: #fff !important;
+    }
+    .custom-acc-page .col-left input.btn {
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-shadow: #00000045 1px 1px 15px 1px;
+        transition: all .3s ease-in-out;
+    }
+    .custom-acc-page .col-left input.btn:hover {
+        background-color: black;
+        border-color: #000;
+    
+    }    
+    .custom-acc-page .last a,
+    .custom-acc-page .last span,
+    .wrapper-login-customer #recover_password .action-btn span,
+    .wrapper-login-customer #recover_password .action-btn a {
+        color: #fff;
+    }
+    .custom-acc-page .last a:last-child {
+        border-color: #fff;
+    }
+    .wrapper-login-customer #recover_password .action-btn a:hover {
+        color: #000;
+    }
+    .col-right a.btn.btn-2.btn-register {
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    .col-right a.btn.btn-2.btn-register:hover {
+        background-color: #e20044;
+        border-color: #e20044;
+    }
+    .create-an-account .des, .login-page .des {
+        margin-top: 35px;
+    }
+    .shopify-challenge__container .shopify-challenge__button {
+        border-radius: 3px;
+    }
+}
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------- MOBILE ONLY STYLES ---------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------- */
@@ -1006,6 +1150,144 @@ span.border-bt-hover {
     .left-col.cart_items {
         margin-bottom: 30px !important;
     }
+
+    /* *********************** login page styles ******************************** */
+       
+    .col-right.new-customer.text-center {
+        max-width: 90% !important;
+        margin: auto;
+        background: #fff;
+        box-shadow: #00000059 0px 5px 15px;
+        border-radius: 0 0 10px 10px;
+        padding: 40px 0;
+        }    
+        .wrapper-login-customer h1 {
+            display: none;
+        }
+        .custom-acc-page .wrapper-content {
+            margin-top: 50px;
+            padding: 0;
+        }    
+        .wrapper-login-customer .wrapper-content .col-left {
+            max-width: 90% !important;
+            margin: auto;
+            border-radius: 10px 10px 0 0;
+            box-shadow: #00000059 0px 5px 15px;
+            background: #000;
+        }    
+        .custom-acc-page .wrapper-title {
+            background: none !important;
+            border: none !important;
+            margin: 0 !important;
+            padding: 20px 0 10px;
+        }   
+        form#customer_login, #recover_password {
+            padding: 0 !important;
+            width: 80%;
+            margin: 20px auto;
+        }   
+        .login-page .container {
+            padding: 0 !important;
+        }
+        .wrapper-login-customer .custom-or-abs {
+            background: transparent !important;
+            top: 50%;
+            left: 50%;
+            transform: translate(-20px, -20px);
+            padding: 0 !important;
+        }    
+        .wrapper-login-customer .custom-or-abs .or_text {
+            border: none;
+            color: transparent;
+            font-weight: 700;
+            background: transparent;
+        }    
+        .wrapper-login-customer .custom-or-abs .or_text:after {
+            content: " R";
+            position: absolute;
+            width: 22px;
+            height: 42px;
+            top: 0;
+            right: 0;
+            border-radius: 0 50px 50px 0;
+            background: #e20044;
+            z-index: -1;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+        .wrapper-login-customer .custom-or-abs .or_text:before {
+            content: "O";
+            position: absolute;
+            width: 21px;
+            height: 42px;
+            top: 0;
+            left: 0;
+            border-radius: 50px 0 0 50px;
+            background: #fff;
+            z-index: -1;
+            color: #e20044;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }    
+        .custom-acc-page .col-left .box-title,
+        .custom-acc-page .col-left li,
+        .custom-acc-page .col-left label,
+        #recover_password {
+            color: #fff !important;
+        }
+        .custom-acc-page .col-left input.btn {
+            border: 1px solid #fff;
+            border-radius: 4px;
+            box-shadow: #ffffff65 1px 1px 15px 1px;
+            transition: all .3s ease-in-out;
+            width: 100%;
+            color: #000;
+            background: #fff;
+        }
+        #recover_password input.btn {
+            width: unset;
+        }
+        .custom-acc-page .col-left input.btn:hover {
+            background-color: black;
+            border-color: #fff;
+            color: #fff;
+        }    
+        .custom-acc-page .last a,
+        .custom-acc-page .last span,
+        .wrapper-login-customer #recover_password .action-btn span,
+        .wrapper-login-customer #recover_password .action-btn a {
+            color: #fff !important;
+        }
+        .custom-acc-page .last {
+            text-align: center;
+        }
+        .custom-acc-page .last a:last-child {
+            border-color: #fff;
+        }
+        .col-right a.btn.btn-2.btn-register {
+            border-radius: 3px;
+            transition: all .3s ease-in-out;
+            box-shadow: #00000059 0px 5px 15px;
+        }
+        .col-right a.btn.btn-2.btn-register:hover {
+            background-color: #fff;
+            border-color: #000;
+            color: #000;
+        }
+        .create-an-account .des, .login-page .des {
+            margin-top: 10px;
+        }
+        .shopify-challenge__container .shopify-challenge__button {
+            border-radius: 3px;
+        }
+        .wrapper-login-customer #recover_password div:first-child {
+            text-align: center;
+        }    
+        #account .main-content {
+            padding-bottom: 50px;
+        }
 }
 @media all and (max-width: 550px) {
     .h-desktop span {
