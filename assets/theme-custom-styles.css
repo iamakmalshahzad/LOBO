@@ -926,6 +926,9 @@ span.border-bt-hover {
     .show-popup-qs .product-card__button2 .btn.btn-cancel {
         display: none !important;
     }
+    .left-col.cart_items {
+        margin-bottom: 30px !important;
+    }
 }
 @media all and (max-width: 550px) {
     .h-desktop span {
