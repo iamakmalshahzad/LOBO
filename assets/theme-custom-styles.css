@@ -1235,9 +1235,9 @@ span.border-bt-hover {
         margin-bottom: 30px !important;
     }
 
-    /* *********************** login page styles ******************************** */
+        /* *********************** login page styles ******************************** */
        
-    .col-right.new-customer.text-center {
+        .col-right.new-customer.text-center {
         max-width: 90% !important;
         margin: auto;
         background: #fff;
@@ -1372,7 +1372,30 @@ span.border-bt-hover {
         #account .main-content {
             padding-bottom: 50px;
         }
-}
+
+        /* *****************************register page styles*************************** */
+        .create-an-account {
+            width: 100%;
+            padding: 0;
+        }
+        .cus-create-acc-wrapper {
+            width: 90%;
+            padding-bottom: 12%;
+            margin-top: 20%;
+        }
+        form#create_customer {
+            width: 100%;
+        }
+        .cus-create-acc-wrapper .form-group label {
+            margin-bottom: 2px !important;
+        }
+        .create-an-account .form-group {
+            margin-bottom: 8px;
+        }
+        #create-account main.main-content {
+            padding-bottom: 15% !important;
+        }
+    }
 @media all and (max-width: 550px) {
     .h-desktop span {
     width: 60px !important;
