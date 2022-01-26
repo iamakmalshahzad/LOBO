@@ -828,6 +828,9 @@ span.border-bt-hover {
     .quickview-button {
         line-height: 0 !important;
     }
+    .show-popup-qs .product-card__button2 .btn.btn-cancel {
+        display: none !important;
+    }
 }
 @media all and (max-width: 374px){
     .product-shop .groups-btn .icon-share {
