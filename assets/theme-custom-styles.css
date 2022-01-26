@@ -778,6 +778,9 @@ span.border-bt-hover {
     .cus-btns-wrapper .icon-share {
         margin-left: 8px !important;
     }
+    .quick-cart .box-title {
+        display: none !important;
+    }
 }
 @media all and (max-width: 479px){
     .widget-title {
