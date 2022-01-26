@@ -230,6 +230,131 @@ span.border-bt-hover {
     }
 
     /* ************************************************************************************************** */
+    /* ************************************** CSS FOR PRODUCTS DISPLAY*********************************** */
+    /* ************************************************************************************************** */
+    
+    .custom-style-des .product-des.abs-center {
+        transform: none !important;
+        position: relative;
+        top: 0 !important;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }    
+    .custom-style-des {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: fit-content !important;
+        margin: -15% auto 3% auto !important;
+        
+    }    
+    .custom-style-des .product-des.abs-bottom {
+        position: relative;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }    
+    .custom-style-des a {
+        display: flex !important;
+        vertical-align: middle !important;
+        align-items: center !important;
+        margin: 0 !important;
+        justify-content: center;
+    }
+    
+    .custom-style-des .action {
+        margin: 0 auto !important;
+    }
+    .custom-style-des svg {
+        border-radius: 3px 0px 0px 3px !important;
+        width: 50px !important;
+        height: 50px !important;
+        padding: 15px !important;
+    }    
+    .custom-style-des i.fa.fa-eye {
+        font-size: 22px;
+    }    
+    .custom-style-des .quickview-button {
+        padding: 0 !important;
+        width: 50px !important;
+        height: 50px !important;
+        color: #000;
+        background: #fff;
+        border-radius: 0px 3px 3px 0 !important;
+    }    
+    .custom-style-des button.btn.add-to-cart-btn,
+    .custom-style-des a.btn
+     {
+        border: none;
+        padding: 15px 0px !important;
+        min-width: 115px !important;
+        font-weight: 500 !important;
+        text-transform: capitalize;
+        color: #000;
+        background-color: #fff;
+    }    
+    .custom-style-des .quickview-button:before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 16px;
+        height: 16px;
+        width: 0%;
+        border-right: 1px solid #c4cdd5;
+    }    
+    .custom-style-des a:before {
+        content: "";
+        position: absolute;
+        left: 49px;
+        top: 16px;
+        height: 16px;
+        width: 0%;
+        border-right: 1px solid #c4cdd5;
+    }
+    .custom-style-des .add-to-cart-btn {
+        background-color: #fff;
+        color: #000;
+    }
+    .product-item .product-des.abs-bottom {
+        bottom: unset !important;
+    }
+    .product-top:hover .custom-style-des {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        border-radius: 3px;
+        border: 1px solid #fbfbfb
+    } 
+    .custom-style-des svg:hover,
+    .custom-style-des .add-to-cart-btn:hover,
+    .custom-style-des .quickview-button:hover {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+    a.wishlist.whislist-added svg {
+        color: #fff !important;
+    }
+    a.btn.btn--secondary-accent.btn--big.btn-product-show-more,
+    div#shopify-section-1541566560488 a.btn {
+        min-width: fit-content;
+        height: 50px;
+        padding: 14px 0 !important;
+        background-color: transparent;
+        border: 2.5px solid #000;
+        border-radius: 50px;
+        max-width: 180px !important;
+        color: #000;
+    }
+    a.btn.btn--secondary-accent.btn--big.btn-product-show-more:hover,
+    div#shopify-section-1541566560488 a.btn:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    .sold-out .inner-top {
+        margin-bottom: 15px;
+    }
+
+    /* ************************************************************************************************** */
     /* ************************************** CSS FOR collection pages*********************************** */
     /* ************************************************************************************************** */
 
@@ -626,7 +751,7 @@ span.border-bt-hover {
         padding: 3px !important;
     }
 }
-@media all and (max-width: 375px){
+@media all and (max-width: 374px){
     .product-shop .groups-btn .icon-share {
         display: none;
     }
