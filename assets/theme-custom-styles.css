@@ -687,6 +687,110 @@ span.border-bt-hover {
     .template-product .footer-09 .footer-bottom {
         padding-bottom: 60px !important;
     }
+    /* ********************************************************************************** */
+    /* ***************************************CART PAGE ********************************* */
+    /* ********************************************************************************** */
+
+    .cart-template .cart-form .cart-header {
+        background: #000;
+        border-radius: 3px;
+    }    
+    .cart-template .cart-form .cart-header>* {
+        color: #fff;
+    }    
+    .cart-template .wrapper-cart-template .cart-list .cart-product-item,
+    .h-desktop .qty-group input[name="updates[]"] {
+        border-radius: 3px;
+    }    
+    .cart-template .cart-form .cart--quantity .qty-group input {
+        padding: 10px !important;
+        height: 40px !important;
+        width: 80% !important;
+    }    
+    .cart-template .cart-form .cart--quantity .qty-group {
+        height: 40px;
+        max-width: 80%;
+        border-radius: 3px;
+    }    
+    .cart-template .cart-form .cart--remove a:hover,
+    #dropdown-cart .btn-remove:hover,
+    a.remove.remove-mobile:hover  {
+        background-color: transparent;
+    }    
+    .cart-template .cart-form .cart--remove a svg,
+    #dropdown-cart .btn-remove svg,
+    .cart-popup-content .cart-form .cart-list .cart-remove svg,
+    a.remove.remove-mobile svg {
+        border: 2px solid #e20044;
+        border-radius: 50%;
+        color: #e20044;
+        width: 20px;
+        height: 20px;
+        padding: 1px;
+        transition: all .3s ease-in-out;
+        
+    }    
+    .cart-template .cart-form .cart--remove a svg:hover,
+    #dropdown-cart .btn-remove svg:hover,
+    .cart-popup-content .cart-form .cart-list .cart-remove svg:hover,
+    a.remove.remove-mobile svg:hover {
+        border-color:  #e20044;
+        background: #e20044;
+        color: #fff;
+        transform: rotate(180deg) scale(1.2);
+        
+    }
+    .cart-template .right-col .cart-header .cart--title {
+        justify-content: center;
+    }
+    .discount-code-field {
+        margin-top: 15px;
+        padding-top: 5px;
+        border-top: none;
+    }
+    .cart-template .wrapper-cart-template .btn-actions .btn-checkout {
+        background: #e20044;
+        color: #fff;
+        border-color: #e20044;
+        border-radius: 3px;
+    }
+    .layout_default .cart-form .btn-actions .btn.btn-continue {
+        background-color: #fff;
+        color: #000;
+        border-radius: 3px;
+    }
+    .layout_default .cart-form .btn-actions .btn.btn-continue:hover {
+        background: #000;
+        color: #fff;
+    }
+    .cart-template .wrapper-cart-template .input-full {
+        margin-bottom: 15px;
+    }    
+    .cart-template .wrapper-cart-template .add-comments {
+        margin-top: 0 !important;
+        margin-bottom: 18px;
+    }
+    a.remove.remove-mobile {
+        position: absolute;
+        left: -2%;
+        top: 45%;
+    }
+    .h-desktop .qty-group {
+        justify-content: flex-end;
+        }
+
+    .h-desktop .price-box {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .h-desktop span {
+        width: 78px !important;
+        text-align: center;
+    }
+    .cart--title.summary {
+        min-width: 100% !important;
+    }
+
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
@@ -782,6 +886,47 @@ span.border-bt-hover {
         display: none !important;
     }
 }
+@media all and (max-width: 767px) {
+    .product-item .wishlist svg,
+    .custom-style-des .quickview-button {
+        width: 30px !important;
+        height: 40px !important;
+        padding: 7px !important;
+    }
+    .custom-style-des .product-des.abs-bottom {
+        align-items: center;
+    }
+    .custom-style-des button.btn.add-to-cart-btn, .custom-style-des a.btn {
+        padding: 10px 5px !important;
+        min-width: 80px !important;
+    }
+    .custom-style-des {
+        box-shadow: #0000001a 0 1px 3px, #0000000f 0 1px 2px;
+        border-radius: 3px;
+    }
+    /* .custom-style-des button.btn.add-to-cart-btn, .custom-style-des a.btn {
+        background: #000;
+        color: #fff !important;
+    } */
+    .custom-style-des a:before {
+        top: 12px !important;
+        left: 29px;
+    }
+    .custom-style-des i.fa.fa-eye {
+        font-size: 18px;
+    }
+    .quickview-button {
+        line-height: 0 !important;
+    }
+    .show-popup-qs .product-card__button2 .btn.btn-cancel {
+        display: none !important;
+    }
+}
+@media all and (max-width: 550px) {
+    .h-desktop span {
+    width: 60px !important;
+    }
+}
 @media all and (max-width: 479px){
     .widget-title {
         padding: 40px !important;
@@ -821,42 +966,6 @@ span.border-bt-hover {
         border: 1px solid;
         border-radius: 50px;
         padding: 3px !important;
-    }
-}
-@media all and (max-width: 767px) {
-    .product-item .wishlist svg,
-    .custom-style-des .quickview-button {
-        width: 30px !important;
-        height: 40px !important;
-        padding: 7px !important;
-    }
-    .custom-style-des .product-des.abs-bottom {
-        align-items: center;
-    }
-    .custom-style-des button.btn.add-to-cart-btn, .custom-style-des a.btn {
-        padding: 10px 5px !important;
-        min-width: 80px !important;
-    }
-    .custom-style-des {
-        box-shadow: #0000001a 0 1px 3px, #0000000f 0 1px 2px;
-        border-radius: 3px;
-    }
-    /* .custom-style-des button.btn.add-to-cart-btn, .custom-style-des a.btn {
-        background: #000;
-        color: #fff !important;
-    } */
-    .custom-style-des a:before {
-        top: 12px !important;
-        left: 29px;
-    }
-    .custom-style-des i.fa.fa-eye {
-        font-size: 18px;
-    }
-    .quickview-button {
-        line-height: 0 !important;
-    }
-    .show-popup-qs .product-card__button2 .btn.btn-cancel {
-        display: none !important;
     }
 }
 @media all and (max-width: 374px){
