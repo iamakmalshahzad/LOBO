@@ -1048,7 +1048,9 @@ input.btn.btn-padd42,
     .cart-edit h5 {
         text-align: center;
     }
-
+    .cus-grid .last a {
+        color: #000000 !important;
+    }
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
@@ -1544,6 +1546,13 @@ input.btn.btn-padd42,
         border: 1px solid;
         border-radius: 50px;
         padding: 3px !important;
+    }
+    .grid.main-grid {
+        flex-wrap: wrap;
+        flex-direction: row;
+     }    
+    .account-page .addr {
+        min-height: unset;
     }
 }
 @media all and (max-width: 374px){
