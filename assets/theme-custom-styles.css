@@ -1553,7 +1553,8 @@ input.btn.btn-padd42,
         border-radius: 50px;
         padding: 3px !important;
     }
-    .grid.main-grid {
+    .grid.main-grid,
+    .acc-page-flex .grid {
         flex-wrap: wrap;
         flex-direction: row;
      }    
