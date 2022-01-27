@@ -1048,9 +1048,6 @@ input.btn.btn-padd42,
     .cart-edit h5 {
         text-align: center;
     }
-    .cus-grid .last a {
-        color: #000000 !important;
-    }
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
@@ -1221,6 +1218,9 @@ input.btn.btn-padd42,
     .wrapper-login-customer #recover_password .action-btn span,
     .wrapper-login-customer #recover_password .action-btn a {
         color: #fff !important;
+    }
+    .cus-grid .last a {
+        color: #000000 !important;
     }
     .custom-acc-page .last a:last-child {
         border-color: #fff;
@@ -1449,6 +1449,9 @@ input.btn.btn-padd42,
         .wrapper-login-customer #recover_password .action-btn span,
         .wrapper-login-customer #recover_password .action-btn a {
             color: #fff !important;
+        }
+        .cus-grid .last a {
+            color: #000000 !important;
         }
         .custom-acc-page .last {
             text-align: center;
