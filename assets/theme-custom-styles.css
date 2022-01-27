@@ -867,6 +867,110 @@ span.border-bt-hover {
         text-decoration: underline;
         border: none;
     }
+    /* ********************************************************************************** */
+    /* *****************************ACCOUNT PAGE LOGGED IN******************************* */
+    /* ********************************************************************************** */
+
+    .account-page .page-header {
+        text-align: center;
+    }
+    
+    .acc-page-flex .grid {
+        display: flex;
+        padding-top: 2%;
+    }
+    .account-page .grid-item {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 10px;
+    }
+    
+    .account-page .box-title {
+        text-align: center;
+        color: #fff;
+        background: #000;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #000;
+        border-radius: 3px;
+    }
+    
+    p.note {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        background: #fbfbfb;
+        border: 1px solid;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }    
+    p.note svg {
+        margin-right: 5px;
+    }
+    .account-page .addr .addr-zip {
+        margin: 0;
+    }    
+    .grid-item.cus-acc-det {
+        text-align: center;
+    }    
+    .cus-acc-det .addr {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .account-page .acc-name {
+        font-weight: bold;
+    }
+    .cus-acc-det .btn {
+        border-radius: 3px !important;
+        padding: 10px 30px !important;
+    }
+    .grid.main-grid {
+        display: flex;
+    }    
+    .cus-grid .grid-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+        align-items: center;
+    }    
+    div#add_address {
+        width: 100%;
+    }
+    .addresses-page .btn-edit-delete a:first-child,
+.addresses-page .btn-edit-delete a:last-child,
+.addresses-page .large--right .btn,
+.cus-grid .last a,
+input.btn.btn-padd42,
+.main-grid input.btn {
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.addresses-page .btn-edit-delete a:last-child {
+    background: #fff;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+.addresses-page .btn-edit-delete a:last-child:hover {
+    background: #e20044;
+    color: #fff;
+    border-color: #e20044;
+}
+.cus-grid .last a {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    padding: 9px 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.account-page .addr {
+    min-height: 145px;
+}
+.large--right a {
+    margin: 0 !important;
+}
 
     /* ********************************************************************************** */
     /* ************************************** MISC. STYLES ****************************** */
