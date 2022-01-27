@@ -968,9 +968,13 @@ input.btn.btn-padd42,
 .account-page .addr {
     min-height: 145px;
 }
+.cus-acc-det .addr {
+    min-height: unset;
+}
 .large--right a {
     margin: 0 !important;
 }
+
 
     /* ********************************************************************************** */
     /* ************************************** MISC. STYLES ****************************** */
