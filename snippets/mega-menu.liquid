@@ -259,6 +259,9 @@
                     <li class="menu-lv-3">
                         <a href="{{ child_l.url }}" {% if child_l.active %}class="current"{% endif %}>
                             {% render 'multilang' with child_l.title %}
+                            {% if collection.image %}
+  {{ collection.image | image_url: width: 2048 | image_tag }}
+{% endif %}
                         </a>
                     </li>
                     {% endfor %}
