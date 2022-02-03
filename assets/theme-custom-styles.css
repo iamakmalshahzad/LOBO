@@ -213,6 +213,9 @@ span.border-bt-hover {
 .text-center {
     width: 100% !important;
 }
+#compareColor-modal .show-img {
+    display: flex !important;
+}
 /* ********************************* tabs menu css **************************** */
 .list-product-tabs .tab-links.active {
         border-color: #000;
@@ -352,6 +355,28 @@ span.border-bt-hover {
     }
     .sold-out .inner-top {
         margin-bottom: 15px;
+    }
+    /* ************************************shadow on hover ******************************** */
+    .inner.product-item:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        content: "";
+        box-shadow: 0 3px 35px 0 #0000000d;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        z-index: -1;
+    }
+    .inner.product-item:hover:before {
+        opacity: 1;
+        visibility: visible;
+        
     }
     /* ***************************ADD TO CART POPUP SELECT OPTIONS STYLES****************** */
     .product-card__variant--popup {
