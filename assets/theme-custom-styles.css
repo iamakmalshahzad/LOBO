@@ -1080,6 +1080,27 @@ input.btn.btn-padd42,
     main.main-content {
         padding-bottom: 0 !important;
     }
+    #compareColor-modal .modal-header {    
+        text-align: center;
+        justify-content: center;
+    }
+    #compareColor-modal .modal-header svg {
+        color: #fff;
+    }
+    #compareColor-modal .modal-header .close {
+        position: absolute;
+        right: -6px;
+        top: -6px;
+        background: #000;
+        padding: 10px;
+        transition: all .3s ease-in-out;
+    }
+    #compareColor-modal .modal-header .close:hover {
+        background: #e20044;
+    }
+    #compareColor-modal .compareColor-swatch {
+        text-align: center;
+    }
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
