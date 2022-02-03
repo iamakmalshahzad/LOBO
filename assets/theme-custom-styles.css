@@ -213,8 +213,8 @@ span.border-bt-hover {
 .text-center {
     width: 100% !important;
 }
-#compareColor-modal .show-img {
-    display: flex !important;
+#compareColor-modal .text-center {
+    width: 25% !important;
 }
 /* ********************************* tabs menu css **************************** */
 .list-product-tabs .tab-links.active {
