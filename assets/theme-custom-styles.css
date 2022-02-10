@@ -186,6 +186,9 @@
 .site-nav .menu-lv-1:last-of-type span {
     color: #fff !important;
 }
+.wrapper_header_02 .site-nav .mega-menu .menu-lv-2>a {
+    font-weight: 900;
+}
 div#shopify-section-1540984915288 .content-box {
     top: 90%;
     z-index: 9;
