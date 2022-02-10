@@ -3056,24 +3056,24 @@
       "1642512848765f5db8": {
         "type": "home-product-tabs",
         "blocks": {
-          "68049784-60bd-4f48-9416-a37ff5089bc7": {
-            "type": "ProductTabs",
-            "settings": {
-              "title": "featured products",
-              "collection": "featured-products"
-            }
-          },
           "a92da10b-db93-46d9-8146-5555e40ae1e4": {
             "type": "ProductTabs",
             "settings": {
               "title": "best seller products",
               "collection": "best-sellers"
             }
+          },
+          "68049784-60bd-4f48-9416-a37ff5089bc7": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "featured products",
+              "collection": "featured-products"
+            }
           }
         },
         "block_order": [
-          "68049784-60bd-4f48-9416-a37ff5089bc7",
-          "a92da10b-db93-46d9-8146-5555e40ae1e4"
+          "a92da10b-db93-46d9-8146-5555e40ae1e4",
+          "68049784-60bd-4f48-9416-a37ff5089bc7"
         ],
         "settings": {
           "product_tabs_title": "exclusive for you",
