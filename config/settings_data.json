@@ -137,7 +137,7 @@
     "trending_search_item_6": "sale",
     "enable_search_popular_products": true,
     "popular_products_search_title": "Popular Products",
-    "popular_products_collection": "new-in",
+    "popular_products_collection": "women",
     "popular_products_limit": 3,
     "display_popup_newsletter": true,
     "when_to_show": "all_the_time",
@@ -186,6 +186,7 @@
     "promotion_text_3": "Free shipping, 30 Days Returns and 2 year Warranty",
     "btt_text": "Top",
     "enable_before_you_leave_mb": false,
+    "free_shipping_price": "0",
     "enable_compare_product": false,
     "social_facebook_link": "http:\/\/facebook.com\/loboshoes.official",
     "social_twitter_link": "http:\/\/twitter.com\/lobo_shoes",
@@ -977,13 +978,13 @@
             "type": "style_3",
             "settings": {
               "megamenu_items_3": "women",
-              "banner_first_style_3": "shopify:\/\/shop_images\/FAV_09.png",
+              "banner_first_style_3": "shopify:\/\/shop_images\/women-winter-shoe-bannerlobo_shoes.jpg",
               "link_banner_first_style_3": "",
-              "banner_second_style_3": "shopify:\/\/shop_images\/FAV_09.png",
+              "banner_second_style_3": "shopify:\/\/shop_images\/Women-summer-shoe-bannerlobo_shoes.jpg",
               "link_banner_second_style_3": "",
-              "banner_third_style_3": "shopify:\/\/shop_images\/FAV_09.png",
+              "banner_third_style_3": "shopify:\/\/shop_images\/women-ethnic-shoes-khussa-bannerlobo_shoes.jpg",
               "link_banner_third_style_3": "",
-              "banner_four_style_3": "shopify:\/\/shop_images\/FAV_09.png",
+              "banner_four_style_3": "shopify:\/\/shop_images\/women-bridal-shoes-bannerlobo_shoes.jpg",
               "link_banner_four_style_3": "",
               "link_banner_five_style_3": ""
             }
@@ -2499,7 +2500,7 @@
         "type": "header-02",
         "settings": {
           "display_header_top": true,
-          "top_message_text": "<p class=\"word w1\">Free delivery all over Pakistan.<\/p>\n<p class=\"word w2\">Mid-Season Sale Up to 50% OFF.<\/p>",
+          "top_message_text": "<p class=\"word w1\">Free delivery on ALL ORDERS, all over Pakistan.<\/p>\n<p class=\"word w2\">Mid-Season Sale Up to 50% OFF.<\/p>",
           "top_message_font_size": "12px",
           "bg_header_top": "#000000",
           "text_header_top_color": "#ffffff",
@@ -3011,7 +3012,7 @@
             "type": "ProductTabs",
             "settings": {
               "title": "all new",
-              "collection": "men"
+              "collection": "new-arrival-all"
             }
           },
           "3575c2e4-7cba-467e-b5e2-eacded4aa898": {
@@ -3056,24 +3057,24 @@
       "1642512848765f5db8": {
         "type": "home-product-tabs",
         "blocks": {
-          "68049784-60bd-4f48-9416-a37ff5089bc7": {
-            "type": "ProductTabs",
-            "settings": {
-              "title": "featured products",
-              "collection": "bags"
-            }
-          },
           "a92da10b-db93-46d9-8146-5555e40ae1e4": {
             "type": "ProductTabs",
             "settings": {
               "title": "best seller products",
-              "collection": "men"
+              "collection": "best-sellers"
+            }
+          },
+          "68049784-60bd-4f48-9416-a37ff5089bc7": {
+            "type": "ProductTabs",
+            "settings": {
+              "title": "featured products",
+              "collection": "featured-products"
             }
           }
         },
         "block_order": [
-          "68049784-60bd-4f48-9416-a37ff5089bc7",
-          "a92da10b-db93-46d9-8146-5555e40ae1e4"
+          "a92da10b-db93-46d9-8146-5555e40ae1e4",
+          "68049784-60bd-4f48-9416-a37ff5089bc7"
         ],
         "settings": {
           "product_tabs_title": "exclusive for you",
