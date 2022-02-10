@@ -122,7 +122,7 @@
       "label": "Note",
       "apply": "Apply",
       "label_text": "Additional comments",
-      "free_shipping_message_1": "You qualify for free shipping!",
+      "free_shipping_message_1": "FREE SHIPPING on ALL ORDERS, All over Pakistan.",
       "free_shipping_message_2": "Only",
       "free_shipping_message_3": "away from",
       "free_shipping_message_4": "free shipping",
@@ -530,6 +530,13 @@
       "check_other_stores": "Check availability at other stores",
       "pick_up_available": "Pickup available",
       "pick_up_currently_unavailable": "Pickup currently unavailable"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "shipping_default_value": "Free shipping on all orders"
+      }
     }
   }
 }
