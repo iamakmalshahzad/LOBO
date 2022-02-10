@@ -1165,7 +1165,17 @@ input.btn.btn-padd42,
     .wishlist-content .column .btn {
         border-radius: 3px;
     }
-    
+    .wishlist-page header.page-header {
+        text-align: center;
+    }
+    .wishlist-header.t-header {
+        background: #000;
+        border: none !important;
+        border-radius: 3px;
+    }
+    .wishlist-header.t-header h4 {
+        color: #fff;
+    }
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
