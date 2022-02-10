@@ -207,17 +207,8 @@
             {% case forloop.index  %}
                 {% when 1 %}
                     {% if banner_first_style != blank %}
-                        <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="sometext">
-                            <a {%if linklists[l.handle] != empty %}class="menu__moblie"{% endif %} href="{{ l.url }}" class="current">
-                                {% render 'multilang' with l.title %}
-                
-                                {% if linklists[l.handle] != empty %}
-                                <span class="icon-dropdown" data-toggle-menu-mb>
-                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                </span>
-                                {% endif %}
-                            </a>
-                            <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_first_style | img_url : '250x' }}{% else %}{{ banner_first_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
+                        <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="">
+                            text<img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_first_style | img_url : '250x' }}{% else %}{{ banner_first_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
                         </a>
                     {% endif %}
                 {% when 2 %}
