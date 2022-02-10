@@ -801,7 +801,8 @@ span.border-bt-hover {
     .cart-template .cart-form .cart--remove a svg,
     #dropdown-cart .btn-remove svg,
     .cart-popup-content .cart-form .cart-list .cart-remove svg,
-    a.remove.remove-mobile svg {
+    a.remove.remove-mobile svg,
+    .wishlist-content .col-remove svg {
         border: 2px solid #e20044;
         border-radius: 50%;
         color: #e20044;
@@ -814,7 +815,8 @@ span.border-bt-hover {
     .cart-template .cart-form .cart--remove a svg:hover,
     #dropdown-cart .btn-remove svg:hover,
     .cart-popup-content .cart-form .cart-list .cart-remove svg:hover,
-    a.remove.remove-mobile svg:hover {
+    a.remove.remove-mobile svg:hover,
+    .wishlist-content .col-remove svg:hover {
         border-color:  #e20044;
         background: #e20044;
         color: #fff;
@@ -1160,6 +1162,10 @@ input.btn.btn-padd42,
     .swatch .swatch-element.color label:after {
         border: 2px solid var(--color_slick_arrow) !important;
     }
+    .wishlist-content .column .btn {
+        border-radius: 3px;
+    }
+    
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
