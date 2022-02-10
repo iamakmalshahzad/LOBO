@@ -207,7 +207,7 @@
             {% case forloop.index  %}
                 {% when 1 %}
                     {% if banner_first_style != blank %}
-                        <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="">
+                        <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="sometext">
                             <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_first_style | img_url : '250x' }}{% else %}{{ banner_first_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
                         </a>
                     {% endif %}
