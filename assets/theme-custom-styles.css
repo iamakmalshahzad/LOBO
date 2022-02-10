@@ -1155,6 +1155,9 @@ input.btn.btn-padd42,
     #compareColor-modal .compareColor-swatch {
         text-align: center;
     }
+    .swatch .swatch-element.color label:after {
+        border: 2px solid var(--color_slick_arrow) !important;
+    }
     
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
