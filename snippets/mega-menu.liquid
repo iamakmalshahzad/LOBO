@@ -207,7 +207,10 @@
             {% case forloop.index  %}
                 {% when 1 %}
                     {% if banner_first_style != blank %}
-                        <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="">
+                        <div class="cus-title">
+                            <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="">
+                                <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_first_style | img_url : '250x' }}{% else %}{{ banner_first_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
+                            </a>
                             <a {%if linklists[l.handle] != empty %}class="menu__moblie"{% endif %} href="{{ l.url }}" class="current">
                                 {% render 'multilang' with l.title %}
                 
@@ -217,8 +220,8 @@
                                 </span>
                                 {% endif %}
                             </a>
-                            <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_first_style | img_url : '250x' }}{% else %}{{ banner_first_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
-                        </a>
+
+                        </div>
                     {% endif %}
                 {% when 2 %}
                     {% if banner_second_style != blank %}
