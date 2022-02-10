@@ -245,7 +245,7 @@
                     {% if banner_third_style != blank %}
                     <div class="cus-mega-title">
                         <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="">
-                            <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_three_style | img_url : '250x' }}{% else %}{{ banner_three_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
+                            <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_third_style | img_url : '250x' }}{% else %}{{ banner_third_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
                         </a>
                         <a {%if linklists[l.handle] != empty %}class="menu__moblie cus-title"{% endif %} href="{{ l.url }}" class="current">
                             {% render 'multilang' with l.title %}
