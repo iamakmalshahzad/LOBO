@@ -201,6 +201,7 @@
     height: 210px;
     background: #0000004a;
     z-index: 9;
+    pointer-events: none;
 }
 a.current.cus-title,
 a.menu__moblie.cus-title{
