@@ -62,6 +62,7 @@
     "display_sticky": true,
     "display_sticky_mb": true,
     "display_countdown": true,
+    "enable_hover_video_product_items": true,
     "enable_quick_shop": true,
     "enable_notify_form": true,
     "enable_quick_view": true,
