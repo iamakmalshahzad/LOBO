@@ -265,7 +265,7 @@
                         <a class="menu__moblie current" href="{{ link_banner_first_style }}" title="">
                             <img data-srcset="{% if settings.layout_home == 'layout_home_3' %}{{ banner_four_style | img_url : '250x' }}{% else %}{{ banner_four_style | img_url : '210x' }}{% endif %}" alt="" {% render 'lazyload' %} />
                         </a>
-                        <a {%if linklists[l.handle] != empty %}class="menu__moblie cus-title"{% endif %} href="{{ l.url }}" class="current">
+                        <a {%if linklists[l.handle] != empty %}class="menu__moblie cus-title"{% endif %} href="{{ l.url }}" class="current cus-title">
                             {% render 'multilang' with l.title %}
             
                             {% if linklists[l.handle] != empty %}
@@ -274,7 +274,6 @@
                             </span>
                             {% endif %}
                         </a>
-
                     </div>
                     {% endif %}
                 {% when 5 %}
