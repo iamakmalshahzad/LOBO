@@ -32,7 +32,7 @@
             "enable_categories": true,
             "title_categories": "Categories",
             "style_categories": "style_little",
-            "link_list": "main-menu",
+            "link_list": "lobo-menu-01",
             "filter_option": "dynamic",
             "enable_1": true,
             "title_1": "Color",
