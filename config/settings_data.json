@@ -2021,10 +2021,10 @@
             "settings": {
               "bg_color_column": "",
               "image": "shopify:\/\/shop_images\/2.png",
-              "title": "Lorem De Dorus",
-              "des": "",
+              "title": "Men",
+              "des": "Find exclusive range of Men's Footwear on upto 50% of original Price.",
               "button": "Shop Now",
-              "link": "#",
+              "link": "shopify:\/\/collections\/men-sale",
               "color_button": ""
             }
           },
@@ -2033,8 +2033,8 @@
             "settings": {
               "bg_color_column": "",
               "image": "shopify:\/\/shop_images\/men.png",
-              "title": "Milancelos Lanos",
-              "des": "",
+              "title": "Women",
+              "des": "Find the pair that can make you feel like the very best version of yourself.",
               "button": "Shop Now",
               "link": "#",
               "color_button": ""
