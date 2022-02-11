@@ -202,6 +202,7 @@
     background: #00000025;
     z-index: 9;
     pointer-events: none;
+    border-radius: 5%;
 }
 a.current.cus-title,
 a.menu__moblie.cus-title{
@@ -212,9 +213,12 @@ a.menu__moblie.cus-title{
     transition: all .3s ease-in-out;
 }
 .cus-title:hover {
-    transform: scale(1.3) !important;
+    transform: scale(1.2) !important;
 }
 
+.site-nav .mega-menu .style_3 .menu-lv-2 img {
+    border-radius: 5%;
+}
 div#shopify-section-1540984915288 .content-box {
     top: 90%;
     z-index: 9;
