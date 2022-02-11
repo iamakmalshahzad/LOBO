@@ -29,7 +29,7 @@
             "style_option_color": "Color",
             "style_option_size": "Size",
             "number_collapse": 7,
-            "enable_categories": true,
+            "enable_categories": false,
             "title_categories": "Categories",
             "style_categories": "style_little",
             "link_list": "lobo-menu-01",
