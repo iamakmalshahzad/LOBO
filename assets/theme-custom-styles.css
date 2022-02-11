@@ -590,6 +590,11 @@ span.border-bt-hover {
     .toolbar .view-mode .icon-mode.active {
         border: 1px solid #323232 !important;
     }
+    .sidebar-filter .filter-color .list-tags li label {
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
     /* ************************************************************************************************** */
     /* ************************************** CSS FOR product page*************************************** */
     /* ************************************************************************************************** */
