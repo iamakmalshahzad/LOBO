@@ -544,16 +544,24 @@ span.border-bt-hover {
     header.collection-header.collection-header-sections {
         display: none;
     }
-    .toolbar {
-        background: #000 !important;
+    .toolbar {        
         border-radius: 3px;
     }    
-    .toolbar label,
-    .sidebar-label .icon-filter {
-        color: #fff !important;
-    }
     .toolbar .toolbar-col .label-tab {
         border-radius: 2px;
+    }
+    h3.cus-filter-sidebar-title {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+    .cus-filter-title {
+        display: flex;
+        justify-content: center;
+        min-height: 54px;
+        align-items: center;
+        background: #f8f8f8;
+        border-radius: 3px;
     }
     #CollectionFiltersForm .widget-title {
         padding: 0 0 5px !important;
