@@ -565,25 +565,8 @@ span.border-bt-hover {
         border-radius: 3px;
     }
     #CollectionFiltersForm .widget-title {
-        padding: 0 0 5px !important;
-    }    
-    .sidebar .sidebar-title {
-        padding: 16px 0 !important;
-        border-radius: 3px;
-        border: none !important;
-        background-color: #000;
-        justify-content: center;
-    }
-    h3.sidebar-title {
-        padding: 0 !important;
-        color: #fff !important;
-        text-align: center !important;
-    }    
-    .sidebar-filter .sidebar-title:before {
-        color: #fff !important;
-        top: unset !important;
-        right: 15px !important;
-    }    
+        padding: 0 15px 5px !important;
+    }       
     .widget-content {
         padding: 36px 15px 0 !important;
     }    
@@ -603,6 +586,30 @@ span.border-bt-hover {
         background-position: center !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
+    }
+    .toolbar .sidebar-label .icon-filter svg {
+        color: #000 !important;
+    }
+    .sidebar-filter .sidebar-tags .apply__button:hover {
+        color: #fff;
+        background: #000;
+    }
+    .sidebar-filter .sidebar-tags .apply__button {
+        transition: all .3s ease-in-out;
+        border-radius: 3px !important;
+    }
+    .sidebar-filter .filter-size .list-tags li label {
+        border-radius: 50px;
+        width: 34px;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        border-color: #000;
+    }
+    .sidebar-filter .filter-color .list-tags li label {
+        border: none !important;
     }
     /* ************************************************************************************************** */
     /* ************************************** CSS FOR product page*************************************** */
