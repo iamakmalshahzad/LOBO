@@ -47,6 +47,7 @@
     "display_text_size": true,
     "display_item_swatch": true,
     "display_swatch_custom_size": true,
+    "show_product_color_img": true,
     "display_button": true,
     "collection_infinite_scrolling": true,
     "infinity_scroll_feature": true,
