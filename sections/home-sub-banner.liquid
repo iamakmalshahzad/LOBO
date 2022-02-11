@@ -40,7 +40,7 @@
                     {% if block.settings.title != blank %}
                     <div class="content-box">
                         <h3 class="banner-title" style="{% if block.settings.color_title != blank %}color: {{ block.settings.color_title }};{% endif %}">
-                            {% render 'multilang' with block.settings.title %}                             
+                            <a href="{{ block.settings.link }}">{% render 'multilang' with block.settings.title %}</a>                             
                             <span class="border-bt-hover" style="{% if block.settings.color_title != blank %}background-color: {{ block.settings.color_title }};{% endif %}"></span>
                         </h3>
                     </div>
