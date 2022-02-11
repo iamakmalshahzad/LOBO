@@ -208,7 +208,11 @@ a.menu__moblie.cus-title{
     position: absolute;
     font-size: 16px;
     color: #fff;
-    z-index: 9
+    z-index: 9;
+    transition: all .3s ease-in-out;
+}
+.cus-title:hover {
+    transform: scale(1.3) !important;
 }
 
 div#shopify-section-1540984915288 .content-box {
