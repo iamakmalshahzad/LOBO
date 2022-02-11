@@ -563,6 +563,7 @@ span.border-bt-hover {
         align-items: center;
         background: #f8f8f8;
         border-radius: 3px;
+        margin-bottom: 36px;
     }
     #CollectionFiltersForm .widget-title {
         padding: 0 15px 5px !important;
@@ -613,13 +614,15 @@ span.border-bt-hover {
     }
     .sidebar-filter .refined-widgets {
         margin: 0;
-        padding: 36px 0;
     }
     .sidebar-filter .filter-size .list-tags li input[type=checkbox]:checked+label {
         border: 2px solid #000 !important;
     }
     .sidebar-filter .refined-widgets .refined a {
         border-radius: 50px !important;
+    }
+    .sidebar-filter .refined-widgets .widget-content {
+        padding-bottom: 36px !important;
     }
     /* ************************************************************************************************** */
     /* ************************************** CSS FOR product page*************************************** */
