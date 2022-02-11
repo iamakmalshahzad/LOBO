@@ -611,6 +611,13 @@ span.border-bt-hover {
     .sidebar-filter .filter-color .list-tags li label {
         border: none !important;
     }
+    .sidebar-filter .refined-widgets {
+        margin: 0;
+        padding: 36px 0;
+    }
+    .sidebar-filter .filter-size .list-tags li input[type=checkbox]:checked+label {
+        border: 2px solid #000 !important;
+    }
     /* ************************************************************************************************** */
     /* ************************************** CSS FOR product page*************************************** */
     /* ************************************************************************************************** */
