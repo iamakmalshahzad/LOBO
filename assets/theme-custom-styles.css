@@ -618,6 +618,9 @@ span.border-bt-hover {
     .sidebar-filter .filter-size .list-tags li input[type=checkbox]:checked+label {
         border: 2px solid #000 !important;
     }
+    .sidebar-filter .refined-widgets .refined a {
+        border-radius: 50px !important;
+    }
     /* ************************************************************************************************** */
     /* ************************************** CSS FOR product page*************************************** */
     /* ************************************************************************************************** */
