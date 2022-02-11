@@ -37,7 +37,17 @@
           <a href="javascript:void(0)" title="{{ 'cart.general.close_cart' | t }}" class="close-sidebar close">
               {% render 'icon-close' %}    
           </a>
-          
+          {% if block.settings.filter_option == 'tag' %}
+          {% render 'filter-tags', block: block, 
+                         style_color: style_color,
+                       style_size: style_size,
+                       has_refined: has_refined %}
+          {% else %}
+          {% render 'filter-dynamic', block: block, 
+                          style_color: style_color,
+                        style_size: style_size,
+                        total_active_values: total_active_values %}
+          {% endif %}
 
           {% if block.settings.enable_categories %}
           <div class="widget sidebar-links" data-has-collapse>
@@ -104,17 +114,7 @@
               </div>
           </div>
           {% endif %}
-          {% if block.settings.filter_option == 'tag' %}
-          {% render 'filter-tags', block: block, 
-                         style_color: style_color,
-                       style_size: style_size,
-                       has_refined: has_refined %}
-          {% else %}
-          {% render 'filter-dynamic', block: block, 
-                          style_color: style_color,
-                        style_size: style_size,
-                        total_active_values: total_active_values %}
-          {% endif %}
+          
           
 
           {% if block.settings.enable_product %}
