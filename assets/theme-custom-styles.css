@@ -564,7 +564,7 @@ span.border-bt-hover {
         background: #f8f8f8;
         border-radius: 3px;
     }
-    #CollectionFiltersForm .widget-title {
+    /* #CollectionFiltersForm .widget-title {
         padding: 0 0 5px !important;
     }    
     .sidebar .sidebar-title {
@@ -592,7 +592,7 @@ span.border-bt-hover {
     }        
     .halo-collection-content .sidebar {
         margin: 0 auto !important;
-    }
+    } */
     .toolbar .view-mode .icon-mode {
         border: none;
     }    
