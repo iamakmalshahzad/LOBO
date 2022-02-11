@@ -546,7 +546,8 @@ span.border-bt-hover {
     }
     .toolbar {        
         border-radius: 3px;
-    }    
+    }  
+      
     .toolbar .toolbar-col .label-tab {
         border-radius: 2px;
     }
