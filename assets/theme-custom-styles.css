@@ -238,6 +238,9 @@ div#shopify-section-1540984915288 h3.banner-title:hover {
     background-color: #000 !important;
     cursor: pointer;
 }
+a.cus-link {
+    color: #fff;
+}
 span.border-bt-hover {
     background-color: transparent !important;
 }
@@ -1243,7 +1246,18 @@ input.btn.btn-padd42,
     .wishlist-header.t-header h4 {
         color: #fff;
     }
-    
+    a.spotlight-button.btn {
+        border-radius: 50px;
+        min-height: 50px;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background: transparent;
+        color: #000;
+        border: 2px solid #000;
+    }
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
     /* ********************************************************************************** */
