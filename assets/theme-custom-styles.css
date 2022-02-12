@@ -204,6 +204,24 @@
     pointer-events: none;
     border-radius: 5%;
 }
+.cus-mega-title a.menu__moblie.current {
+    padding: 0 !important;
+    border-radius: 5% !important;
+}
+.site-nav .mega-menu .style_3 .menu-lv-2 img {
+    padding: 0;
+    margin: 0;
+}
+.cus-mega-title .menu__moblie img:hover{
+    transform: scale(1.1);
+}
+.cus-mega-title .menu__moblie img{
+    transition: all .5s ease-in-out;
+}
+.cus-mega-title,
+.cus-mega-title .menu__moblie{
+     overflow: hidden !important;
+}
 a.current.cus-title,
 a.menu__moblie.cus-title{
     position: absolute;
@@ -1261,7 +1279,6 @@ input.btn.btn-padd42,
     .content.spotlight-inner {
         margin-top: -17% !important;
         background: #fff;
-        z-index: 999999 !important;
         position: relative;
         width: 75%;
         margin: 0 auto;
