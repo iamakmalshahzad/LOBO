@@ -1900,7 +1900,7 @@
           "1540984915288-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9.jpg",
+              "image": "shopify:\/\/shop_images\/lobo_women_shoes_banner.jpg",
               "title": "View All",
               "color_title": "#ffffff",
               "link": "shopify:\/\/collections\/women"
@@ -1909,7 +1909,7 @@
           "1540984915288-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/men_4bd80bd3-74b4-496f-9b77-9c95a559bbeb.png",
+              "image": "shopify:\/\/shop_images\/lobo_men_shoes_banner.jpg",
               "title": "view all",
               "color_title": "#ffffff",
               "link": "shopify:\/\/collections\/men"
@@ -1918,7 +1918,7 @@
           "1540985049803": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/10.jpg",
+              "image": "shopify:\/\/shop_images\/lobo_bags_banner.jpg",
               "title": "view all",
               "color_title": "#ffffff",
               "link": "shopify:\/\/collections\/bags"
