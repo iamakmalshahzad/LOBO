@@ -1807,7 +1807,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/lobo-cover.jpg",
+              "image_slide": "shopify:\/\/shop_images\/backgrounds_6.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
