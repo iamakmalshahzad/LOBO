@@ -1914,6 +1914,7 @@
             "settings": {
               "dpl_slide_img": true,
               "image_slide": "shopify:\/\/shop_images\/hero_slider_01.jpg",
+              "image_slide_mb": "shopify:\/\/shop_images\/lobo_mobile_banner_home_4.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
