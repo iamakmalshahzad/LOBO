@@ -2025,7 +2025,7 @@
               "image": "shopify:\/\/shop_images\/4.png",
               "title": "Women",
               "des": "Find the pair that can make you feel like the very best version of yourself.",
-              "button": "Shop Now",
+              "button": "",
               "link": "shopify:\/\/collections\/women-sale",
               "color_button": ""
             }
@@ -2037,7 +2037,7 @@
               "image": "shopify:\/\/shop_images\/13.png",
               "title": "Men",
               "des": "Find exclusive range of Men's Footwear on upto 50% OFF.",
-              "button": "Shop Now",
+              "button": "",
               "link": "shopify:\/\/collections\/men-sale",
               "color_button": ""
             }
