@@ -1504,8 +1504,14 @@ input.btn.btn-padd42,
         border-radius: 3px;
     }
     .home-product-tabs .container {
-        width: 85%;
+        width: 90%;
         margin: auto;
+    }
+    .home-product-tabs .slick-arrow.slick-next {
+        right: -3%;
+    }
+    .home-product-tabs .slick-arrow.slick-prev {
+        left: -3%;
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------------------- */
