@@ -1755,8 +1755,8 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/backgrounds_6.png",
-              "image_slide_mb": "shopify:\/\/shop_images\/lobo_mobile_banner_home.png",
+              "image_slide": "shopify:\/\/shop_images\/Lobo-shoes-for-men-desktop-banner.jpg",
+              "image_slide_mb": "shopify:\/\/shop_images\/Lobo-shoes-for-men-mobile-banner.jpg",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
