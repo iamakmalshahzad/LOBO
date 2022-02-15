@@ -1277,14 +1277,11 @@ input.btn.btn-padd42,
         color: #000;
         border: 2px solid #000;
     }
-    .content.spotlight-inner {
-        margin-top: -17% !important;
-        background: #fff;
-        position: relative;
-        width: 75%;
-        margin: 0 auto;
-        box-shadow: #ffffff 0px 5px 15px;
-        border-radius: 5px;
+    .spotlight-item .title {
+        margin-bottom: 10px;
+    }
+    .spotlight-item .des {
+        margin-bottom: 0px;
     }
     .animate-scale:before {
         display: none !important;
