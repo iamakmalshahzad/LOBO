@@ -1702,8 +1702,8 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/backgrounds_1.png",
-              "image_slide_mb": "shopify:\/\/shop_images\/backgrounds_3.1.png",
+              "image_slide": "shopify:\/\/shop_images\/lobo-shoes-for-women-banner-desktop.jpg",
+              "image_slide_mb": "shopify:\/\/shop_images\/Lobo-shoes-women-shoes-banner-mobile.jpg",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
