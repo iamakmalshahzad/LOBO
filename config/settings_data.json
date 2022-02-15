@@ -2032,20 +2032,34 @@
           },
           "1541414200176-0": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "bg_color_column": "",
-              "image": "shopify:\/\/shop_images\/13.png",
+              "image": "shopify:\/\/shop_images\/02summer_sale_banners.png",
               "title": "Men",
               "des": "Find exclusive range of Men's Footwear on upto 50% OFF.",
               "button": "",
               "link": "shopify:\/\/collections\/men-sale",
               "color_button": ""
             }
+          },
+          "da45e46d-e8c7-4e4b-a640-ca56d0787f18": {
+            "type": "image",
+            "settings": {
+              "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/01summer_sale_banners.png",
+              "title": "Lorem De Dorus",
+              "des": "Nullam aliquet vestibulum augue non varius.",
+              "button": "",
+              "link": "",
+              "color_button": ""
+            }
           }
         },
         "block_order": [
           "1541414200176-1",
-          "1541414200176-0"
+          "1541414200176-0",
+          "da45e46d-e8c7-4e4b-a640-ca56d0787f18"
         ],
         "settings": {
           "layout": "full",
