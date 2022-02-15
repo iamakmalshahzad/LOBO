@@ -1286,6 +1286,23 @@ input.btn.btn-padd42,
         box-shadow: #ffffff 0px 5px 15px;
         border-radius: 5px;
     }
+    .animate-scale:before {
+        display: none !important;
+    }
+    section#slideshow-1540952363851 {
+        padding-bottom: 0;
+    }
+    div#sub-banner-1540984915288 .item.col-6.col-sm-4.three-blocks {
+        padding: 0px !important;
+    }
+    div#sub-banner-1540984915288 .row {
+        justify-content: space-evenly;
+    }
+    div#sub-banner-1540984915288 .col-sm-4 {
+        max-width: 33%;
+    }
+    
+    
     
     
     /* ********************************************************************************** */
