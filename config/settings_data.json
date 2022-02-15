@@ -1875,132 +1875,6 @@
           "display_padding": true
         }
       },
-      "1541065669115": {
-        "type": "home-new-arrivals",
-        "disabled": true,
-        "settings": {
-          "layout": "default",
-          "new_arrivals_title": "New Arrivals",
-          "new_arrivals_des": "",
-          "title_style": "style_1",
-          "view_all": "",
-          "link_view_all": "",
-          "product_list_collection": "frontpage",
-          "product_list_limit_all": 8,
-          "display_infinite_scrolling_homepage": true,
-          "collection_results_per_row1": "4",
-          "margin_bottom_mb": 40,
-          "margin_bottom_tab": 40,
-          "margin_bottom": 50
-        }
-      },
-      "1541389364083": {
-        "type": "home-custom-block-baner",
-        "disabled": true,
-        "blocks": {
-          "1541389364083-0": {
-            "type": "largeImg",
-            "settings": {
-              "display_parallax": false,
-              "dpl_down_arrow": false,
-              "height_img_parallax": "970px",
-              "content_style": "style_1",
-              "display_bg_animation": false,
-              "color_bg_animation": "#f6f6f6",
-              "alignment": "right",
-              "banner_heading": "Metropólis",
-              "font_size_banner_heading": "40px",
-              "color_banner_heading": "#232323",
-              "color_banner_heading_style2": "#10ffda",
-              "color_banner_heading_mb": "#232323",
-              "banner_sub_heading": "Artisan Florists",
-              "font_size_banner_sub_heading": "13px",
-              "color_banner_sub_heading": "#ffffff",
-              "color_banner_sub_heading_mb": "#232323",
-              "banner_des": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an tincidunt risus an consequat delit quisquemos.",
-              "font_size_banner_des": "12px",
-              "color_banner_des": "#232323",
-              "color_banner_des_mb": "#232323",
-              "countdown": "",
-              "banner_button": "Shop The Looks",
-              "link": "",
-              "bg_banner_button": "#232323",
-              "border_banner_button": "#232323",
-              "color_banner_button": "#ffffff",
-              "bg_banner_button_mb": "#232323",
-              "border_banner_button_mb": "#232323",
-              "color_banner_button_mb": "#ffffff",
-              "min_width_banner_button": "237px"
-            }
-          }
-        },
-        "block_order": [
-          "1541389364083-0"
-        ],
-        "settings": {
-          "layout": "full",
-          "layout_style": "layout_style_1",
-          "display_bg_banner": false,
-          "bg_color_banner": "#f5f5f5",
-          "widget_title": "",
-          "widget_des": "",
-          "title_style": "style_1",
-          "img_align": "center",
-          "margin_bottom_mb": 25,
-          "margin_bottom_tab": 25,
-          "margin_bottom": 30
-        }
-      },
-      "1541402822593": {
-        "type": "home-featured-products",
-        "disabled": true,
-        "settings": {
-          "bg_color": "",
-          "layout_style": "layout_style_1",
-          "display_banner": false,
-          "banner_is": "left",
-          "banner_heading": "",
-          "font_size_banner_heading": "40px",
-          "color_banner_heading": "#ffffff",
-          "banner_sub_heading": "",
-          "font_size_banner_sub_heading": "13px",
-          "color_banner_sub_heading": "#ffffff",
-          "banner_des": "",
-          "font_size_banner_des": "12px",
-          "color_banner_des": "#ffffff",
-          "banner_button": "",
-          "link": "",
-          "banner_button_2": "",
-          "link_2": "",
-          "bg_banner_button": "#ffffff",
-          "border_banner_button": "#ffffff",
-          "color_banner_button": "#232323",
-          "bg_color_box_style_2": "#ffffff",
-          "border_color_box_style_2": "#bcbcbc",
-          "featured_products_title": "new arrivals",
-          "color_text_title": "",
-          "font_size_title": "",
-          "text_alignment": "left",
-          "featured_products_des": "",
-          "featured_products_text_link": "",
-          "featured_products_link": "",
-          "color_text_link": "#ba7a2d",
-          "title_style": "style_1",
-          "show_slider_featured_collection": "milancelos",
-          "slider_featured_limit_all": 10,
-          "collection_results_per_row1": "4",
-          "featured_products_title_2": "new arrivals",
-          "featured_products_text_link_2": "",
-          "featured_products_link_2": "",
-          "show_slider_featured_collection_2": "",
-          "display_list_collection": false,
-          "text_list": "View all categories",
-          "url_list": "",
-          "margin_bottom_mb": 35,
-          "margin_bottom_tab": 40,
-          "margin_bottom": 0
-        }
-      },
       "1541414200176": {
         "type": "home-custom-block-spotlight",
         "blocks": {
@@ -2044,77 +1918,6 @@
           "title_style": "style_1"
         }
       },
-      "1541559977022": {
-        "type": "home-brands",
-        "disabled": true,
-        "blocks": {
-          "1541560311488": {
-            "type": "image",
-            "settings": {
-              "title": "Loremous",
-              "link": ""
-            }
-          },
-          "1541560317185": {
-            "type": "image",
-            "settings": {
-              "title": "Isablella",
-              "link": ""
-            }
-          },
-          "1541560319232": {
-            "type": "image",
-            "settings": {
-              "title": "Loremous",
-              "link": ""
-            }
-          },
-          "1541560320472": {
-            "type": "image",
-            "settings": {
-              "title": "FERMENDS",
-              "link": ""
-            }
-          },
-          "1541560321823": {
-            "type": "image",
-            "settings": {
-              "title": "CONSEQAUR",
-              "link": ""
-            }
-          },
-          "1541560836473": {
-            "type": "image",
-            "settings": {
-              "title": "Loremous",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1541560311488",
-          "1541560317185",
-          "1541560319232",
-          "1541560320472",
-          "1541560321823",
-          "1541560836473"
-        ],
-        "settings": {
-          "layout": "default",
-          "margin_bottom_mb": 0,
-          "margin_bottom_tab": 0,
-          "margin_bottom": 0,
-          "display_brand_border": true,
-          "display_bg_banner": false,
-          "bg_color_banner": "#f5f5f5",
-          "brand_title": "",
-          "brand_des": "",
-          "brands_view_all": "",
-          "brands_view_all_link": "",
-          "title_style": "style_1",
-          "brand_rows": "5"
-        }
-      },
       "1541566560488": {
         "type": "home-instagram",
         "blocks": {
@@ -2122,6 +1925,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/silver.png",
               "link": ""
             }
           },
@@ -2129,6 +1933,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/grey-snake.png",
               "link": ""
             }
           },
@@ -2136,6 +1941,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/red.png",
               "link": ""
             }
           },
@@ -2143,6 +1949,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/golden.png",
               "link": ""
             }
           },
@@ -2150,6 +1957,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/mustard.png",
               "link": ""
             }
           },
@@ -2157,6 +1965,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/multi-color.png",
               "link": ""
             }
           },
@@ -2164,6 +1973,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/pink.png",
               "link": ""
             }
           },
@@ -2171,6 +1981,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/multi-leopard.png",
               "link": ""
             }
           },
@@ -2178,6 +1989,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/beige.png",
               "link": ""
             }
           },
@@ -2185,6 +1997,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/women-ethnic-shoes-khussa-bannerlobo_shoes.jpg",
               "link": ""
             }
           }
@@ -2206,8 +2019,8 @@
           "layout": "default",
           "display_border_top": false,
           "instagram_bg": "#fafafa",
-          "instagram_title": "#Ella On Instagram",
-          "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas",
+          "instagram_title": "#LOBO On Instagram",
+          "instagram_des": "",
           "title_style": "style_2",
           "display_instagram_button": true,
           "instagram_button_text": "View Gallery",
@@ -3212,10 +3025,6 @@
       "1540984915288",
       "1642509241b3f27bf5",
       "1541414200176",
-      "1541065669115",
-      "1541389364083",
-      "1541402822593",
-      "1541559977022",
       "1642512848765f5db8",
       "1541566560488",
       "1642513542da3925ff"
