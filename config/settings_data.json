@@ -2027,7 +2027,7 @@
           "instagram_button_link": "https:\/\/www.instagram.com\/loboshoes.official\/",
           "type_instagram": "default",
           "embed_code": "",
-          "type_instagram_by_gallery": "link",
+          "type_instagram_by_gallery": "popup_image",
           "limit": "10",
           "images_per_row": "5",
           "slide_ins": "default_ins",
