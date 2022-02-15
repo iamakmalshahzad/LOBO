@@ -1,6 +1,14 @@
 {% if section.settings.display_sub_banner and section.blocks.size > 0 %}
 <div class="home-sub-banner sub-banner-{{ section.blocks.size }}{% unless section.settings.display_padding %} no-padding{% endunless %}" id="sub-banner-{{section.id}}">
     <div class="{% if section.settings.layout == 'default' %}container{% else %}container-fluid{% endif %}">
+        <div class="widget-title no-des">   
+            <h3 class="box-title">
+              <span class="title">
+                <span>#Lobo Collections</span>      
+              </span>
+            </h3>            
+        </div>
+
         <div class="row">
             {% for block in section.blocks %}
             
