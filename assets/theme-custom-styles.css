@@ -288,7 +288,8 @@ span.border-bt-hover {
 .home-product-tabs .widget-title:before,
 .related-products .widget-title:before,
 .recently-viewed-products .widget-title:before,
-.cart-popup-coll-related .widget-title:before {
+.cart-popup-coll-related .widget-title:before,
+#sub-banner-1540984915288 .widget-title:before{
   content: ' ';
   display: block;
   position: absolute;
