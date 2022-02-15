@@ -2027,12 +2027,12 @@
           "instagram_button_link": "",
           "type_instagram": "default",
           "embed_code": "",
-          "type_instagram_by_gallery": "popup_image",
+          "type_instagram_by_gallery": "link",
           "limit": "10",
           "images_per_row": "5",
           "slide_ins": "default_ins",
           "display_arrow": true,
-          "slide_rows": "1"
+          "slide_rows": "2"
         }
       },
       "footer-4": {
