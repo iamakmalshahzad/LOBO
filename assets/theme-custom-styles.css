@@ -1503,6 +1503,10 @@ input.btn.btn-padd42,
     .shopify-challenge__container .shopify-challenge__button {
         border-radius: 3px;
     }
+    .home-product-tabs .container {
+        width: 85%;
+        margin: auto;
+    }
 }
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------- MOBILE ONLY STYLES ---------------------------------------------------------------- */
