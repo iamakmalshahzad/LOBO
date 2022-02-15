@@ -1698,11 +1698,12 @@
       "1540952363851": {
         "type": "home-slideshow",
         "blocks": {
-          "1540952363851-0": {
+          "297b4584-941b-4fcb-96ef-f09b5dc05fa4": {
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/hero_slider_02.jpg",
+              "image_slide": "shopify:\/\/shop_images\/lobo-shoes-for-women-banner-desktop.jpg",
+              "image_slide_mb": "shopify:\/\/shop_images\/Lobo-shoes-women-shoes-banner-mobile.jpg",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
@@ -1731,8 +1732,8 @@
               "border_button_mb": "#232323",
               "color_button_mb": "#ffffff",
               "lb_product_1": "",
-              "top_position_1": "85",
-              "left_position_1": "7",
+              "top_position_1": "10",
+              "left_position_1": "10",
               "dots_color_1": "#ffffff",
               "dots_bg_color_1": "#323232",
               "dots_shadow_color_1": "#ffffff",
@@ -1750,11 +1751,12 @@
               "dots_shadow_color_3": "#ffffff"
             }
           },
-          "25ced572-fc94-4a2a-b9d2-577412c293ac": {
+          "2ee4ff2e-6cad-40d0-88ca-c647e63f5f61": {
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/hero_slider_01.jpg",
+              "image_slide": "shopify:\/\/shop_images\/Lobo-shoes-for-men-desktop-banner.jpg",
+              "image_slide_mb": "shopify:\/\/shop_images\/Lobo-shoes-for-men-mobile-banner.jpg",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
@@ -1804,8 +1806,8 @@
           }
         },
         "block_order": [
-          "1540952363851-0",
-          "25ced572-fc94-4a2a-b9d2-577412c293ac"
+          "297b4584-941b-4fcb-96ef-f09b5dc05fa4",
+          "2ee4ff2e-6cad-40d0-88ca-c647e63f5f61"
         ],
         "settings": {
           "layout": "full",
@@ -1847,7 +1849,7 @@
           "1540984915288-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/8_acc80c74-8eb2-4ad4-9913-c56de9fb0139.png",
+              "image": "shopify:\/\/shop_images\/lobo_women_shoes_banner_883eebff-e676-4fa5-9206-17e76ae32552.jpg",
               "title": "View All",
               "color_title": "#ffffff",
               "link": "shopify:\/\/collections\/women"
@@ -1856,7 +1858,7 @@
           "1540984915288-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9_1ef84ee7-87a3-4230-819e-6b40f31931ea.png",
+              "image": "shopify:\/\/shop_images\/lobo_men_shoes_banner_7421cccc-6487-45dc-9437-65ba9e221f99.jpg",
               "title": "view all",
               "color_title": "#ffffff",
               "link": "shopify:\/\/collections\/men"
@@ -1865,7 +1867,7 @@
           "1540985049803": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/10_de3a51b4-293c-439b-9bc8-78d0dd029657.png",
+              "image": "shopify:\/\/shop_images\/lobo_bags_banner_610832ed-4e90-4dc6-9ac8-f7e0c55d277e.jpg",
               "title": "view all",
               "color_title": "#ffffff",
               "link": "shopify:\/\/collections\/bags"
@@ -2016,34 +2018,34 @@
       "1541414200176": {
         "type": "home-custom-block-spotlight",
         "blocks": {
-          "1541414200176-0": {
-            "type": "image",
-            "settings": {
-              "bg_color_column": "",
-              "image": "shopify:\/\/shop_images\/2.png",
-              "title": "Men",
-              "des": "Find exclusive range of Men's Footwear on upto 50% OFF.",
-              "button": "Shop Now",
-              "link": "shopify:\/\/collections\/men-sale",
-              "color_button": ""
-            }
-          },
           "1541414200176-1": {
             "type": "image",
             "settings": {
               "bg_color_column": "",
-              "image": "shopify:\/\/shop_images\/men.png",
+              "image": "shopify:\/\/shop_images\/4.png",
               "title": "Women",
               "des": "Find the pair that can make you feel like the very best version of yourself.",
-              "button": "Shop Now",
+              "button": "",
               "link": "shopify:\/\/collections\/women-sale",
+              "color_button": ""
+            }
+          },
+          "1541414200176-0": {
+            "type": "image",
+            "settings": {
+              "bg_color_column": "",
+              "image": "shopify:\/\/shop_images\/13.png",
+              "title": "Men",
+              "des": "Find exclusive range of Men's Footwear on upto 50% OFF.",
+              "button": "",
+              "link": "shopify:\/\/collections\/men-sale",
               "color_button": ""
             }
           }
         },
         "block_order": [
-          "1541414200176-0",
-          "1541414200176-1"
+          "1541414200176-1",
+          "1541414200176-0"
         ],
         "settings": {
           "layout": "full",
