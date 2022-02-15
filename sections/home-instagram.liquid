@@ -54,7 +54,7 @@
       {% endif %}
         
         {% if section.settings.display_instagram_button and section.settings.instagram_button_text != blank %}
-        <a href="{{ section.settings.instagram_button_link }}" title="{{ section.settings.instagram_button_text | split: '|' | first }}" class="btn">
+        <a href="{{ section.settings.instagram_button_link }}" target="_blank" title="{{ section.settings.instagram_button_text | split: '|' | first }}" class="btn">
             {% render 'multilang' with section.settings.instagram_button_text %}
         </a>
         {% endif %}
