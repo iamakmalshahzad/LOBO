@@ -1301,10 +1301,19 @@ input.btn.btn-padd42,
     div#sub-banner-1540984915288 .col-sm-4 {
         max-width: 33%;
     }
-    
-    
-    
-    
+    p.cart-empty-lobo {
+        width: 100%;
+        height: 200px;
+        background: url(https://cdn.shopify.com/s/files/1/0621/5191/7819/files/lobo_wolf.png?v=1642320444);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        opacity: .7;
+    }
+    .no-items {
+        padding: 80px 10px;
+    }      
+        
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
     /* ********************************************************************************** */
