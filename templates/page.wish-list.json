@@ -5,55 +5,6 @@
       "settings": {
       }
     },
-    "1645025990288576f4": {
-      "type": "home-featured-products",
-      "settings": {
-        "bg_color": "",
-        "layout_style": "layout_style_1",
-        "display_banner": false,
-        "banner_is": "left",
-        "banner_heading": "#CAMPAIGNS",
-        "font_size_banner_heading": "40px",
-        "color_banner_heading": "#fff",
-        "banner_sub_heading": "Spring Summer’08",
-        "font_size_banner_sub_heading": "13px",
-        "color_banner_sub_heading": "#fff",
-        "banner_des": "Phasellus lorem malesuada ligula pulvinar de cosmopolis",
-        "font_size_banner_des": "12px",
-        "color_banner_des": "#fff",
-        "banner_button": "Shop Now",
-        "link": "",
-        "banner_button_2": "Shop Now",
-        "link_2": "",
-        "bg_banner_button": "#fff",
-        "border_banner_button": "#fff",
-        "color_banner_button": "#232323",
-        "bg_color_box_style_2": "#ffffff",
-        "border_color_box_style_2": "#bcbcbc",
-        "featured_products_title": "Trending Now",
-        "color_text_title": "",
-        "font_size_title": "",
-        "text_alignment": "left",
-        "featured_products_des": "",
-        "featured_products_text_link": "",
-        "featured_products_link": "",
-        "color_text_link": "#ba7a2d",
-        "title_style": "style_1",
-        "show_slider_featured_collection": "",
-        "slider_featured_limit_all": 10,
-        "collection_results_per_row1": "5",
-        "featured_products_title_2": "Trending Now",
-        "featured_products_text_link_2": "",
-        "featured_products_link_2": "",
-        "show_slider_featured_collection_2": "best-sellers",
-        "display_list_collection": false,
-        "text_list": "View all categories",
-        "url_list": "",
-        "margin_bottom_mb": 40,
-        "margin_bottom_tab": 40,
-        "margin_bottom": 0
-      }
-    },
     "164502694239be2acb": {
       "type": "home-new-arrivals",
       "settings": {
@@ -75,7 +26,6 @@
   },
   "order": [
     "main",
-    "1645025990288576f4",
     "164502694239be2acb"
   ]
 }
