@@ -403,8 +403,6 @@ span.border-bt-hover {
         border: none;
         padding: 15px 0px !important;
         min-width: 115px !important;
-        font-weight: 500 !important;
-        text-transform: capitalize;
         color: #000;
         background-color: #fff;
     }    
@@ -1856,3 +1854,29 @@ input.btn.btn-padd42,
         display: none;
     }
 }
+
+/* **************************FONT RELATED STYLES / FONT SIZE AND WEIGHT********************************** */
+html, body, .header-top .top-message,
+.footer-top-newsletter .banner-large-img .banner-content .banner-heading {
+    font-size: var(--font_size_plus1) !important;
+}
+
+.header-02-tpl .site-nav .menu-lv-1>a{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list-product-tabs .tab-links {
+    font-weight: 600;
+}
+
+.widget-title .box-title,
+.footer-top-newsletter .banner-large-img .banner-content .banner-title{
+    font-size: 26px !important;
+}
+a.current.cus-title, a.menu__moblie.cus-title,
+.wrapper_header_02 .site-nav .mega-menu .menu-lv-2>a{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* ****************************************************************************************************** */
