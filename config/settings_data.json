@@ -1661,7 +1661,7 @@
         "settings": {
           "display_someone-purchased": true,
           "display_someone-purchased_mb": true,
-          "show_someone-purchased": "right",
+          "show_someone-purchased": "left",
           "someone_speed": "7000",
           "text": "Someone recently bought a",
           "time_location_text": "[time] minutes ago, from [location]"
@@ -2975,7 +2975,6 @@
           "bg_footer_position_y": "top",
           "bg_footer_repeat": "repeat",
           "bg_footer_attachment": "scroll",
-          "bg-footer-img": "shopify:\/\/shop_images\/Lobo-Shoes-women-shoes-on-sale-banner.jpg",
           "footer_title_color": "#ffffff",
           "footer_link_color": "#ffffff",
           "footer_link_hover_color": "#ffffff",
@@ -2994,7 +2993,7 @@
           "footer_bottom_color": "#ffffff",
           "footer_address_code": "© 2022 LOBO Shoes. All Rights Reserved. <br>Powered by Shopify",
           "show_payment_icons": false,
-          "payment_display_visa": true,
+          "payment_display_visa": false,
           "payment_display_visa_electron": false,
           "payment_display_american_express": false,
           "payment_display_master": false,
