@@ -99,7 +99,7 @@
     "link_to_redirect": "\/collections\/all",
     "font_2": "shopify_fonts",
     "fonts_name_2": "Helvetica Neue",
-    "header_font_new": "nunito_sans_n6",
+    "header_font_new": "nunito_n4",
     "font": "shopify_fonts",
     "fonts_name": "Helvetica Neue",
     "base_font_new": "nunito_n4",
@@ -2930,22 +2930,22 @@
           "17bc95e9-278b-45bd-b510-24f6138d78fe": {
             "type": "footer_link",
             "settings": {
-              "footer_title": "some title",
-              "footer_linklist": "footer"
+              "footer_title": "Women",
+              "footer_linklist": "footer-women"
             }
           },
           "bf1edef1-e600-4986-8e80-5c6e138268f6": {
             "type": "footer_link",
             "settings": {
-              "footer_title": "some title",
-              "footer_linklist": "footer"
+              "footer_title": "Men",
+              "footer_linklist": "footer-men"
             }
           },
           "eae2215a-c383-43bd-91bb-bb49ba1d812a": {
             "type": "footer_link",
             "settings": {
-              "footer_title": "some title",
-              "footer_linklist": "footer"
+              "footer_title": "Customer Service",
+              "footer_linklist": "footer-customer-services"
             }
           },
           "a67351df-b24d-4bd7-b77c-5010dd0b0d54": {
@@ -2955,9 +2955,9 @@
               "info_icon_1": "<i class=\"fa fa-location-arrow\" aria-hidden=\"true\"><\/i>",
               "info_text_1": "163 B, Eden Boulevard, Eden Residencia, LHR",
               "info_icon_2": "<i class=\"fa fa-phone\" aria-hidden=\"true\"><\/i>",
-              "info_text_2": "Call us @ <a href=\"tel:+923334107487\">+( 92 ) 333-4107487<\/a>",
+              "info_text_2": "Call us: <a href=\"tel:+923334107487\">+( 92 ) 333-4107487<\/a>",
               "info_icon_3": "<i class=\"fa fa-envelope\" aria-hidden=\"true\"><\/i>",
-              "info_text_3": "<span>Mail us @ <a href=\"mailto:loboshoes.official@gmail.com\">loboshoes.official@gmail.com<\/a>\n<\/span>"
+              "info_text_3": "<span>Mail us: <a href=\"mailto:loboshoes.official@gmail.com\">loboshoes.official@gmail.com<\/a>\n<\/span>"
             }
           }
         },
