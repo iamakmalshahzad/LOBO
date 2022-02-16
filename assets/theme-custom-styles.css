@@ -856,6 +856,12 @@ span.border-bt-hover {
     .template-product .footer-09 .footer-bottom {
         padding-bottom: 60px !important;
     }
+    .site-footer .logo-ft img {
+        max-height: 110px;
+    }
+    .footer-top .container {
+        max-width: 90%;
+    }
     /* ********************************************************************************** */
     /* ***************************************CART PAGE ********************************* */
     /* ********************************************************************************** */
