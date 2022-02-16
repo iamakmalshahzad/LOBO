@@ -2869,7 +2869,7 @@
           "68049784-60bd-4f48-9416-a37ff5089bc7": {
             "type": "ProductTabs",
             "settings": {
-              "title": "featured products",
+              "title": "featured",
               "collection": "featured-products"
             }
           }
