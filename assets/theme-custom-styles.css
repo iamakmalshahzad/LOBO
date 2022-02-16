@@ -1800,8 +1800,9 @@ input.btn.btn-padd42,
     }
 }
 @media all and (max-width: 479px){
-    .widget-title {
-        padding: 40px !important;
+    .widget-title,
+    .widget-title .box-title .title {
+        padding: 40px 0 !important;
     }
     .new-arrivals-product .widget-title:before,
     .featured-products .widget-title:before,
@@ -1870,10 +1871,10 @@ html, body, .header-top .top-message,
     font-weight: 600;
 }
 
-/* .widget-title .box-title,
+.widget-title .box-title,
 .footer-top-newsletter .banner-large-img .banner-content .banner-title{
     font-size: 26px !important;
-} */
+}
 a.current.cus-title, a.menu__moblie.cus-title,
 .wrapper_header_02 .site-nav .mega-menu .menu-lv-2>a{
     text-transform: uppercase;
