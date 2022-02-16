@@ -2975,6 +2975,7 @@
           "bg_footer_position_y": "top",
           "bg_footer_repeat": "repeat",
           "bg_footer_attachment": "scroll",
+          "bg-footer-img": "shopify:\/\/shop_images\/Lobo-Shoes-women-shoes-on-sale-banner.jpg",
           "footer_title_color": "#ffffff",
           "footer_link_color": "#ffffff",
           "footer_link_hover_color": "#ffffff",
