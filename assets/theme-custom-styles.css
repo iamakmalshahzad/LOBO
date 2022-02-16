@@ -862,6 +862,9 @@ span.border-bt-hover {
     .footer-top .container {
         max-width: 90%;
     }
+    .footer-09 .col-footer .social-icons {
+        text-align: center;
+    }
     /* ********************************************************************************** */
     /* ***************************************CART PAGE ********************************* */
     /* ********************************************************************************** */
@@ -1317,6 +1320,10 @@ input.btn.btn-padd42,
     }
     .no-items {
         padding: 80px 10px;
+    }
+    .wrapper-newsletter .halo-modal-body #mailchimp-email-subscibe .input-group-field,
+    .wrapper-newsletter .halo-modal-body #mailchimp-email-subscibe .btn {
+    border-radius: 3px;
     }      
         
     /* ********************************************************************************** */
