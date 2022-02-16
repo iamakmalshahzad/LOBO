@@ -150,7 +150,7 @@
     "popup_newsletter_text_note": "No, thanks",
     "newssletter_success_text": "You have successfully subscribed!",
     "newssletter_error_text": "This email has been registered.",
-    "display_newsletter_toolbar": true,
+    "display_newsletter_toolbar": false,
     "display_popup_social": true,
     "enable_ask_an_expert": false,
     "ask_an_expert": "<i class=\"fa fa-question-circle\"><\/i><a href=\"javascript:void(0)\" title=\"Ask An Expert\">Ask An Expert<\/a>",
