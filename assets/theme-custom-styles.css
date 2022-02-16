@@ -1322,6 +1322,9 @@ input.btn.btn-padd42,
     .wrapper-newsletter .halo-modal-body #mailchimp-email-subscibe .input-group-field,
     .wrapper-newsletter .halo-modal-body #mailchimp-email-subscibe .btn {
     border-radius: 3px;
+    }
+    .search__products .item-swatch {
+        display:none;
     }      
         
     /* ********************************************************************************** */
