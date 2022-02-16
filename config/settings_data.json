@@ -99,7 +99,7 @@
     "link_to_redirect": "\/collections\/all",
     "font_2": "shopify_fonts",
     "fonts_name_2": "Helvetica Neue",
-    "header_font_new": "nunito_n4",
+    "header_font_new": "assistant_n4",
     "font": "shopify_fonts",
     "fonts_name": "Helvetica Neue",
     "base_font_new": "nunito_n4",
@@ -2302,7 +2302,7 @@
         "type": "header-02",
         "settings": {
           "display_header_top": true,
-          "top_message_text": "<p class=\"word w1\">Free delivery on ALL ORDERS, all over Pakistan.<\/p>\n<p class=\"word w2\">Mid-Season Sale Up to 50% OFF.<\/p>",
+          "top_message_text": "<p class=\"word w1\">Free delivery on all orders, all over Pakistan.<\/p>\n<p class=\"word w2\">Mid-Season Sale Up to 50% OFF.<\/p>",
           "top_message_font_size": "12px",
           "bg_header_top": "#000000",
           "text_header_top_color": "#ffffff",
