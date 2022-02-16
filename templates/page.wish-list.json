@@ -53,10 +53,29 @@
         "margin_bottom_tab": 40,
         "margin_bottom": 0
       }
+    },
+    "164502694239be2acb": {
+      "type": "home-new-arrivals",
+      "settings": {
+        "layout": "default",
+        "new_arrivals_title": "trending now",
+        "new_arrivals_des": "",
+        "title_style": "style_1",
+        "view_all": "",
+        "link_view_all": "",
+        "product_list_collection": "featured-products",
+        "product_list_limit_all": 15,
+        "display_infinite_scrolling_homepage": false,
+        "collection_results_per_row1": "5",
+        "margin_bottom_mb": 40,
+        "margin_bottom_tab": 40,
+        "margin_bottom": 50
+      }
     }
   },
   "order": [
     "main",
-    "1645025990288576f4"
+    "1645025990288576f4",
+    "164502694239be2acb"
   ]
 }
