@@ -335,7 +335,7 @@ span.border-bt-hover {
     .list-product-tabs .tab-links {
         color: #000;
         padding: 2px 15px !important;
-        transition: all .5s;
+        transition: transform .5s;
         transition-timing-function: ease-in-out;
     }
     .list-product-tabs .tab-links:not(.active):hover {
@@ -1873,7 +1873,7 @@ html, body, .header-top .top-message,
 
 .widget-title .box-title,
 .footer-top-newsletter .banner-large-img .banner-content .banner-title{
-    font-size: 26px !important;
+    font-size: 22px !important;
 }
 a.current.cus-title, a.menu__moblie.cus-title,
 .wrapper_header_02 .site-nav .mega-menu .menu-lv-2>a{
