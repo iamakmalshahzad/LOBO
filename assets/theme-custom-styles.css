@@ -21,9 +21,7 @@
     font-family: 'Epilogue Light';
     src: url("Epilogue-Light.ttf") format("ttf");
 }
-/* body {
-    background-color: #fbfbfb !important;
-} */
+
 /* ************************************scroll bar css************************* */
 ::-webkit-scrollbar {
     width: 5px !important;
@@ -151,7 +149,8 @@
 }
 .site-nav .menu-lv-1 > a {
     transition: all .3s;
-    transition-timing-function: ease-in-out;    
+    transition-timing-function: ease-in-out;
+    line-height: var(--font-size_plus8);    
 }
 .site-nav .menu-lv-1 > a:hover {
     transform: scale(1.2);
