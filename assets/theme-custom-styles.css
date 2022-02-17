@@ -1340,6 +1340,9 @@ input.btn.btn-padd42,
     .item-swatch li label {
         width: 25px !important;
         height: 25px !important;
+    }
+    .cart-template .page-header h1, .cart-template .page-header h2 {
+        text-align: center;
     }    
         
     /* ********************************************************************************** */
