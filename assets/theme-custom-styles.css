@@ -1325,7 +1325,15 @@ input.btn.btn-padd42,
     }
     .search__products .item-swatch {
         display:none;
-    }      
+    }
+    .search-page .page-header h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .search-page .search-bar .icon-search,
+    .search-page .input-group-field{
+    border-radius: 3px;
+}    
         
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
