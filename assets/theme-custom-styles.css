@@ -1333,7 +1333,14 @@ input.btn.btn-padd42,
     .search-page .search-bar .icon-search,
     .search-page .input-group-field{
     border-radius: 3px;
-}    
+    }
+    .item-swatch li {
+        margin-bottom: 10px;
+    }
+    .item-swatch li label {
+        width: 25px !important;
+        height: 25px !important;
+    }    
         
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
