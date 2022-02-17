@@ -84,9 +84,9 @@
 
         {% if customer.default_address != nil %}
         <div class="addr">
-          {% if customer.default_address.address1 != nil %}
+          {% if customer.default_address.address1 != "" %}
           <span class="cus-addr">
-            {{ customer.default_address.address1 | append: " ," }}
+            {{ customer.default_address.address1 }}, &nbsp;
           </span>
           {% endif %}
 
