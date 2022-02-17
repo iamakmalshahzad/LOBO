@@ -1624,7 +1624,7 @@
             "settings": {
               "product": "leopard-print-block-heel-pump-shoe",
               "from_ago": "lahore",
-              "time_ago": "10 minutes"
+              "time_ago": "10 minutes ago"
             }
           },
           "1548643708120": {
@@ -1632,7 +1632,7 @@
             "settings": {
               "product": "multi-color-high-heel-pump-shoe",
               "from_ago": "KPK",
-              "time_ago": "20 minutes"
+              "time_ago": "20 minutes ago"
             }
           },
           "1548643726643": {
@@ -1640,7 +1640,7 @@
             "settings": {
               "product": "pink-suede-high-heel-pump-shoe",
               "from_ago": "Karachi",
-              "time_ago": "10 minutes"
+              "time_ago": "10 minutes ago"
             }
           },
           "1548643747526": {
@@ -1648,14 +1648,14 @@
             "settings": {
               "product": "snake-print-block-heel-pump-shoe",
               "from_ago": "Faisalabad",
-              "time_ago": "5 minutes"
+              "time_ago": "5 minutes ago"
             }
           },
           "5d98a18a-8c8c-47cf-96de-1510ef265c63": {
             "type": "image",
             "settings": {
               "product": "shinning-golden-block-heel-pump-shoe",
-              "from_ago": "from Karachi",
+              "from_ago": "Karachi",
               "time_ago": "15 minutes ago"
             }
           },
@@ -1663,7 +1663,7 @@
             "type": "image",
             "settings": {
               "product": "silver-high-heel-pump-shoe",
-              "from_ago": "from Islamabad",
+              "from_ago": "Islamabad",
               "time_ago": "Just now"
             }
           },
@@ -1671,7 +1671,7 @@
             "type": "image",
             "settings": {
               "product": "copy-of-red-matt",
-              "from_ago": "from Rawalpindi",
+              "from_ago": "Rawalpindi",
               "time_ago": "7 minutes ago"
             }
           }
@@ -1691,7 +1691,7 @@
           "show_someone-purchased": "left",
           "someone_speed": "7000",
           "text": "Someone recently bought a",
-          "time_location_text": "[time] minutes ago, from [location]"
+          "time_location_text": "[time] , from [location]"
         }
       },
       "GDPR-modal": {
