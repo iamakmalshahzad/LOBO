@@ -91,7 +91,6 @@
 
       <a class="product-title {% if select != blank %}change-text{% endif %}" href="{{ product.url | within: collection }}">
         {% render 'multilang' with product.title %}
-        {% if select != blank %}<span data-change-title> - {{ select }}</span>{% endif %}
       </a>
 
       {% if settings.style_product_grid == 'style_product_grid_5'%}
@@ -150,7 +149,6 @@
 
       <a class="product-title {% if select != blank %}change-text{% endif %}" href="{{ product.url | within: collection }}">
         {% render 'multilang' with product.title %}
-        {% if select != blank %}<span data-change-title> - {{ select }}</span>{% endif %}
       </a>
 
       {% if settings.display_product_reviews %}

@@ -97,7 +97,6 @@
       <a class="product-title {% if settings.header_layout == '02'%}{% if select != blank %}change-text{% endif %}{% endif %}" href="{{ product.url | within: collection }}">
         {% render 'multilang' with product.title %}
         {% if settings.header_layout == '02'%}
-          {% if select != blank %}<span data-change-title> - {{ select }}</span>{% endif %}
         {% endif %}
       </a>
       

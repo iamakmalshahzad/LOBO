@@ -107,7 +107,6 @@
 
       <a class="product-title {% if select != blank %}change-text{% endif %}" href="{{ product.url | within: collection }}">
         {% render 'multilang' with product.title %}
-        {% if select != blank %}<span data-change-title> {% unless settings.layout_style == 'layout_style_surfup' %}-{% endunless %} {{ select }}</span>{% endif %}
       </a>
 
       {% if settings.layout_style == 'layout_style_surfup' or settings.layout_home == 'layout_home_7' %}
@@ -178,7 +177,6 @@
 
       <a class="product-title {% if select != blank %}change-text{% endif %}" href="{{ product.url | within: collection }}">
         {% render 'multilang' with product.title %}
-        {% if select != blank %}<span data-change-title> - {{ select }}</span>{% endif %}
       </a>
 
       {% if settings.display_product_reviews %}
