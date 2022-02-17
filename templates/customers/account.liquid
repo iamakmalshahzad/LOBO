@@ -84,9 +84,11 @@
 
         {% if customer.default_address != nil %}
         <div class="addr">
+          {% if customer.default_address.address1 != "" %}
           <span class="cus-addr">
             {{ customer.default_address.address1 | append: " ," }}
           </span>
+          {% endif %}
 
           {% if customer.default_address.address2 != "" %}
           <span class="cus-addr">
