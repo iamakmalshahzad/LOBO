@@ -1343,6 +1343,14 @@ input.btn.btn-padd42,
     }
     .cart-template .page-header h1, .cart-template .page-header h2 {
         text-align: center;
+    }
+    .no-item-cart .text-continue {
+        text-align: center;
+    }
+    .no-item-cart .text-continue a {
+        color: #fff;
+        background: #000;
+        border-radius: 3px;
     }    
         
     /* ********************************************************************************** */
