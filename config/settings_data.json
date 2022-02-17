@@ -1622,33 +1622,57 @@
           "1548643650260": {
             "type": "image",
             "settings": {
-              "product": "dempus-lortis-cosmo-sapiendo",
-              "from_ago": "Blackburn, UK",
-              "time_ago": "20 minutes"
+              "product": "leopard-print-block-heel-pump-shoe",
+              "from_ago": "lahore",
+              "time_ago": "10 minutes"
             }
           },
           "1548643708120": {
             "type": "image",
             "settings": {
-              "product": "dempus-lortis-cosmo-sapiendo-1",
-              "from_ago": "Washington, US",
-              "time_ago": "30 minutes"
+              "product": "multi-color-high-heel-pump-shoe",
+              "from_ago": "KPK",
+              "time_ago": "20 minutes"
             }
           },
           "1548643726643": {
             "type": "image",
             "settings": {
-              "product": "dempus-lortis-cosmo-sapiendo-2",
-              "from_ago": "Blumenau, Brazil",
+              "product": "pink-suede-high-heel-pump-shoe",
+              "from_ago": "Karachi",
               "time_ago": "10 minutes"
             }
           },
           "1548643747526": {
             "type": "image",
             "settings": {
-              "product": "dempus-an-lortis-tempus-sapiendos",
-              "from_ago": "Bauru, Brazil",
-              "time_ago": "35 minutes"
+              "product": "snake-print-block-heel-pump-shoe",
+              "from_ago": "Faisalabad",
+              "time_ago": "5 minutes"
+            }
+          },
+          "5d98a18a-8c8c-47cf-96de-1510ef265c63": {
+            "type": "image",
+            "settings": {
+              "product": "shinning-golden-block-heel-pump-shoe",
+              "from_ago": "from Karachi",
+              "time_ago": "15 minutes ago"
+            }
+          },
+          "28117714-2393-44a0-986a-ae26238bf938": {
+            "type": "image",
+            "settings": {
+              "product": "silver-high-heel-pump-shoe",
+              "from_ago": "from Islamabad",
+              "time_ago": "Just now"
+            }
+          },
+          "31560cfb-a574-4f0d-8f27-fbb9a2f7036a": {
+            "type": "image",
+            "settings": {
+              "product": "copy-of-red-matt",
+              "from_ago": "from Rawalpindi",
+              "time_ago": "7 minutes ago"
             }
           }
         },
@@ -1656,7 +1680,10 @@
           "1548643650260",
           "1548643708120",
           "1548643726643",
-          "1548643747526"
+          "1548643747526",
+          "5d98a18a-8c8c-47cf-96de-1510ef265c63",
+          "28117714-2393-44a0-986a-ae26238bf938",
+          "31560cfb-a574-4f0d-8f27-fbb9a2f7036a"
         ],
         "settings": {
           "display_someone-purchased": true,
