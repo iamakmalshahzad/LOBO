@@ -58,7 +58,7 @@
         "display_product_detail_tag": false,
         "display_product_detail_share": true,
         "share_text": "Share this product on:",
-        "display_trust_img": true,
+        "display_trust_img": false,
         "show_tab": "horizontal_center",
         "display_product_detail_description": true,
         "product_description_title": "Description",
