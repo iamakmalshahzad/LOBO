@@ -9,7 +9,7 @@
         "time_countdown": 30,
         "coupon_code_enable": true,
         "coupon_title": "Promo Code:",
-        "coupon_content": "for seller code will be applied on the checkout page",
+        "coupon_content": "Coupon code will be applied on the checkout page",
         "gift_card_enable": true,
         "product_to_use": "",
         "gift_content": "",
