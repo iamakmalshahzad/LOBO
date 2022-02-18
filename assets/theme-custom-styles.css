@@ -1376,6 +1376,9 @@ input.btn.btn-padd42,
     .fof-wrapper .content-404 {
         padding: 0 !important;
     }
+    .product-shop .total-price .total-money {
+        font-size: var(--font_size);
+    }
 
         
     /* ********************************************************************************** */
@@ -1422,7 +1425,23 @@ input.btn.btn-padd42,
     .product-shop .shopify-payment-button button.shopify-payment-button__button {
         margin: 0 0 0 5px !important;
     }
+    
+
 }
+
+@media all and (min-width: 681px) and (max-width: 1200px) {
+    .ajax-quickview .quickview-tpl .product-photos {
+     max-width: 50%;
+ }
+ 
+ .ajax-quickview .quickview-tpl .product-shop {
+     min-width: 50%;
+ }
+ 
+ .ajax-quickview .halo-modal-content .halo-modal-body {
+     padding: 30px;
+ }
+ }
 @media all and (min-width: 768px) {
     /* **********************************login page****************************************** */
     .login-page .container {
@@ -1848,6 +1867,59 @@ input.btn.btn-padd42,
             padding-bottom: 15% !important;
         }
     }
+
+@media all and (max-width: 680px) {
+    .ajax-quickview .row.quickview-tpl {
+        display: block;
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+    .ajax-quickview .halo-modal-body {
+        padding: 10px !important;
+    }
+    .ajax-quickview .quickview-tpl .product-photos {
+        min-width: 100%;
+    }
+    .ajax-quickview .quickview-tpl .product-img-box .slider-nav {
+        margin: auto;
+        margin-bottom: 22px;
+    }
+    .ajax-quickview .quickview-tpl .product-shop {
+        margin: 0;
+        min-width: 100%;
+    }
+    .ajax-quickview h2.product-title {
+        text-align: center;
+    }
+    .ajax-quickview .group_item {
+        width: fit-content;
+        float: right;
+        margin: 0 !important;
+    }
+    .ajax-quickview .product-infor {
+        width: fit-content;
+        float: left;
+    }
+    .ajax-quickview .product-shop .prices {
+        margin-top: 50px;
+    }
+    .ajax-quickview .product-shop .qty-group {
+        width: fit-content;
+    }
+    .ajax-quickview a.wishlist {
+        margin-right: 10px !important;
+    }
+    
+    
+    .ajax-quickview .size-chart-open-popup:before {
+        display: none;
+    }
+    
+    .ajax-quickview a.size-chart-open-popup {
+        text-decoration: underline !important;
+    }
+}
 @media all and (max-width: 550px) {
     .h-desktop span {
     width: 60px !important;
