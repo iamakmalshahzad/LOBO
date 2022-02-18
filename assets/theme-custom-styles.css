@@ -1382,7 +1382,10 @@ input.btn.btn-padd42,
     .ajax-quickview .product-shop .groups-btn .product-add-to-cart {
         margin-left: 0 !important;
     }
-
+    ul.slick-dots {
+        padding: 10px !important;
+        margin: 0 !important;
+    }
         
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
