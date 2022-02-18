@@ -1432,19 +1432,23 @@ input.btn.btn-padd42,
 @media all and (min-width: 681px) and (max-width: 1199px) {
     .ajax-quickview .quickview-tpl .product-photos {
      max-width: 50%;
- } 
- .ajax-quickview .quickview-tpl .product-shop {
+    } 
+    .ajax-quickview .quickview-tpl .product-shop {
      min-width: 50%;
- } 
- .ajax-quickview .halo-modal-content .halo-modal-body {
-     padding: 30px;
- }
- .ajax-quickview .size-chart-open-popup:before {
-    display: none;
-}
-.ajax-quickview a.wishlist {
-margin-right: 10px!important;
-}
+    } 
+    .ajax-quickview .halo-modal-content .halo-modal-body {
+        padding: 30px;
+    }
+    .ajax-quickview .size-chart-open-popup:before {
+        display: none;
+    }
+    .ajax-quickview a.wishlist {
+    margin-right: 10px!important;
+    }
+    .ajax-quickview a.size-chart-open-popup {
+        text-decoration: underline !important;
+    }
+
  }
 @media all and (min-width: 768px) {
     /* **********************************login page****************************************** */
