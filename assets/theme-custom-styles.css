@@ -1671,6 +1671,12 @@ input.btn.btn-padd42,
         padding-right: 25px;
     }
 }
+@media (min-width: 768px) and (max-width: 992px){
+.footer-09.site-footer .col-footer.info_store {
+    max-width: fit-content;
+    margin: auto;
+}
+}
 @media all and (max-width: 767px) {
     .product-item .wishlist svg,
     .custom-style-des .quickview-button {
@@ -1877,8 +1883,7 @@ input.btn.btn-padd42,
         #create-account main.main-content {
             padding-bottom: 15% !important;
         }
-    }
-
+}
 @media all and (max-width: 680px) {
     .ajax-quickview .row.quickview-tpl {
         display: block;
