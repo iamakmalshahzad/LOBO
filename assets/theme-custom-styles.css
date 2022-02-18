@@ -1360,6 +1360,20 @@ input.btn.btn-padd42,
         border-radius: 50px !important;
         border-color: #000;
     }
+    .fof-wrapper .content {
+        margin-top: 50px;
+    }
+    .fof-wrapper .content .btn {
+        background: #000;
+        border-color: #000;
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+    }
+    .fof-wrapper .content .btn:hover {
+        background: #fff;
+        color: #000;
+    }
+    
 
         
     /* ********************************************************************************** */
