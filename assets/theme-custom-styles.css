@@ -1386,6 +1386,9 @@ input.btn.btn-padd42,
         padding: 10px !important;
         margin: 0 !important;
     }
+    .footer-top-newsletter .banner-large-img .banner-content .banner-title {
+        font-weight: 700;
+    }
         
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
