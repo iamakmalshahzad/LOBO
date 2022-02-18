@@ -1379,7 +1379,7 @@ input.btn.btn-padd42,
     .product-shop .total-price .total-money {
         font-size: var(--font_size);
     }
-    .ajax-quickview .product-shop .groups-btn #product-add-to-cart {
+    .ajax-quickview .product-shop .groups-btn .product-add-to-cart {
         margin-left: 0 !important;
     }
 
