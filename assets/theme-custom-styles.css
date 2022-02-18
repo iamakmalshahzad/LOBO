@@ -1670,13 +1670,12 @@ input.btn.btn-padd42,
     .cart-template .wrapper-cart-template .cart_items.left-col .cart-header .cart--price {
         padding-right: 25px;
     }
+    .footer-09.site-footer .col-footer.info_store {
+        max-width: fit-content;
+        margin: auto;
+    }
 }
-@media (min-width: 768px) and (max-width: 992px){
-.footer-09.site-footer .col-footer.info_store {
-    max-width: fit-content;
-    margin: auto;
-}
-}
+
 @media all and (max-width: 767px) {
     .product-item .wishlist svg,
     .custom-style-des .quickview-button {
