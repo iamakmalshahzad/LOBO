@@ -3,7 +3,7 @@
     "main": {
       "type": "main-404",
       "settings": {
-        "background": "shopify:\/\/shop_images\/404_page.jpg",
+        "background": "shopify:\/\/shop_images\/404_page.png",
         "overlay_color": "#ffffff",
         "overlay_opacity": "",
         "number_size": "0",
