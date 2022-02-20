@@ -1460,7 +1460,7 @@ input.btn.btn-padd42,
     .ajax-quickview a.wishlist {
     margin-right: 10px!important;
     }
-    .ajax-quickview a.size-chart-open-popup {
+    a.size-chart-open-popup {
         text-decoration: underline !important;
     }
 
@@ -1940,7 +1940,7 @@ input.btn.btn-padd42,
     .size-chart-open-popup:before {
         display: none !important;
     }
-    .ajax-quickview a.size-chart-open-popup {
+    a.size-chart-open-popup {
         text-decoration: underline !important;
     }
 }
