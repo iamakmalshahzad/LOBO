@@ -1389,6 +1389,12 @@ input.btn.btn-padd42,
     .footer-top-newsletter .banner-large-img .banner-content .banner-title {
         font-weight: 700;
     }
+    .size-chart-img {
+        text-align: center;
+    }
+    div#size_chart .modal-content {
+        border-radius: 3px;
+    }
         
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
