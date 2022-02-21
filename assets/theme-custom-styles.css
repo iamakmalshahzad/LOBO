@@ -1483,6 +1483,7 @@ input.btn.btn-padd42,
     /* **********************************login page****************************************** */
     .login-page .container {
         padding: 0!important;
+        min-width: 100%;
     }
     .bg-cus {
         width: 50%;
@@ -1760,6 +1761,7 @@ input.btn.btn-padd42,
         }
         .custom-acc-page .wrapper-content {
             margin-top: 50px;
+            margin-bottom: 50px;
             padding: 0;
         }    
         .wrapper-login-customer .wrapper-content .col-left {
@@ -1885,6 +1887,7 @@ input.btn.btn-padd42,
         #account .main-content {
             padding-bottom: 50px;
         }
+
 
         /* *****************************register page styles*************************** */
         .create-an-account {
