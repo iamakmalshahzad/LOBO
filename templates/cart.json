@@ -16,7 +16,7 @@
         "button_gift_text": "Add",
         "show_cart_best_sellers_product": true,
         "title": "Best Sellers",
-        "show_slider_featured_collection": "cosmopolis",
+        "show_slider_featured_collection": "best-sellers",
         "slider_featured_limit_all": 16,
         "collection_results_per_row1": "5"
       }
