@@ -1398,7 +1398,18 @@ input.btn.btn-padd42,
     #size_chart .modal-body {
         padding: 0 10%;
     }
-        
+    div#shopify-section-template--15572736180475__1645419503ac497d91 {
+        margin-bottom: 40px;
+    }
+    .contact-us-page .form-group textarea {
+        max-width: 100%;
+    }
+    .contact-us-page .btn {
+        border-radius: 3px;
+    }
+    .contact-us-page .page-header {
+        text-align: center;
+    }        
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
     /* ********************************************************************************** */
