@@ -1409,6 +1409,10 @@ input.btn.btn-padd42,
     }
     .contact-us-page .page-header {
         text-align: center;
+    }
+    div#shopify-section-template--15572734771451__main .page-header {
+        text-align: center !important;
+        font-size: 2rem;
     }        
     /* ********************************************************************************** */
     /* ***************************************FOOTER************************************* */
@@ -1642,9 +1646,6 @@ input.btn.btn-padd42,
     }
     .home-product-tabs .slick-arrow.slick-prev {
         left: -3%;
-    }
-    div#shopify-section-template--15572734771451__main .page-header {
-        text-align: center !important;
     }
     div#shopify-section-template--15572734771451__main .rte {
         text-align: center;
