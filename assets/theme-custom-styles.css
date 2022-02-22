@@ -1652,6 +1652,8 @@ input.btn.btn-padd42,
     } */
     div#shopify-section-template--15572734771451__main .rte img {
         max-width: 70%;
+        margin: 0 auto !important;
+        display: block;
     }
 }
 /* ---------------------------------------------------------------------------------------------------------------------------- */
