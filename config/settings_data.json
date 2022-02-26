@@ -1956,17 +1956,19 @@
               "link": ""
             }
           },
-          "1585729405746": {
-            "type": "instagram",
-            "settings": {
-              "enable": true,
-              "link": ""
-            }
-          },
           "1585729414607": {
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/chamki-main.jpg",
+              "link": ""
+            }
+          },
+          "1585729405746": {
+            "type": "instagram",
+            "settings": {
+              "enable": true,
+              "image": "shopify:\/\/shop_images\/black-sandal-main.jpg",
               "link": ""
             }
           },
@@ -1974,6 +1976,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/shiny-main.jpg",
               "link": ""
             }
           },
@@ -1981,6 +1984,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/red-main.jpg",
               "link": ""
             }
           },
@@ -1988,6 +1992,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/silver-main.jpg",
               "link": ""
             }
           },
@@ -1995,6 +2000,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/pink-main.jpg",
               "link": ""
             }
           },
@@ -2002,6 +2008,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/snake-main.jpg",
               "link": ""
             }
           },
@@ -2009,6 +2016,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/white_main.jpg",
               "link": ""
             }
           },
@@ -2016,6 +2024,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/beige-white-main.jpg",
               "link": ""
             }
           },
@@ -2023,6 +2032,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/net-main.jpg",
               "link": ""
             }
           },
@@ -2030,6 +2040,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/beige-main.jpg",
               "link": ""
             }
           },
@@ -2037,6 +2048,7 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/multi-main.jpg",
               "link": ""
             }
           },
@@ -2044,14 +2056,31 @@
             "type": "instagram",
             "settings": {
               "enable": true,
+              "image": "shopify:\/\/shop_images\/golden-main.jpg",
+              "link": ""
+            }
+          },
+          "6bfbc79a-03b9-4525-b65e-2093fd7c9ebd": {
+            "type": "instagram",
+            "settings": {
+              "enable": true,
+              "image": "shopify:\/\/shop_images\/mustard_croco_main.jpg",
+              "link": ""
+            }
+          },
+          "e9fdbc8e-35db-4cd7-94db-441cba56b665": {
+            "type": "instagram",
+            "settings": {
+              "enable": true,
+              "image": "shopify:\/\/shop_images\/leopard-main.jpg",
               "link": ""
             }
           }
         },
         "block_order": [
           "1585729380684",
-          "1585729405746",
           "1585729414607",
+          "1585729405746",
           "1585729422220",
           "1585729429667",
           "1585729437058",
@@ -2062,7 +2091,9 @@
           "c95f9086-3a13-4ed3-8d00-b02caa210806",
           "39d2c204-a235-4e44-a394-e272ebbd5cde",
           "68dd5ab1-95f3-4529-9550-35987d91e6ff",
-          "67d4dee4-779e-4c34-ac64-2bcb81f2fce7"
+          "67d4dee4-779e-4c34-ac64-2bcb81f2fce7",
+          "6bfbc79a-03b9-4525-b65e-2093fd7c9ebd",
+          "e9fdbc8e-35db-4cd7-94db-441cba56b665"
         ],
         "settings": {
           "show_instagram": true,
