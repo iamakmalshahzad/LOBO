@@ -1821,7 +1821,7 @@
             "type": "image",
             "settings": {
               "dpl_slide_img": true,
-              "image_slide": "shopify:\/\/shop_images\/1LD400.jpg",
+              "image_slide": "shopify:\/\/shop_images\/1.png",
               "style_content": "style_1",
               "alignment": "left",
               "alignment_custom": "35%",
