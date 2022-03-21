@@ -62,7 +62,7 @@
         "show_tab": "horizontal_center",
         "display_product_detail_description": true,
         "product_description_title": "Description",
-        "display_product_reviews": false,
+        "display_product_reviews": true,
         "product_review_title": "Customer Reviews",
         "display_custom_tab_1": true,
         "custom_tab_title_1": "Shipping & Returns",
