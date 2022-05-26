@@ -854,6 +854,10 @@ h3.cus-filter-sidebar-title {
     margin: 5px 0 !important;
 }
 
+.no_quantity .size-chart-open-popup {
+    display: none;
+}
+
 
 /* ******* */
 
