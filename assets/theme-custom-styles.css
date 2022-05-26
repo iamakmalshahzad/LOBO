@@ -858,6 +858,10 @@ h3.cus-filter-sidebar-title {
     display: none;
 }
 
+#add-to-cart-quickview-form .qty-group {
+    max-width: 90px;
+}
+
 
 /* ******* */
 
