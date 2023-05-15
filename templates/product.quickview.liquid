@@ -1,4 +1,4 @@
-{%layout none%}
+{% include 'product-content.zipifypages', contentprt: 'header' %}{%layout none%}
 
 {% assign on_sale = false %}
 {% if product.compare_at_price_min > product.price_min %}
@@ -761,4 +761,4 @@
                 $('.wrapper-social-popup').removeClass('active');
             });
   })
-</script>
+</script>{% include 'product-content.zipifypages', contentprt: 'footer' %}

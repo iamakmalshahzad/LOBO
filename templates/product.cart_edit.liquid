@@ -1,4 +1,4 @@
-{% layout none %}
+{% include 'product-content.zipifypages', contentprt: 'header' %}{% layout none %}
 <div class="cart-edit" data-template-cart-edit>
     {%- assign current_variant = product.selected_or_first_available_variant -%}
     {% assign variantCount = product.variants | size %}
@@ -132,4 +132,4 @@
         window.productVariants[{{ product.id }}] = {{ product.variants | json }};
     });
 </script>
-{% endunless %}
+{% endunless %}{% include 'product-content.zipifypages', contentprt: 'footer' %}

@@ -1,4 +1,4 @@
-{% layout none %}
+{% include 'product-content.zipifypages', contentprt: 'header' %}{% layout none %}
 
 {% assign on_sale = false %}
 {% if product.variants[0].compare_at_price > product.variants[0].price %}
@@ -80,4 +80,4 @@
       </a>
     </div>
   </div>
-</div>
+</div>{% include 'product-content.zipifypages', contentprt: 'footer' %}
